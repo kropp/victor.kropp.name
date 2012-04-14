@@ -61,6 +61,10 @@ body{
     margin: 0;
 }
 
+p {
+  margin-bottom: 8px;
+}
+
 #container{
   width: 800px;
   margin: 0 auto;
@@ -68,10 +72,25 @@ body{
 }
 
 footer{
-    font-size: 10px;
-    text-align: center;
-    margin-top: 24px;
-    text-shadow: 0px 2px 0px #fff;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 24px;
+  position: absolute;
+  bottom: 3px;
+  left: 45%;
+}
+
+.left {
+  float: left;
+}
+
+img.photo {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -moz-box-shadow: 0px 4px 12px #ccc;
+  -webkit-box-shadow: 0px 4px 12px #ccc;
+  box-shadow: 0px 4px 12px #ccc;
+  margin: 3px 15px 15px 0;
 }
 
 .banner{

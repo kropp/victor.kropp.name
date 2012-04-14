@@ -1,4 +1,5 @@
 !!python/unicode 'about.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'about.markdown': []
 !!python/unicode 'blog/angry-post.html': [blog.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
@@ -10,7 +11,7 @@
 !!python/unicode 'blog/tags/sad.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [macros.j2, base.j2, tagged_posts.j2,
   analytics.j2]
-!!python/unicode 'index.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'index.html': [macros.j2, base.j2, analytics.j2, about.markdown]
 !!python/unicode 'media/css/site.css': []
 !!python/unicode 'media/css/syntax.css': []
 !!python/unicode 'media/js/libs/dd_belatedpng.js': []
