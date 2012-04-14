@@ -65,6 +65,14 @@ p {
   margin-bottom: 8px;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-style: bold;
+}
+
 #container{
   width: 800px;
   margin: 0 auto;
@@ -72,12 +80,9 @@ p {
 }
 
 footer{
-  font-size: 10px;
+  font-size: 0.8em;
   text-align: center;
-  margin-top: 24px;
-  position: absolute;
-  bottom: 3px;
-  left: 45%;
+  margin: 20px 0 5px;
 }
 
 .left {
@@ -91,6 +96,9 @@ img.photo {
   -webkit-box-shadow: 0px 4px 12px #ccc;
   box-shadow: 0px 4px 12px #ccc;
   margin: 3px 15px 15px 0;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
 .banner{
@@ -101,17 +109,16 @@ img.photo {
 
 .banner h1{
     font-weight: 100;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 2em;
+    line-height: 1.5em;
 }
 
 
 .banner h3{
     color: #666;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 12px;
+    font-size: 0.9em;
+    margin: -14px 0 24px 5px;
 }
 
 .banner nav{
@@ -130,6 +137,14 @@ img.photo {
   text-decoration: none;
 }
 
+h4 {
+  color: #666;
+  font-weight: bold;
+  font-size: 1.4em;
+  clear: both;
+  padding: 30px 0 0;
+}
+
 .blog_excerpt{
     padding-bottom: 24px;
 }
@@ -144,10 +159,10 @@ img.photo {
 }
 
 .blog_excerpt h3,
-h1.title{
-    font-size: 24px;
-    line-height: 36px;
-    border-bottom: 1px solid #ccc;
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 30px;
 }
 
 .blog_excerpt h3{
@@ -161,16 +176,15 @@ section.content{
 /* listing */
 
 .listing{
-    margin-top: 24px;
 }
 
+.blog_excerpt img,
 .listing img{
     width: 120px;
     height: 120px;
 }
 
 .listing li{
-    background-color: #ededed;
     list-style-type: none;
     float: left;
     width: 272px;
@@ -194,24 +208,21 @@ section.content{
 }
 
 .listing li p{
-    font-size: 10px;
-    line-height: 12px;
     margin-bottom: 12px;
 }
 
 
 .listing h3{
-    border-bottom: 1px solid #ccc;
-    font-size: 12px;
+font-weight: bold;
+    font-size: 1em;
     line-height: 18px;
     margin-bottom: 6px;
 }
 
 .listing time{
     display:block;
-    border-top: 1px solid #ccc;
     padding-top: 4px;
-    font-size: 10px;
+    font-size: 0.6em;
 }
 
 /* Content */
@@ -227,7 +238,7 @@ article.post img{
 }
 
 .post time{
-    font-size: 12px;
+    font-size: 0.9em;
     color: #999;
     float:left;
     margin-top: 6px;
@@ -263,7 +274,8 @@ ul.tags li a:hover{
 }
 
 h1 a, h2 a, h3 a{
-    text-decoration: none;
+  color: #666;
+  text-decoration: none;
 }
 
 nav.post_nav{
@@ -271,7 +283,7 @@ nav.post_nav{
     position: fixed;
     width: 124px;
     margin-left: -186px;
-    font-size: 12px;
+    font-size: 0.8em;
     padding: 12px;
     padding-right: 24px;
     -moz-box-shadow: 0px 2px 4px #ccc; /* FF3.5+ */
@@ -352,7 +364,6 @@ a.backlink:hover, a.prev:hover, a.next:hover{
 
 .archives li.post time{
     color: #999;
-    text-shadow: 0px 2px 0px #fff;
     margin-right: 24px;
     display:block;
     float: left;
@@ -382,14 +393,14 @@ a.backlink:hover, a.prev:hover, a.next:hover{
   background-color: #F0F3F3;
 }
 .code figcaption {
-  font-size: 10px;
+  font-size: 0.9em;
   position: absolute;
   bottom: 3px;
   right: 12px;
   color: rgba(0, 0, 0, 0.5);
 }
 .highlight pre {
-  font-size: 12px;
+  font-size: 1em;
   padding: 16px 12px 12px;
   line-height: 24px;
   margin-bottom: 8px;

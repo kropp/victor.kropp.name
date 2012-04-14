@@ -5,23 +5,18 @@ title: Victor Kropp's personal website
 description: Victor Kropp's personal website
 ---
 
-{#
-{% from "macros.j2" import render_excerpt with context %}
-<section class="blog_excerpt">
-{% set latest = site.content.walk_resources_sorted_by_time()|first %}
-
-{% if latest -%}
-{{ render_excerpt(latest, 'post') }}
-
-<a class="button white medium"
-    href="{{ content_url(latest.url) }}">Read more&hellip;</a>
-
-{%- endif %}
-#}
-
 <img src="/media/avatar.jpg" class="photo left" width="200" height="200" alt="Victor Kropp's photo" />
 {% filter markdown|typogrify -%}
 {% include "about.markdown" %}
 {% endfilter %}
 
-</section>
+<h4>Recent posts from my blog</h4>
+
+{% from "macros.j2" import render_excerpt with context %}
+{% set latest = site.content.walk_resources_sorted_by_time()|first %}
+
+{% if latest -%}
+<ul class="listing clear">
+  <li>{{ render_excerpt(latest, 'post') }}</li>
+</ul>
+{%- endif %}
