@@ -5,6 +5,7 @@ title: Victor Kropp's personal website
 description: Victor Kropp's personal website
 ---
 
+{#
 {% from "macros.j2" import render_excerpt with context %}
 <section class="blog_excerpt">
 {% set latest = site.content.walk_resources_sorted_by_time()|first %}
@@ -16,5 +17,10 @@ description: Victor Kropp's personal website
     href="{{ content_url(latest.url) }}">Read more&hellip;</a>
 
 {%- endif %}
+#}
+
+{% filter markdown|typogrify -%}
+{% include "about.markdown" %}
+{% endfilter %}
 
 </section>

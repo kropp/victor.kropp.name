@@ -13,24 +13,24 @@ context:
     data:
         tweet_via: kropp
         menu:
-            -
-                name: Projects
-                description: Projects
-                css_class: projects
-                type: node
-                url: projects
-            -
-                name: Blog
-                description: Blog
-                css_class: blog
-                type: node
-                url: blog
-            -
-                name: About
-                description: About
-                css_class: about
-                type: page
-                url: about.html
+#            -
+#                name: Projects
+#                description: Projects
+#                css_class: projects
+#                type: node
+#                url: projects
+#            -
+#                name: Blog
+#                description: Blog
+#                css_class: blog
+#                type: node
+#                url: blog
+#            -
+#                name: About
+#                description: About
+#                css_class: about
+#                type: page
+#                url: about.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2012-04-14 12:34:56
