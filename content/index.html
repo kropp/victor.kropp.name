@@ -7,9 +7,19 @@ description: Victor Kropp's personal website
 
 <img src="/media/avatar.jpg" class="photo left" width="200" height="200" alt="Victor Kropp's photo" />
 {% filter markdown|typogrify -%}
-{% include "about.markdown" %}
+I'm Software Engineer from Munich, Germany. In [JetBrains][JB] I take part in the development of the best Visual Studio add-in [ReSharper][R#]. I like to spend free time together with my awesome wife Anna playing board games, travelling around the world, riding bicycle in summer and skiing in winter.
+
+Follow me on [Twitter][twitter] and [Instagram][instagram].
+
+[JB]: http://www.jetbrains.com/
+[R#]: http://www.jetbrains.com/resharper/
+
+[twitter]: https://twitter.com/kropp
+[instagram]: http://web.stagram.com/n/victorkropp/
+[github]: https://github.com/kropp
 {% endfilter %}
 
+{#
 <h4>Recent posts from my blog</h4>
 
 {% from "macros.j2" import render_excerpt with context %}
@@ -20,3 +30,4 @@ description: Victor Kropp's personal website
   <li>{{ render_excerpt(latest, 'post') }}</li>
 </ul>
 {%- endif %}
+#}

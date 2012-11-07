@@ -145,6 +145,21 @@ h4 {
   padding: 30px 0 0;
 }
 
+h5 {
+  color: #444;
+  font-weight: bold;
+  font-size: 1.3em;
+  clear: both;
+  padding: 10px 0 0;
+}
+
+h6 {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1em;
+  clear: both;
+}
+
 .blog_excerpt{
     padding-bottom: 24px;
 }
