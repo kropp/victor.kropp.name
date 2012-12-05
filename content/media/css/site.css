@@ -89,6 +89,10 @@ footer{
   float: left;
 }
 
+.right {
+  float: right;
+}
+
 img.photo {
   padding: 5px;
   border: 1px solid #ccc;
@@ -142,15 +146,15 @@ h4 {
   font-weight: bold;
   font-size: 1.4em;
   clear: both;
-  padding: 30px 0 0;
+  padding: 40px 0 0;
 }
 
 h5 {
   color: #444;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.4em;
   clear: both;
-  padding: 10px 0 0;
+  padding: 15px 0 0;
 }
 
 h6 {
@@ -419,4 +423,13 @@ a.backlink:hover, a.prev:hover, a.next:hover{
   padding: 16px 12px 12px;
   line-height: 24px;
   margin-bottom: 8px;
+}
+
+.content ul li {
+  margin-left: 20px !important;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 1em;
 }
