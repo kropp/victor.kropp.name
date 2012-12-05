@@ -17,7 +17,10 @@
 !!python/unicode 'blog/tags/sad.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [macros.j2, base.j2, tagged_posts.j2,
   analytics.j2]
+!!python/unicode 'diceroller/index.html': [bgdr.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'index.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'media/css/bgdr.css': []
+!!python/unicode 'media/css/flags.css': []
 !!python/unicode 'media/css/site.css': []
 !!python/unicode 'media/css/syntax.css': []
 !!python/unicode 'media/js/libs/dd_belatedpng.js': []
@@ -26,4 +29,6 @@
 !!python/unicode 'portfolio/index.html': [macros.j2, base.j2, analytics.j2]
 !!python/unicode 'ru/about-ru.markdown': []
 !!python/unicode 'ru/books.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'ru/books/index.html': [macros.j2, base.j2, analytics.j2]
 !!python/unicode 'ru/index.html': [macros.j2, base.j2, analytics.j2]
+!!python/unicode 'ru/travel/index.html': [macros.j2, base.j2, analytics.j2]
