@@ -38,9 +38,10 @@
   {% endblock favicons %}
 
   {% block css %}
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400|PT+Serif:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400|PT+Serif:400,700,400italic&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ media_url('css/site.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
+  <link rel="stylesheet" href="{{ media_url('css/flags.css') }}">
   {% endblock css %}
 
   {% block headjs %}
@@ -72,9 +73,11 @@
       </div>
     {% endblock container %}
   </div> <!--! end of #container -->
+  {% block footer %}
   <footer>
       © Victor Kropp, 2012. Powered by <a href="http://hyde.github.com/">hyde</a>.
   </footer>
+  {% endblock footer %}
   {% endblock content%}
   {% block js %}
   <!-- Javascript at the bottom for fast page loading -->
