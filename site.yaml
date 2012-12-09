@@ -27,7 +27,12 @@ context:
                 name: читаю
                 description: книги, которые я читаю
                 type: node
-                url: /ru/books
+                url: /ru/books/
+            -
+                name: путешествую
+                description: места, где я побывал
+                type: node
+                url: /ru/travel/
 #            -
 #                name: Blog
 #                description: Blog
