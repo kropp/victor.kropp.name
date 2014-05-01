@@ -1,0 +1,90 @@
+---
+extends: travel.j2
+default_block: main
+title: Кипр в сентябре 2012
+---
+
+<h2><i class="flag flag-cy"></i> Кипр</h2>
+
+<p>В начале сентября на Кипре ещё очень тепло, а толп туристов уже нет. Но что там делать всё равно не понятно.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7283/9218814408_954b35b361_b.jpg" data-full="http://farm8.staticflickr.com/7283/9218814408_6b38ef0668_k.jpg" data-caption="" />
+  <img src="http://farm3.staticflickr.com/2852/9216045739_9c5b61932b_b.jpg" data-full="http://farm3.staticflickr.com/2852/9216045739_c8f5662f81_k.jpg" data-caption="" />
+</div>
+
+<h4>Пафос</h4>
+
+<p>Главные достопримечательности городов — многочисленные раскопки античных поселений.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7398/9216023795_d6e48bfcc5_b.jpg" data-full="http://farm8.staticflickr.com/7398/9216023795_7796634fee_k.jpg" data-caption="" />
+  <img src="http://farm8.staticflickr.com/7347/9216024683_13a57b4155_b.jpg" data-full="http://farm8.staticflickr.com/7347/9216024683_706cfe4e91_k.jpg" data-caption="" />
+  <img src="http://farm3.staticflickr.com/2831/9218804428_3df3486d53_b.jpg" data-full="http://farm3.staticflickr.com/2831/9218804428_f75ba11ea9_k.jpg" data-caption="" />
+</div>
+
+<p>Остальное пространство — практически безжизненная земля.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm4.staticflickr.com/3751/9216030105_4a47aac5db_b.jpg" data-full="http://farm4.staticflickr.com/3751/9216030105_70a8bef915_k.jpg" data-caption="" />
+  <img src="http://farm3.staticflickr.com/2845/9216028719_9b1dd3f8b7_b.jpg" data-full="http://farm3.staticflickr.com/2845/9216028719_7601898969_k.jpg" data-caption="" />
+</div>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm4.staticflickr.com/3809/9218798618_bd0ee39c0b_b.jpg" data-full="http://farm4.staticflickr.com/3809/9218798618_7578cdc08f_k.jpg" data-caption="" />
+  <img src="http://farm8.staticflickr.com/7322/9218800246_ae3264a9d0_b.jpg" data-full="http://farm8.staticflickr.com/7322/9218800246_349f865cff_k.jpg" data-caption="" />
+</div>
+
+<p>Но если уехать подальше от берега вглубь острова, где повыше, не так жарко и есть вода, то природа острова может даже порадовать.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7458/9216011037_7deede1694_b.jpg" data-full="http://farm8.staticflickr.com/7458/9216011037_76ab67daf6_k.jpg" data-caption="" />
+  <img src="http://farm4.staticflickr.com/3747/9216008471_0b6895c3a8_b.jpg" data-full="http://farm4.staticflickr.com/3747/9216008471_dce0b81f00_k.jpg" data-caption="" />
+  <img src="http://farm6.staticflickr.com/5544/9216003983_c26b58d342_b.jpg" data-full="http://farm6.staticflickr.com/5544/9216003983_ffd8dea664_k.jpg" data-caption="" />
+</div>
+
+<p>Или, например, в лесной глуши можно найти мост Келефос постройки 15 века, когда остров находился под властью Венеции.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7298/9218795126_8394ba9ea9_b.jpg" data-full="http://farm8.staticflickr.com/7298/9218795126_3e795e2a65_k.jpg" data-caption="" />
+  <img src="http://farm8.staticflickr.com/7371/9216020209_897ffefd97_b.jpg" data-full="http://farm8.staticflickr.com/7371/9216020209_42aacca140_k.jpg" data-caption="" />
+  <img src="http://farm6.staticflickr.com/5471/9216018021_6813a038f0_b.jpg" data-full="http://farm6.staticflickr.com/5471/9216018021_150c41164b_k.jpg" data-caption="" />
+  <img src="http://farm3.staticflickr.com/2864/9216015479_b7cafe4a42_b.jpg" data-full="http://farm3.staticflickr.com/2864/9216015479_9e2edc618b_k.jpg" data-caption="" />
+</div>
+
+<p>Воде в такую жару радуешься как ребенок, поэтому водопады и реки — главные достопримечательности национального парка Троодос.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7366/9216001013_a65fa8e2cb_b.jpg" data-full="http://farm8.staticflickr.com/7366/9216001013_b5692e3b30_k.jpg" data-caption="" />
+  <img src="http://farm4.staticflickr.com/3745/9216003007_f953e52d14_b.jpg" data-full="http://farm4.staticflickr.com/3745/9216003007_26eaeffaff_k.jpg" data-caption="" />
+  <img src="http://farm6.staticflickr.com/5334/9216005811_77ff0efc3a_b.jpg" data-full="http://farm6.staticflickr.com/5334/9216005811_51a46cbbc2_k.jpg" data-caption="" />
+</div>
+
+<h4>Лимассол</h4>
+
+<p>Некоторые развалины облагорожены, как этот амфитеатр, который сейчас используется.</p>
+
+<img src="http://farm3.staticflickr.com/2877/9218809240_9223614a97_b.jpg" data-full="http://farm3.staticflickr.com/2877/9218809240_f7fe2c2921_k.jpg" data-caption="" />
+
+<p>Остальные (среди которых многочисленные бани и купальни) восстанавливать вряд ли имеет смысл.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm6.staticflickr.com/5461/9218815566_45b007abe0_b.jpg" data-full="http://farm6.staticflickr.com/5461/9218815566_1a20f888f4_k.jpg" data-caption="" />
+  <img src="http://farm4.staticflickr.com/3743/9216040679_6e54c59061_b.jpg" data-full="http://farm4.staticflickr.com/3743/9216040679_a92cb2db49_k.jpg" data-caption="" />
+  <img src="http://farm4.staticflickr.com/3718/9218811974_20928cf923_b.jpg" data-full="http://farm4.staticflickr.com/3718/9218811974_f6ffd5b604_k.jpg" data-caption="" />
+  <img src="http://farm6.staticflickr.com/5530/9216037805_e203dbdd22_b.jpg" data-full="http://farm6.staticflickr.com/5530/9216037805_46f234c4b7_k.jpg" data-caption="" />
+</div>
+
+<h4>Никосия</h4>
+
+<p>Приятный, окруженный стеной, старый город с маленькими улочками.</p>
+
+<img src="http://farm4.staticflickr.com/3691/9218767620_55b8de5ac2_b.jpg" data-full="http://farm4.staticflickr.com/3691/9218767620_f3d8070cbc_k.jpg" data-caption="" />
+<img src="http://farm3.staticflickr.com/2867/9218817094_8c99820985_b.jpg" data-full="http://farm3.staticflickr.com/2867/9218817094_fa5ee2dcfc_k.jpg" data-caption="" />
+
+<p>К сожалению, из-за конфликта с этническими турками город и страна поделены пополам: греческая половина входит в Евросоюз, турецкая ни кем кроме Турции не признана. Она медленно, но верно приходит в упадок, но объединяться с греками они не захотят никогда.</p>
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true">
+  <img src="http://farm8.staticflickr.com/7338/9215995943_0d3a753a66_b.jpg" data-full="http://farm8.staticflickr.com/7338/9215995943_cabcf814a0_k.jpg" data-caption="" />
+  <img src="http://farm4.staticflickr.com/3794/9218770044_6334dc34ec_b.jpg" data-full="http://farm4.staticflickr.com/3794/9218770044_c16bdbb44a_k.jpg" data-caption="" />
+</div>

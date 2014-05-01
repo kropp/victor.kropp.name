@@ -2,53 +2,18 @@
 
 {% block main -%}
 <article class="post">
-<nav class="post_nav">
-<a class="backlink" href="{{ content_url(resource.node.url) }}">Back to list</a>
-<a class="prev{{' disabled' if not resource.prev_by_time }}"
-    title="{{ resource.prev_by_time.meta.title }}"
-    {% if resource.prev_by_time %}
-    href="{{ content_url(resource.prev_by_time.url) }}"{% endif %}>
-    Previous
-</a>
-
-<a class="next{{' disabled' if not resource.next_by_time }}"
-    title="{{ resource.next_by_time.meta.title }}"
-    {% if resource.next_by_time %}
-    href="{{ content_url(resource.next_by_time.url) }}"{% endif %}>
-    Next
-</a>
-
-<br>
-<div id="twitter_share">
-<a href="http://twitter.com/share"
-    class="twitter-share-button"
-    data-count="vertical"
-    data-via="{{ tweet_via }}">Tweet</a>
-    <script type="text/javascript"
-        src="http://platform.twitter.com/widgets.js"></script>
-</div>
-<div id="facebook_like">
-<iframe src="http://www.facebook.com/plugins/like.php?href&amp;layout=box_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=65"
-            scrolling="no"
-            frameborder="0"
-            style="border:none; overflow:hidden; width:450px; height:65px;"
-            allowTransparency="true"></iframe>
-</div>
-</nav>
 <h2 class="title">
     <a href="{{ content_url(resource.url) }}">
         {{ resource.meta.title }}
     </a>
 </h2>
-<time datetime="{{ resource.meta.created.strftime('%Y-%m-%d') }}">
-    Posted: {{ resource.meta.created.strftime('%a, %d %b %Y') }}
-</time>
+<time datetime="{{ resource.meta.created.strftime('%Y-%m-%dT%H:%M+0100') }}">{{ resource.meta.created.strftime('%d.%m.%Y %H:%M') }}</time>
 
 {% if resource.meta.tags %}
 <ul class="tags clear">
 {% for tag in resource.meta.tags %}
 <li>
-    <a class="small" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+    <a class="label" href="{{ content_url('blog/tags/'~tag~'.html') }}">
         {{ tag }}
     </a>
 </li>
@@ -60,6 +25,67 @@
 {% block post -%}{%- endblock %}
 {%- endmark %}
 {%- endfilter %}
+
+<p></p>
+<p></p>
+<div>
+  <div class="g-plusone" data-action="share" data-annotation="bubble" data-size="medium" data-href="http:{{ resource.full_url }}"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http:{{ resource.full_url }}" data-text="{{ resource.meta.title }}" data-via="kropp">Tweet</a>
+  <div class="fb-like" data-href="http:{{ resource.full_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+  <div id="vk_like"></div>
+</div>
+
+<nav>
+{% if resource.next_by_time %}
+&larr; <a href="{{ content_url(resource.next_by_time.url) }}">{{ resource.next_by_time.meta.title }}</a>
+{% endif %}
+
+{% if resource.prev_by_time %}
+<a href="{{ content_url(resource.prev_by_time.url) }}">{{ resource.prev_by_time.meta.title }} &rarr;</a>
+{% endif %}
+</nav>
+
 </article>
 
 {%- endblock %}
+{% block scripts %}
+<link href="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.css" rel="stylesheet"> 
+<script src="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.js"></script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?97"></script>
+
+<script type="text/javascript">
+      VK.init({
+        apiId: 4003232,
+        onlyWidgets: true
+      });
+  VK.Widgets.Like('vk_like', {
+    type: 'button',
+    pageTitle: '{{ resource.meta.title }}',
+    pageUrl: 'http:{{ resource.full_url }}'
+  });
+</script>
+
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+$(document).ready(function() {
+  $("time").timeago();
+});
+</script>
+{% endblock %}

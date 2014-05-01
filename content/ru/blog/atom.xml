@@ -1,0 +1,5 @@
+---
+title: Мысли обо всём
+extends: atom.j2
+listable: true
+---

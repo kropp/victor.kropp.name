@@ -1,64 +1,10 @@
-* {
-    vertical-align: baseline;
-    font-weight: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    text-decoration:inherit;
-    font-size: 100%;
-    padding: 0;
-    border: 0;
-    margin: 0;
+body {
+    padding-top: 70px;
+    background: url('/media/images/winter-landscape.jpg') no-repeat center -70px;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-:focus {
-    outline: 0;
-}
-
-::-moz-focus-inner {
-    border: 0;
-}
-
-/* clearfix */
-.clear:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
-.clear {
-    display: block;
-}
-
-
-* html .clear {
-    height: 1%;
-}
-
-a {
-    color: #37e;
-    text-decoration: underline;
-}
-
-a:hover{
-    color: #222;
-}
-
-body{
-    font-family: "PT Serif", Georgia, serif;
-    padding: 0;
-    margin: 0;
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -73,24 +19,10 @@ strong {
   font-style: bold;
 }
 
-#container{
-  width: 800px;
-  margin: 0 auto;
-  padding: 12px;
-}
-
 footer{
   font-size: 0.8em;
   text-align: center;
   margin: 20px 0 5px;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
 }
 
 img.photo {
@@ -100,45 +32,43 @@ img.photo {
   -webkit-box-shadow: 0px 4px 12px #ccc;
   box-shadow: 0px 4px 12px #ccc;
   margin: 3px 15px 15px 0;
-  -moz-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 
-.banner{
-    padding: 0 12px;
-    position: relative;
-    font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
+.sidebar {
+  position: absolute;
+  top: 30px;
 }
 
-.banner h1{
-    font-weight: 100;
-    font-size: 2em;
-    line-height: 1.5em;
+.sidebar-fixed {
+  position: fixed !important;
+  top: 80px;
 }
 
-
-.banner h3{
-    color: #666;
-    font-weight: normal;
-    font-size: 0.9em;
-    margin: -14px 0 24px 5px;
+.sidebar .nav a {
+  padding: 3px;
 }
 
-.banner nav{
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.sidebar .nav a:hover {
+  background: none;
 }
 
-.banner nav li{
-    list-style-type: none;
-    float: left;
-  margin-left: 10px;
+.sidebar .nav li.active a {
+  font-weight: bold;
 }
 
-.banner nav a {
-  text-decoration: none;
+.navbar-fixed-top {
+  background-color: rgba(248,248,248,0.6);
+}
+
+.navbar-nav > .active > a {
+  background-color: rgba(213,213,213,0.6) !important;
+}
+
+.container {
+  margin-top: 115px;
 }
 
 h4 {
@@ -238,21 +168,22 @@ font-weight: bold;
     margin-bottom: 6px;
 }
 
-.listing time{
-    display:block;
-    padding-top: 4px;
-    font-size: 0.6em;
+.list time{
+    float: right;
+    padding-top: 1px;
+}
+
+.list .tags {
+  float: right;
 }
 
 /* Content */
 
 article.post p{
-    line-height: 24px;
     margin: 6px 0;
 }
 
 article.post img{
-    display: block;
     margin-bottom: 24px;
 }
 
@@ -264,35 +195,24 @@ article.post img{
 }
 
 ul.tags{
-    margin-bottom: 24px;
     text-align: right;
 }
 
 ul.tags li{
     list-style-type: none;
     display: inline;
+    padding: .1em .3em;
 }
 
 ul.tags li a{
-    color: #999;
     text-decoration: none;
-}
-
-h1.tag:before,
-ul.tags li a:before{
-    content: '\00AB';
-}
-
-h1.tag:after,
-ul.tags li a:after{
-    content: '\00BB';
 }
 
 ul.tags li a:hover{
     color: #222;
 }
 
-h1 a, h2 a, h3 a{
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #666;
   text-decoration: none;
 }
@@ -432,4 +352,47 @@ a.backlink:hover, a.prev:hover, a.next:hover{
 dt {
   font-weight: bold;
   margin-top: 1em;
+}
+
+blockquote {
+  margin-top: 1em;
+  quotes: "\201C""\201D";
+  border-left: 0;
+}
+
+blockquote p {
+  padding-left: 4em;
+  font-size: 1em;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 7em;
+  line-height: .1em;
+  padding-top: .2em;
+  float: left;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  font-style: italic;
+}
+
+article time {
+  display: block;
+  color: #999;
+  text-align: right;
+  font-style: italic;
+}
+
+article h5 {
+  margin-bottom: .5em;
+}
+
+.fotorama__caption {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  padding: 4px !important;
 }

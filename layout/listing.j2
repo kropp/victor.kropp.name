@@ -1,15 +1,43 @@
 {% extends "base.j2" %}
-{% from "macros.j2" import render_excerpt with context  %}
+
+{% from "macros.j2" import render_post with context  %}
+{% block endhead %}
+<link rel="alternate" type="application/atom+xml" title="{{ resource.meta.title }}" href="http://feeds.feedburner.com/kropp/ru/blog" />
+{% endblock endhead %}
 {% block main %}
-{% block page_title %}<h2 class="title">{{ resource.meta.title }}</h2>{% endblock %}
 
-<p></p>
-
-<ul class="listing clear">
-{% for res in resource.node.walk_resources_sorted_by_time() %}
-<li>
-    {{ render_excerpt(res) }}
-</li>
+<div class="list">
+{% for res in resource.page.posts %}
+  {{ render_post(res) }}
 {% endfor %}
-</ul>
+</div>
+
+<nav class="pager">
+{% if resource.page.previous %}
+<a href="{{ resource.page.previous.number }}.html">&larr;</a>
+{% endif %}
+{% if resource.page.next %}
+<a href="{{ resource.page.next.number }}.html" class="next">&rarr;</a>
+{% endif %}
+</nav>
+
+{% endblock %}
+
+{% block scripts %}
+<link href="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.css" rel="stylesheet"> 
+<script src="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.js"></script>
+<script>
+$(document).ready(function() {
+  $("time").timeago();
+  $("div.list").infinitescroll({
+    debug: true,
+    navSelector: "nav.pager",
+    nextSelector: "nav.pager a.next",
+    itemSelector: "div.list article",
+  }, function() {
+    $("time").timeago();
+    $(".fotorama").fotorama();
+  });
+});
+</script>
 {% endblock %}

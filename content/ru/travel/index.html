@@ -7,14 +7,34 @@ description: Страны и города, где побывал Виктор К
 
 <h2>Путешествия</h2>
 
-<p><img src="//chart.googleapis.com/chart?chs=700x400&cht=map:auto&chco=B3BCC0|3366CC|DC3912|FF9900|109618|990099|0099C6|66AA00|B82E2E|316395|994499|AAAA11|6633CC|E67300|8B0707|651067|329262|5574A6|3B3EAC|B77322|16D620|B91383|F4359E|9C5935|A9C413&chld=BY|CY|EE|FI|FR|DE|IT|LV|LT|LU|MC|NL|NO|RU|SM|ES|SE|CH|UA|GB|VA|DK|AT|CZ" width="700" height="400" alt="Карта мира" /></p>
+<!--
+<p><img src="//chart.googleapis.com/chart?chs=700x400&cht=map:auto&chco=B3BCC0|3366CC|DC3912|FF9900|109618|990099|0099C6|66AA00|B82E2E|316395|994499|AAAA11|6633CC|E67300|8B0707|651067|329262|5574A6|3B3EAC|B77322|16D620|B91383|F4359E|9C5935|A9C413|994499|AAAA11|66AA00&chld=BY|CY|EE|FI|FR|DE|IT|LV|LT|LU|MC|NL|NO|RU|SM|ES|SE|CH|UA|GB|VA|DK|AT|CZ|AE|TH|GR" width="700" height="400" alt="Карта мира" /></p>
+-->
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country'],
+          ['BY'], ['CY'], ['EE'], ['FI'], ['FR'], ['DE'], ['IT'], ['LV'], ['LT'], ['LU'], ['MC'], ['NL'], ['NO'], ['RU'], ['SM'], ['ES'], ['SE'], ['CH'], ['UA'], ['GB'], ['VA'], ['DK'], ['AT'], ['CZ'], ['AE'], ['TH'], ['GR'], ['GI'], ['AD'], ['HK'], ['MO'], ['PH']
+        ]);
+
+        var options = { tooltip: { trigger: 'none' }};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('map'));
+        chart.draw(data, options);
+    };
+    </script>
+<div id="map" style="width: 900px; height: 500px;"></div>
 
 <p>Карта моих полётов на <a href="http://openflights.org/user/kropp">Openflights</a> и <a href="http://flightdiary.net/kropp">Flightdiary</a>.</p>
 
 <h4>Европа</h4>
 <dl>
   <dt><i class="flag flag-de"></i> Германия</dt>
-  <dd>Берлин, Мюнхен, Бремен, Гамбург, Кёльн, Потсдам, Нюрнберг, Аугсбург, Гармиш-Партенкирхен, Заарбрюкен, Триер, Кохем, Штутгарт, Эрдинг, Штарнберг, Вольфратсхаузен, Бамберг, Ингольштадт</dd>
+  <dd>Мюнхен, Берлин, Бремен, Гамбург, Кёльн, Потсдам, Нюрнберг, Аугсбург, Гармиш-Партенкирхен, Заарбрюкен, Триер, Кохем, Штутгарт, Эрдинг, Фюссен, Штарнберг, Вольфратсхаузен, Бамберг, Ингольштадт, Франкфурт-на-Майне, Ландсберг-на-Лехе, Бургхаузен</dd>
   <dt><i class="flag flag-ru"></i> Россия</dt>
   <dd>Санкт-Петербург, Москва, Выборг, Новгород, Череповец, Вологда, Ярославль, Кострома, Мышкин, Тула, Барнаул, Бийск, Сочи</dd>
   <dt><i class="flag flag-fi"></i> Финляндия</dt>
@@ -30,7 +50,10 @@ description: Страны и города, где побывал Виктор К
   <dt><i class="flag flag-nl"></i> Голландия</dt>
   <dd>Амстердам, Гаага</dd>
   <dt><i class="flag flag-es"></i> Испания</dt>
-  <dd>Барселона, Ллорет-дель-Мар</dd>
+  <dd>Барселона, Ллорет-дель-Мар, Таррагона, Салоу, Валенсия, Гранада, Малага, Марбелья, Алхесидас, Ронда, Севилья, Мадрид</dd>
+  <dt><i class="flag flag-gi"></i> Гибралтар</dt>
+  <dt><i class="flag flag-ad"></i> Андорра</dt>
+  <dd>Андорра-ла-Велья</dd>
   <dt><i class="flag flag-fr"></i> Франция</dt>
   <dd>Париж, Версаль, Каркассон, Ницца, Эз, Экс-ан-Прованс, Авиньон, Лион, Гренобль, Шамбери, Аннеси, Шамони, Безансон, Орлеан, Блуа, Амбуаз, Шамбор</dd>
   <dt><i class="flag flag-it"></i> Италия</dt>
@@ -53,6 +76,8 @@ description: Страны и города, где побывал Виктор К
   <dd>Гомель, Бобруйск</dd>
   <dt><i class="flag flag-ua"></i> Украина</dt>
   <dd>Киев, Днепропетровск</dd>
+  <dt><i class="flag flag-gr"></i> Греция</dt>
+  <dd>Афины</dd>
   <dt><i class="flag flag-cy"></i> Кипр</dt>
   <dd>Ларнака, Лимассол, Пафос, Никосия</dd>
   <dt>Турецкая Республика Северный Кипр</dt>
@@ -62,4 +87,19 @@ description: Страны и города, где побывал Виктор К
   <dd>Шенген</dd>
   <dt><i class="flag flag-ch"></i> Швейцария</dt>
   <dd>Давос</dd>
+</dl>
+<p>А также проездом в <i class="flag flag-be"></i> Бельгии и <i class="flag flag-li"></i> Лихтенштейне.</p>
+<h4>Ближний Восток</h4>
+<dl>
+  <dt><i class="flag flag-ae"></i> Объединённые Арабские Эмираты</dt>
+  <dd>Дубай</dd>
+</dl>
+<h4>Азия</h4>
+<dl>
+  <dt><i class="flag flag-th"></i> Таиланд</dt>
+  <dd>Бангкок, Пхукет, Ко Пи Пи, Краби, Ко Самуи</dd>
+  <dt><i class="flag flag-hk"></i> Гонконг</dt>
+  <dt><i class="flag flag-mo"></i> Макао</dt>
+  <dt><i class="flag flag-ph"></i> Филиппины</dt>
+  <dd>Манила, Тагбиларан, Лобок, Панглао</dd>
 </dl>

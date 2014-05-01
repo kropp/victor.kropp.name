@@ -57,8 +57,12 @@ a:hover{
 
 body{
     font-family: "Droid Sans", Arial, Helvetica, serif;
-    padding: 0;
+    padding: 30px 200px;
     margin: 0;
+}
+
+h1 {
+  font-size: 5em;
 }
 
 p {

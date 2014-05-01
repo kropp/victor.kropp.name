@@ -1,3 +1,25 @@
+{% macro render_post(res, class=None) %}
+{% refer to res.relative_path as post %}
+<article {{'class='~class if class }}>
+<h5><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h5>
+{{ post.post|markdown|typogrify }}
+{% if res.meta.tags %}
+<ul class="tags">
+{% for tag in res.meta.tags %}
+<li>
+    <a class="label" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+        {{ tag }}
+    </a>
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+<time datetime="{{ res.meta.created.strftime('%Y-%m-%dT%H:%M+0100') }}">
+   {{ res.meta.created.strftime('%d.%m.%Y %H:%M') }}
+</time>
+</article>
+{% endmacro %}
+
 {% macro render_excerpt(res, class=None) %}
 {% refer to res.url as post %}
 <article {{'class='~class if class }}>
@@ -12,29 +34,15 @@
 
 {% macro render_nav(menu, cls=None) -%}
 {% if menu -%}
-<nav {{'class='~cls if cls }}>
-    <ul>
-        {% for item in menu -%}
-        {% set active = False -%}
-        {% if item.type == 'page' -%}
-            {% set active = (resource.url ==
-                site.content.resource_from_relative_path(item.url).url) -%}
-        {% else -%}
-            {% set active = (node ==
-                site.content.node_from_relative_path(item.url)) -%}
-        {%- endif %}
-        {% set classes = ['button', 'white'] -%}
-        {% do classes.append('active') if active -%}
-        {% do classes.append(item.css_class) if item.css_class -%}
-        <li>
-            <a title="{{ item.description }}"
-                class="{{ classes|join(' ') }}"
-                href="{{ content_url(item.url) }}">
-                {{ item.name }}
-            </a>
-        </li>
-        {%- endfor %}
-    </ul>
-</nav>
+<ul class="nav navbar-nav">
+{% for item in menu -%}
+{% set active = ('/' + resource.url == item.url + 'index.html') -%}
+{% set classes = [] -%}
+{% do classes.append('active') if active -%}
+{% do classes.append(item.css_class) if item.css_class -%}
+<li class="{{ classes|join(' ') }}"><a title="{{ item.description }}" href="{{ content_url(item.url) }}">{{ item.name }}</a></li>
+
+ {%- endfor %}
+</ul>
 {%- endif %}
 {%- endmacro %}

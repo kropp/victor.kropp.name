@@ -1,4 +1,4 @@
-I'm Software Engineer from Munich, Germany. In [JetBrains][JB] I take part in the development of the best Visual Studio add-in [ReSharper][R#]. I like to spend free time together with my awesome wife Anna playing board games, travelling around the world, riding bicycle in summer and skiing in winter.
+I'm Software Engineer from Munich, Germany. At [JetBrains][JB] I take part in the development of the best Visual Studio add-in [ReSharper][R#]. I like to spend free time together with my awesome wife Anna playing board games, travelling around the world, riding bicycle in summer and skiing in winter.
 
 Follow me on [Twitter][twitter] and [Instagram][instagram].
 

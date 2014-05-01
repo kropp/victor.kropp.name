@@ -9,6 +9,7 @@ plugins:
     - hyde.ext.plugins.tagger.TaggerPlugin
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
+    - hyde.ext.plugins.paginator.PaginatorPlugin
 context:
     data:
         tweet_via: kropp
@@ -23,6 +24,12 @@ context:
 #                description: in english
 #                type: node
 #                url: /
+            -
+                name: думаю
+                description: Мысли обо всём
+                css_class: blog
+                type: node
+                url: /ru/blog/
             -
                 name: читаю
                 description: книги, которые я читаю
