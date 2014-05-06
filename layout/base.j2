@@ -3,7 +3,7 @@
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head data-no-instant>
+<head>
   {% block starthead %}{% endblock starthead %}
   <meta charset="{{ resource.meta.charset }}">
   <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="{{ media_url('css/site.css') }}" data-instant-track>
+  <link rel="stylesheet" href="{{ media_url('css/site.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/flags.css') }}">
   {% endblock css %}
@@ -56,13 +56,12 @@
   {% block js %}
   {% block jquery %}
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-  <script src="{{ media_url('js/jquery.timeago.js') }}" data-no-instant></script>
-  <script src="{{ media_url('js/jquery.infinitescroll.min.js') }}" data-no-instant></script>
-  <script src="{{ media_url('js/site.js') }}" data-no-instant></script>
-  <script src="{{ media_url('js/instantclick.min.js') }}" data-no-instant></script>
-  <script data-no-instant>InstantClick.init();</script>
+  <script src="{{ media_url('js/jquery.timeago.js') }}"></script>
+  <script src="{{ media_url('js/jquery.infinitescroll.min.js') }}"></script>
+  <script src="{{ media_url('js/site.js') }}"></script>
+  <script>InstantClick.init();</script>
   {% if resource.meta.language == "ru" %}
-  <script src="{{ media_url('js/jquery.timeago.ru.js') }}" data-no-instant></script>
+  <script src="{{ media_url('js/jquery.timeago.ru.js') }}"></script>
   {% endif %}
   {% endblock jquery %}
   {% block scripts %}
