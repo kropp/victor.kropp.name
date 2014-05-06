@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
     background: url('/media/images/winter-landscape.jpg') no-repeat center -70px;
+    font-size: 15px;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -233,59 +234,6 @@ nav.post_nav{
 
 }
 
-a.backlink{
-    display:block;
-    line-height: 24px;
-    margin-bottom: 12px;
-}
-
-a.backlink:before{
-    content: '\2190';
-}
-
-a.prev:before{
-    content: '\00AB';
-}
-
-a.next:after{
-    content: '\00BB';
-}
-
-a.prev{
-    margin-right: 12px;
-}
-
-a.prev,
-a.next{
-    display: block;
-    float: left;
-    margin-bottom: 12px;
-}
-
-a.next{ float: right };
-
-a.backlink:hover, a.prev:hover, a.next:hover{
-    color: #222;
-}
-
-.post_nav a.disabled{
-    color: #ccc;
-}
-
-.post_nav a{
-    color: #666;
-    text-decoration: none;
-    text-shadow: 0px 2px 0px #fff;
-}
-
-.post_nav div{
-    display: block;
-    float: left;
-    width: 58px;
-    overflow: hidden;
-    margin-left: 4px;
-}
-
 #facebook_like{
     margin-top: 1px;
 }
@@ -358,6 +306,7 @@ blockquote {
   margin-top: 1em;
   quotes: "\201C""\201D";
   border-left: 0;
+  font-size: 1em;
 }
 
 blockquote p {
@@ -396,3 +345,9 @@ article h5 {
   background-color: rgba(255, 255, 255, 0.5) !important;
   padding: 4px !important;
 }
+
+/*
+#instantclick {
+  display: none;
+}
+*/

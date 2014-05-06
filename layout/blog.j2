@@ -32,18 +32,18 @@
   <div class="g-plusone" data-action="share" data-annotation="bubble" data-size="medium" data-href="http:{{ resource.full_url }}"></div>
   <a href="https://twitter.com/share" class="twitter-share-button" data-url="http:{{ resource.full_url }}" data-text="{{ resource.meta.title }}" data-via="kropp">Tweet</a>
   <div class="fb-like" data-href="http:{{ resource.full_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-  <div id="vk_like"></div>
+  <div id="vk_like" style="display: inline-block;"></div>
 </div>
 
-<nav>
-{% if resource.next_by_time %}
-&larr; <a href="{{ content_url(resource.next_by_time.url) }}">{{ resource.next_by_time.meta.title }}</a>
+<ul class="pager">
+{% if resource.prev_by_time %}
+  <li class="previous"><a href="{{ content_url(resource.prev_by_time.url) }}">&larr; {{ resource.prev_by_time.meta.title }}</a></li>
 {% endif %}
 
-{% if resource.prev_by_time %}
-<a href="{{ content_url(resource.prev_by_time.url) }}">{{ resource.prev_by_time.meta.title }} &rarr;</a>
+{% if resource.next_by_time %}
+  <li class="next"><a href="{{ content_url(resource.next_by_time.url) }}">{{ resource.next_by_time.meta.title }} &rarr;</a></li>
 {% endif %}
-</nav>
+</ul>
 
 </article>
 
@@ -52,14 +52,13 @@
 <link href="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.css" rel="stylesheet"> 
 <script src="http://fotorama.s3.amazonaws.com/4.1.16/fotorama.js"></script>
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?97"></script>
-
 <script type="text/javascript">
-      VK.init({
-        apiId: 4003232,
-        onlyWidgets: true
-      });
+  VK.init({
+    apiId: 4003232,
+    onlyWidgets: true
+  });
   VK.Widgets.Like('vk_like', {
-    type: 'button',
+    type: 'mini',
     pageTitle: '{{ resource.meta.title }}',
     pageUrl: 'http:{{ resource.full_url }}'
   });

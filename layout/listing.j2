@@ -12,14 +12,14 @@
 {% endfor %}
 </div>
 
-<nav class="pager">
+<ul class="pager">
 {% if resource.page.previous %}
-<a href="{{ resource.page.previous.number }}.html">&larr;</a>
+<li class="previous"><a href="{{ resource.page.previous.number }}.html">&larr;</a></li>
 {% endif %}
 {% if resource.page.next %}
-<a href="{{ resource.page.next.number }}.html" class="next">&rarr;</a>
+  <li class="next"><a href="{{ resource.page.next.number }}.html">&rarr;</a></li>
 {% endif %}
-</nav>
+</ul>
 
 {% endblock %}
 
@@ -31,8 +31,8 @@ $(document).ready(function() {
   $("time").timeago();
   $("div.list").infinitescroll({
     debug: true,
-    navSelector: "nav.pager",
-    nextSelector: "nav.pager a.next",
+    navSelector: "ul.pager",
+    nextSelector: "ul.pager li.next a",
     itemSelector: "div.list article",
   }, function() {
     $("time").timeago();

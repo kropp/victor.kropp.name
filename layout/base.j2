@@ -3,7 +3,7 @@
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
+<head data-no-instant>
   {% block starthead %}{% endblock starthead %}
   <meta charset="{{ resource.meta.charset }}">
   <meta http-equiv="X-UA-Compatible" content="{{ resource.meta.compatibility }}">
@@ -17,13 +17,14 @@
   {% endblock favicons %}
   {% block css %}
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ media_url('css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ media_url('css/site.css') }}">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="{{ media_url('css/site.css') }}" data-instant-track>
   <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/flags.css') }}">
   {% endblock css %}
   {% block headjs %}
-    <script src="{{ media_url('js/libs/modernizr-1.7.min.js') }}"></script>
   {% endblock headjs %}
   {% block endhead %}{% endblock endhead %}
 </head>
@@ -39,7 +40,9 @@
           {%- endblock %}
           {% block nav %}
           {% from "macros.j2" import render_nav with context %}
-          {{ render_nav(menu, 'main_nav') }}
+          {{ render_nav(resource.meta.menu if resource.meta.menu else menu, 'main_nav') }}
+          {% from "macros.j2" import render_language_nav with context %}
+          {{ render_language_nav(resource.meta.language_menu if resource.meta.language_menu else language_menu, 'main_nav') }}
           {% endblock %}
       </div>
       {% block main %}
@@ -53,12 +56,13 @@
   {% block js %}
   {% block jquery %}
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-  <script src="{{ media_url('js/jquery.timeago.js') }}"></script>
-  <script src="{{ media_url('js/jquery.infinitescroll.min.js') }}"></script>
-  <script src="{{ media_url('js/site.js') }}"></script>
-  </script>
+  <script src="{{ media_url('js/jquery.timeago.js') }}" data-no-instant></script>
+  <script src="{{ media_url('js/jquery.infinitescroll.min.js') }}" data-no-instant></script>
+  <script src="{{ media_url('js/site.js') }}" data-no-instant></script>
+  <script src="{{ media_url('js/instantclick.min.js') }}" data-no-instant></script>
+  <script data-no-instant>InstantClick.init();</script>
   {% if resource.meta.language == "ru" %}
-  <script src="{{ media_url('js/jquery.timeago.ru.js') }}"></script>
+  <script src="{{ media_url('js/jquery.timeago.ru.js') }}" data-no-instant></script>
   {% endif %}
   {% endblock jquery %}
   {% block scripts %}

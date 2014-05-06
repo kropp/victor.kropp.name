@@ -13,33 +13,35 @@ plugins:
 context:
     data:
         tweet_via: kropp
+        language_menu:
+            -
+                name: ru
+                description: по-русски
+                type: node
+                css_class: navbar-right
+                url: /ru
         menu:
-#            -
-#                name: ru
-#                description: по-русски
-#                type: node
-#                url: /ru
 #            -
 #                name: en
 #                description: in english
 #                type: node
 #                url: /
-            -
-                name: думаю
-                description: Мысли обо всём
-                css_class: blog
-                type: node
-                url: /ru/blog/
-            -
-                name: читаю
-                description: книги, которые я читаю
-                type: node
-                url: /ru/books/
-            -
-                name: путешествую
-                description: места, где я побывал
-                type: node
-                url: /ru/travel/
+#           -
+#               name: думаю
+#               description: Мысли обо всём
+#               css_class: blog
+#               type: node
+#               url: /ru/blog/
+#           -
+#               name: читаю
+#               description: книги, которые я читаю
+#               type: node
+#               url: /ru/books/
+#           -
+#               name: путешествую
+#               description: места, где я побывал
+#               type: node
+#               url: /ru/travel/
 #            -
 #                name: Blog
 #                description: Blog

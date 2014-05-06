@@ -41,8 +41,21 @@
 {% do classes.append('active') if active -%}
 {% do classes.append(item.css_class) if item.css_class -%}
 <li class="{{ classes|join(' ') }}"><a title="{{ item.description }}" href="{{ content_url(item.url) }}">{{ item.name }}</a></li>
+{%- endfor %}
+</ul>
+{%- endif %}
+{%- endmacro %}
 
- {%- endfor %}
+{% macro render_language_nav(menu, cls=None) -%}
+{% if menu -%}
+<ul class="nav navbar-nav navbar-right" style="margin-right: 1em;">
+{% for item in menu -%}
+{% set active = ('/' + resource.url == item.url + 'index.html') -%}
+{% set classes = [] -%}
+{% do classes.append('active') if active -%}
+{% do classes.append(item.css_class) if item.css_class -%}
+<li class="{{ classes|join(' ') }}"><a title="{{ item.description }}" href="{{ content_url(item.url) }}">{{ item.name }}</a></li>
+{%- endfor %}
 </ul>
 {%- endif %}
 {%- endmacro %}
