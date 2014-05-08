@@ -3,11 +3,12 @@
 <article {{'class='~class if class }}>
 <h5><a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a></h5>
 {{ post.post|markdown|typogrify }}
+<div class="clear">
 {% if res.meta.tags %}
 <ul class="tags">
 {% for tag in res.meta.tags %}
 <li>
-    <a class="label" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+    <a class="label label-default" href="{{ content_url('blog/tags/'~tag~'.html') }}">
         {{ tag }}
     </a>
 </li>
@@ -17,6 +18,7 @@
 <time datetime="{{ res.meta.created.strftime('%Y-%m-%dT%H:%M+0100') }}">
    {{ res.meta.created.strftime('%d.%m.%Y %H:%M') }}
 </time>
+</div>
 </article>
 {% endmacro %}
 

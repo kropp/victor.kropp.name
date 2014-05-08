@@ -13,7 +13,7 @@
 <ul class="tags clear">
 {% for tag in resource.meta.tags %}
 <li>
-    <a class="label" href="{{ content_url('blog/tags/'~tag~'.html') }}">
+    <a class="label label-default" href="{{ content_url('blog/tags/'~tag~'.html') }}">
         {{ tag }}
     </a>
 </li>
@@ -26,12 +26,10 @@
 {%- endmark %}
 {%- endfilter %}
 
-<p></p>
-<p></p>
-<div>
+<div class="share-buttons">
   <div class="g-plusone" data-action="share" data-annotation="bubble" data-size="medium" data-href="http:{{ resource.full_url }}"></div>
   <a href="https://twitter.com/share" class="twitter-share-button" data-url="http:{{ resource.full_url }}" data-text="{{ resource.meta.title }}" data-via="kropp">Tweet</a>
-  <div class="fb-like" data-href="http:{{ resource.full_url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+  <div class="fb-like" data-href="http:{{ resource.full_url }}" data-share="false" data-layout="button_count" style="margin: 0 28px 0 0; vertical-align: top;"></div>
   <div id="vk_like" style="display: inline-block;"></div>
 </div>
 
@@ -78,7 +76,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 

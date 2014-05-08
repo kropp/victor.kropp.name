@@ -340,6 +340,10 @@ article h5 {
   margin-bottom: .5em;
 }
 
+.share-buttons {
+  margin-top: 2em;
+}
+
 .fotorama__caption {
   font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
   background-color: rgba(255, 255, 255, 0.5) !important;
