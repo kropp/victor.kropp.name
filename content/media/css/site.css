@@ -1,6 +1,6 @@
 body {
     padding-top: 70px;
-    background: url('/media/images/winter-landscape.jpg') no-repeat center -70px;
+    background: url('/media/images/summer-landscape.jpg') no-repeat center -70px;
     font-size: 15px;
 }
 
@@ -312,6 +312,11 @@ blockquote {
 blockquote p {
   padding-left: 4em;
   font-size: 1em;
+}
+
+blockquote ul,
+blockquote ol {
+  padding-left: 6em;
 }
 
 blockquote:before {
