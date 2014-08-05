@@ -56,8 +56,17 @@ img.photo {
   background: none;
 }
 
-.sidebar .nav li.active a {
+.sidebar .nav li.active>a {
   font-weight: bold;
+}
+
+.sidebar .nav-outer li ul.nav-inner {
+  display: none;
+  margin-left: 1em;
+}
+
+.sidebar .nav-outer li.active ul.nav-inner {
+  display: block;
 }
 
 .navbar-fixed-top {
