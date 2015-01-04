@@ -59,7 +59,7 @@ description: Книги, которые читает Виктор Кропп
     return d3.nest()
       .key(function(d) { return +d.date.getFullYear(); })
       .sortKeys(d3.descending)
-      .key(function(d) { return +d.date.getMonth(); })
+      .key(function(d) { return ("0"+d.date.getMonth()).slice(-2); })
       .sortKeys(d3.descending)
       .key(function(d) { return d.author; })
       .entries(allBooks);
