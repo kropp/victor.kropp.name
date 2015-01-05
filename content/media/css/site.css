@@ -1,6 +1,6 @@
 body {
     padding-top: 70px;
-    background: url('/media/images/summer-landscape.jpg') no-repeat center -70px;
+    background: url('/media/images/winter-landscape.jpg') no-repeat center -70px;
     font-size: 15px;
 }
 
@@ -20,10 +20,16 @@ strong {
   font-style: bold;
 }
 
-footer{
+footer {
   font-size: 0.8em;
   text-align: center;
   margin: 20px 0 5px;
+}
+
+#homepage footer {
+  position: absolute;
+  bottom: 0;
+  left: 10px
 }
 
 img.photo {
@@ -188,6 +194,22 @@ font-weight: bold;
 }
 
 /* Content */
+
+#homepage {
+  background: #fff url('/media/portrait.jpg') no-repeat 90% 50px;
+}
+
+#homepage .navbar-fixed-top {
+  background-color: #fff;
+}
+
+#homepage .container {
+  font-size: 1.2em;
+}
+
+#homepage ul {
+  list-style: none;
+}
 
 article.post p{
     margin: 6px 0;

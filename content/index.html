@@ -1,35 +1,43 @@
 ---
 extends: base.j2
+id: homepage
 default_block: main
-title: Victor Kropp's personal website
+title: Victor Kropp
 description: Victor Kropp's personal website
 ---
 
-<img src="/media/photo.jpg" class="img-thumbnail photo pull-left" width="200" height="235" alt="Victor Kropp's photo" />
+<div class="col-xs-8">
 {% filter markdown|typogrify -%}
 
-I'm Software Engineer from Munich, Germany. At [JetBrains][JB] I take part in the development of the best Visual Studio add-in [ReSharper][R#]. I like to spend free time together with my awesome wife Anna playing board games, travelling around the world, riding bicycle in summer, skiing in winter and running all year around.
+Hello! My name is Victor Kropp and I am Software Engineer from Munich, <i class="flag flag-de"></i> Germany.
 
-Follow me on <i class="fa fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">Twitter</a> and <i class="fa fa-instagram" style="color: rgb(63,114,155);"></i> <a href="http://instagram.com/victorkropp/">Instagram</a>.
+I work at [JetBrains][JB] crafting best tools for developers.
+
+I swim, bike and run and travel around the world.
+
+Follow me on social networks:
+
+* <i class="fa fa-fw fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a>
+* <i class="fa fa-fw fa-instagram" style="color: rgb(63,114,155);"></i> <a href="http://instagram.com/victorkropp/">victorkropp</a>
+* <i class="fa fa-fw fa-facebook" style="color: rgb(72,99,174);"></i> <a href="https://www.facebook.com/victor.kropp">Victor Kropp</a>
+* <i class="fa fa-fw fa-vk" style="color: rgb(69,104,142);"></i> <a href="https://vk.com/kropp">Виктор Кропп</a>
+* <i class="fa fa-fw fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/">kropp</a>
 
 Explore more in russian version: my [blog][blogru], [books][booksru] I read, my [trips][travelru].
 
 Source code of this site is available on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/victor.kropp.name">GitHub</a>.
+
+Thanks [Olga Dyka][dyka] for the photo.
 
 [JB]: http://www.jetbrains.com/
 [R#]: http://www.jetbrains.com/resharper/
 [blogru]: /ru/blog/
 [booksru]: /ru/books/
 [travelru]: /ru/travel/
+[dyka]: https://500px.com/olga_dyka
 
 {% endfilter %}
-
-<p style="clear: both;"></p><p style="text-align: center;">
-
-<a class="twitter-timeline" data-dnt=true href="https://twitter.com/kropp" data-widget-id="296390733986930688" data-chrome="nofooter transparent noborders noscrollbar">Tweets by @kropp</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</p>
+</div>
 
 {#
 <h4>Recent posts from my blog</h4>

@@ -1,21 +1,36 @@
 ---
+id: homepage
 extends: base.j2
 default_block: main
-title: Личный сайт Виктора Кроппа
+title: Виктор Кропп
 description: Личный сайт Виктора Кроппа
 ---
 
-<img src="/media/avatar.jpg" class="photo left" width="200" height="200" alt="Victor Kropp's photo" />
+<div class="col-xs-8">
 {% filter markdown|typogrify -%}
-Я — программист из Санкт-Петербурга в настоящий момент проживающий в Мюнхене, Германия. Я работаю в компании [JetBrains][JB], где принимаю участие в разработке лучшего дополнения для Visual Studio — [ReSharper][R#]. Свободное время я люблю проводить со своей замечательной женой Аней играя в настольные игры, путешествуя по миру, катаясь на велосипеде летом и на лыжах — зимой.
 
-Я в [Твиттере][twitter], [Инстаграме][instagram] и [вконтакте][vk].
+Привет! Меня зовут Виктор Кропп, я программист из Санкт-Петербурга, <i class="flag flag-ru"></i> Россия, ныне живущий в Мюнхене, <i class="flag flag-de"></i> Германия.
+
+Я работаю в компании [JetBrains][JB], где создаю лучшие инструменты для программистов.
+
+Я плаваю, езжу на велосипеде, бегаю и путешествую по миру.
+
+Подписывайтесь на мои аккаунты в социальных сетях:
+
+* <i class="fa fa-fw fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a>
+* <i class="fa fa-fw fa-instagram" style="color: rgb(63,114,155);"></i> <a href="http://instagram.com/victorkropp/">victorkropp</a>
+* <i class="fa fa-fw fa-facebook" style="color: rgb(72,99,174);"></i> <a href="https://www.facebook.com/victor.kropp">Victor Kropp</a>
+* <i class="fa fa-fw fa-vk" style="color: rgb(69,104,142);"></i> <a href="https://vk.com/kropp">Виктор Кропп</a>
+* <i class="fa fa-fw fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/">kropp</a>
+
+За фото спасибо [Ольге Дикой][dyka].
 
 [JB]: http://www.jetbrains.com/
 [R#]: http://www.jetbrains.com/resharper/
+[blogru]: /ru/blog/
+[booksru]: /ru/books/
+[travelru]: /ru/travel/
+[dyka]: https://500px.com/olga_dyka
 
-[twitter]: https://twitter.com/kropp
-[instagram]: http://instagram.com/victorkropp/
-[vk]: http://vk.com/kropp
-[github]: https://github.com/kropp
 {% endfilter %}
+</div>
