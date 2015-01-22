@@ -31,9 +31,11 @@ description: Книги, которые читает Виктор Кропп
 }
 .book,
 .author h5,
-.book h6,
-.book p {
+.book h6 {
   transition: all .5s ease-in-out;
+}
+.book p {
+  transition: opacity .5s ease-in-out;
 }
 .book.book-visible {
   opacity: 1.0;
