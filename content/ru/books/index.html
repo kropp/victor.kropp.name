@@ -101,7 +101,7 @@ description: Книги, которые читает Виктор Кропп
     var months = years.selectAll("div.month").data(function(d) { return d.values; });
     months.enter().append("div").attr("class", "month")
 
-    months.attr("id", function(d, i) { return monthNames[this.parentNode.__data__.values.length - i - 1] + "" + this.parentNode.__data__.key; });
+    months.attr("id", function(d, i) { return monthNames[+d.key] + "" + this.parentNode.__data__.key; });
 
     var authors = months.selectAll("div.author").data(function(d) { return d.values; });
     authors.attr("class", function(d) { return d.values.every(function(d) { return d.hidden; }) ? "author author-hidden" : "author author-visible" })
@@ -131,8 +131,8 @@ description: Книги, которые читает Виктор Кропп
 
     var months = list.selectAll("li.month").data(function(d) { return d.values; });
     var month = months.enter().append("li").attr("class", "month")
-    month.append("a").attr("href", function(d, i) { return "#" + monthNames[this.parentNode.parentNode.__data__.values.length - i - 1] + "" + this.parentNode.parentNode.__data__.key; })
-      .text(function(d, i) { return monthNamesRu[this.parentNode.parentNode.__data__.values.length - i - 1]; });
+    month.append("a").attr("href", function(d, i) { return "#" + monthNames[+d.key] + "" + this.parentNode.parentNode.__data__.key; })
+      .text(function(d, i) { return monthNamesRu[+d.key]; });
   }
 
   d3.json("books.json", function(data) {
