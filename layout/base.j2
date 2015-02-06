@@ -11,9 +11,10 @@
   <meta name="description" content="{{ resource.meta.description }}">
   <meta name="author" content="{{ resource.meta.author }}">
   <meta name="viewport" content="{{ resource.meta.viewport }}">
+  <meta name="theme-color" content="#ffffff">
   {% block favicons %}
-  <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
-  {#<link rel="apple-touch-icon" href="{{ media_url('/apple-touch-icon.png') }}">#}
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" sizes="192x192" href="{{ media_url('/icon.png') }}">
   {% endblock favicons %}
   {% block css %}
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
