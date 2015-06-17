@@ -1,0 +1,18 @@
+  <div class="container">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-brand"><a href="/">Victor Kropp</a></div>
+{{ if eq .Section "ru" }}
+      <ul class="nav navbar-nav">
+      {{ $currentNode := . }}
+      {{ range index .Site.Menus .Section }}
+      <li><a class="nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+      {{ end }}
+      </ul>
+{{ end }}      <ul class="nav navbar-nav navbar-right" style="margin-right: 1em;">
+{{ if eq .Section "ru" }}
+        <li class="navbar-right"><a title="in english" href="/">en</a></li>
+{{ else }}
+        <li class="navbar-right"><a title="по русски" href="/ru/">ru</a></li>
+{{ end }}
+      </ul>
+    </div>

@@ -1,0 +1,14 @@
+---
+baseurl: http://victor.kropp.name/
+title: Victor Kropp
+menu:
+  ru:
+#    - name: думаю
+#      url: /ru/blog/
+    - name: книги
+      weight: 20
+      url: /ru/books/
+    - name: путешествия
+      weight: 30
+      url: /ru/travel/
+---

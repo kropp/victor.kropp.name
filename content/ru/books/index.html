@@ -1,12 +1,6 @@
 ---
-extends: base.j2
-default_block: fake
-title: Книги, которые читает Виктор Кропп
-description: Книги, которые читает Виктор Кропп
+title: Книги
 ---
-{% block main %}
-<h2>Книги</h2>
-
 <p>Здесь я записываю те книги, которые прочитал. Записи я веду скорее для себя, но если они ещё кому-нибудь пригодятся — буду рад.</p>
 
 <div class="col-lg-3">
@@ -146,9 +140,7 @@ description: Книги, которые читает Виктор Кропп
     updateSelections(books);
   });
 </script>
-{% endblock %}
 
-{% block scripts %}
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     //$(window).scrollspy({wrap: $('#bookslist')[0]});
@@ -180,4 +172,3 @@ description: Книги, которые читает Виктор Кропп
     });
     });
   </script>
-{% endblock %}

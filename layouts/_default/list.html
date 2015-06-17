@@ -1,0 +1,5 @@
+{{ partial "header" $ }}
+{{ range $index, $page := .Paginator.Pages }}
+   {{ $page.Content }}
+{{ end }}
+{{ partial "footer" $ }}

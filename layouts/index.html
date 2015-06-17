@@ -1,0 +1,7 @@
+{{ partial "head" $ }}
+<body id="homepage">
+{{ partial "navbar" $ }}
+{{ range $key, $value := .Site.Sections.about.Pages }}
+{{ $value.Content }}
+{{ end }} 
+{{ partial "footer" $ }}

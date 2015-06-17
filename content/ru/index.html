@@ -1,29 +1,28 @@
 ---
-id: homepage
-extends: base.j2
-default_block: main
 title: Виктор Кропп
 description: Личный сайт Виктора Кроппа
+id: homepage
 ---
 
 <div class="col-xs-8">
-{% filter markdown|typogrify -%}
 
-Привет! Меня зовут Виктор Кропп, я программист из Санкт-Петербурга, <i class="flag flag-ru"></i> Россия, ныне живущий в Мюнхене, <i class="flag flag-de"></i> Германия.
+<p>Привет! Меня зовут Виктор Кропп, я программист из Санкт-Петербурга, <i class="flag flag-ru"></i> Россия, ныне живущий в Мюнхене, <i class="flag flag-de"></i> Германия.</p>
 
-Я работаю в компании [JetBrains][JB], где создаю лучшие инструменты для программистов.
+<p>Я работаю в компании <a href="http://jetbrains.com/">JetBrains</a>, где создаю лучшие инструменты для программистов.</p>
 
-Я плаваю, езжу на велосипеде, бегаю и путешествую по миру.
+<p>Я плаваю, езжу на велосипеде, бегаю и путешествую по миру.</p>
 
-Подписывайтесь на мои аккаунты в социальных сетях:
+<p>Подписывайтесь на мои аккаунты в социальных сетях:</p>
 
-* <i class="fa fa-fw fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a>
-* <i class="fa fa-fw fa-instagram" style="color: rgb(63,114,155);"></i> <a href="http://instagram.com/victorkropp/">victorkropp</a>
-* <i class="fa fa-fw fa-facebook" style="color: rgb(72,99,174);"></i> <a href="https://www.facebook.com/victor.kropp">Victor Kropp</a>
-* <i class="fa fa-fw fa-vk" style="color: rgb(69,104,142);"></i> <a href="https://vk.com/kropp">Виктор Кропп</a>
-* <i class="fa fa-fw fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/">kropp</a>
+<ul>
+  <li><i class="fa fa-fw fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a></li>
+  <li><i class="fa fa-fw fa-instagram" style="color: rgb(63,114,155);"></i> <a href="http://instagram.com/victorkropp/">victorkropp</a></li>
+  <li><i class="fa fa-fw fa-facebook" style="color: rgb(72,99,174);"></i> <a href="https://www.facebook.com/victor.kropp">Victor Kropp</a></li>
+  <li><i class="fa fa-fw fa-vk" style="color: rgb(69,104,142);"></i> <a href="https://vk.com/kropp">Виктор Кропп</a></li>
+  <li><i class="fa fa-fw fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/">kropp</a></li>
+</ul>
 
-За фото спасибо [Ольге Дикой][dyka].
+<p>За фото спасибо <a href="https://500px.com/olga_dyka">Ольге Дикой</a>.</p>
 
 <div class="likely">
   <div class="twitter" data-via="kropp">Твитнуть</div>
@@ -32,13 +31,4 @@ description: Личный сайт Виктора Кроппа
   <div class="vkontakte">Поделиться</div>
 </div>
 
-
-[JB]: http://www.jetbrains.com/
-[R#]: http://www.jetbrains.com/resharper/
-[blogru]: /ru/blog/
-[booksru]: /ru/books/
-[travelru]: /ru/travel/
-[dyka]: https://500px.com/olga_dyka
-
-{% endfilter %}
 </div>
