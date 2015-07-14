@@ -2,12 +2,45 @@
 {{ if .Params.id }}
 <body id="{{ .Params.id }}">
 {{ else }}
+{{ if .Params.image }}
+<body id="parallax">
+<style type="text/css">
+body { background: url({{ .Params.image}}); }
+</style>
+<script>
+var parallax = true;
+document.addEventListener('touchmove', function(e) { parallax = false; }, false);
+$(window).scroll(function() { if (parallax) {
+  var x = $(this).scrollTop();
+  $('body').css('background-position', 'center ' + parseInt(-x/3.5) + 'px');
+  $('h2').css('opacity', Math.max(1 - (x-50)/300, 0));
+  $('.navbar-title').css('opacity', Math.min(1, (x-250)/50));
+} });
+</script>
+{{ else }}
 <body>
+{{ end }}
 {{ end }}
 {{ partial "navbar" $ }}
 <h2>{{ .Title }}</h2>
 {{ if not .Date.IsZero }}
 <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date }}</time>
 {{ end }}
+<div class="content">
 {{ .Content }}
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'kropp';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
 {{ partial "footer" $ }}
