@@ -1,7 +1,7 @@
 body {
     padding-top: 70px;
     background: url('/images/summer-landscape.jpg') no-repeat center -70px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body#parallax {
@@ -28,8 +28,9 @@ body#parallax .content p,
 body#parallax .content div#disqus_thread,
 body#parallax .content ol,
 body#parallax .content ul {
-    width: 70%;
-    margin: 1em auto;
+    width: 60%;
+    line-height: 1.7;
+    margin: 1.5em auto;
 }
 
 .container p img {
@@ -114,6 +115,16 @@ footer {
 
 .sidebar .nav a:hover {
   background: none;
+}
+
+.sidebar .nav li a {
+  display: inline;
+}
+
+.sidebar .nav li span.count {
+  color: gray;
+  font-size: 0.65em;
+  vertical-align: super;
 }
 
 .sidebar .nav li.active>a {
