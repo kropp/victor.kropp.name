@@ -19,6 +19,7 @@ title: Книги
 </div>
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <style>
 #bookslist ul.pagination {
   margin-bottom: 0px;
@@ -141,32 +142,29 @@ title: Книги
 
     updateSelections(books);
 
-    var navHeight = $('.navbar').outerHeight(true) + 10
-
     $(window).scrollspy({
       target: '.sidebar',
       wrap: $('#bookslist')[0],
-      offset: navHeight
+      offset: $('.navbar').outerHeight(true) + 10
     })
   });
 </script>
 
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      $(document.body).on('click', '.sidebar [href^=#]', function (e) {
-        var $target = $(this.getAttribute('href'))
-  
-        e.preventDefault() // prevent browser scroll
-  
-        $window.scrollTop($target.offset().top - navHeight + 25)
-      })
-  
-      $(window).scroll(function() {
-         var scrollTop = $(window).scrollTop();
-  
-         if (scrollTop > 215) $('.sidebar').addClass('sidebar-fixed');  
-         else $('.sidebar').removeClass('sidebar-fixed'); 
-      });
+<script type="text/javascript">
+  $(function() {
+    $(document.body).on('click', '.sidebar [href^=#]', function (e) {
+      var $target = $(this.getAttribute('href'))
+
+      e.preventDefault() // prevent browser scroll
+
+      $window.scrollTop($target.offset().top - navHeight + 25)
+    })
+
+    $(window).scroll(function() {
+       var scrollTop = $(window).scrollTop();
+
+       if (scrollTop > 215) $('.sidebar').addClass('sidebar-fixed');  
+       else $('.sidebar').removeClass('sidebar-fixed'); 
     });
-  </script>
+  });
+</script>
