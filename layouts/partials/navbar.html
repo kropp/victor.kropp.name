@@ -1,14 +1,10 @@
-  <div class="container">
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-brand"><a href="/">Victor Kropp</a></div>
-{{ if .Title }}
-      <div class="navbar-brand navbar-title">{{ .Title }}</div>
-{{ end }}
-      <ul class="nav navbar-nav navbar-right">
+    <div class="sidebar sidebar-fixed">
+      <div class="sidebar-brand"><a href="/">Victor Kropp</a></div>
+      <ul class="nav nav-stacked nav-outer">
 {{ if eq .Section "ru" }}
       {{ $currentNode := . }}
       {{ range index .Site.Menus .Section }}
-      <li><a class="nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+      <li id="menu-{{.KeyName}}"><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
       {{ end }}
 {{ end }}
 {{ if eq .Section "ru" }}
@@ -18,3 +14,4 @@
 {{ end }}
       </ul>
     </div>
+

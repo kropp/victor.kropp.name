@@ -3,13 +3,7 @@ title: Книги
 ---
 <p>Здесь я записываю те книги, которые прочитал. Записи я веду скорее для себя, но если они ещё кому-нибудь пригодятся — буду рад.</p>
 
-<div class="col-lg-3">
-<div class="sidebar">
-<ul class="nav nav-stacked nav-outer" id="nav-years">
-</ul>
-</div>
-</div>
-<div class="col-lg-9" id="bookslist">
+<div id="bookslist">
   <ul class="pagination">
     <li id="all" class="active"><a href="#" onclick="filter(null);" title="все">все</a></li>
     <li id="en"><a href="#" onclick="filter('en');" title="по-английски"><i class="flag flag-gb"></i></a></li>
@@ -133,6 +127,8 @@ title: Книги
   }
 
   d3.json("books.json", function(data) {
+    $("#menu-books").append("<ul class='nav nav-stacked nav-inner open' id='nav-years'></ul>");
+
     allBooks = data.books;
     allBooks.forEach(function(d) { d.date = new Date(d.date); d.hidden = false; });
 
@@ -142,29 +138,6 @@ title: Книги
 
     updateSelections(books);
 
-    $(window).scrollspy({
-      target: '.sidebar',
-      wrap: $('#bookslist')[0],
-      offset: $('.navbar').outerHeight(true) + 10
-    })
-  });
-</script>
-
-<script type="text/javascript">
-  $(function() {
-    $(document.body).on('click', '.sidebar [href^=#]', function (e) {
-      var $target = $(this.getAttribute('href'))
-
-      e.preventDefault() // prevent browser scroll
-
-      $window.scrollTop($target.offset().top - navHeight + 25)
-    })
-
-    $(window).scroll(function() {
-       var scrollTop = $(window).scrollTop();
-
-       if (scrollTop > 215) $('.sidebar').addClass('sidebar-fixed');  
-       else $('.sidebar').removeClass('sidebar-fixed'); 
-    });
+    $(window).scrollspy();
   });
 </script>

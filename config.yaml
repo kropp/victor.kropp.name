@@ -6,9 +6,11 @@ menu:
 #    - name: думаю
 #      url: /ru/blog/
     - name: книги
+      identifier: books
       weight: 20
       url: /ru/books/
     - name: путешествия
+      identifier: travel
       weight: 30
       url: /ru/travel/
 ---
