@@ -9,13 +9,20 @@
 {{ partial "navbar" $ }}
 </div>
 <div class="col-lg-9">
-<h2>{{ .Title }}</h2>
 {{ if not .Date.IsZero }}
-<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date }}</time>
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>
 {{ end }}
+<h2>{{ .Title }}</h2>
 <div class="content">
 {{ .Content }}
 
+
+<div class="likely">
+  <div class="twitter" data-via="kropp">Твитнуть</div>
+  <div class="facebook">Поделиться</div>
+  <div class="gplus">Плюсануть</div>
+  <div class="vkontakte">Поделиться</div>
+</div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'kropp';
@@ -25,7 +32,6 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 </div>
 {{ partial "footer" $ }}

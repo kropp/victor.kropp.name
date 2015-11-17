@@ -1,6 +1,6 @@
 ---
 title: Полумарафон на хорватском острове Хвар
-created: "2014-09-13T11:44:00+02:00"
+date: "2014-09-13T11:44:00+02:00"
 image: /sport/img/2014/hvar-top.jpg
 tags:
     - half-marathon

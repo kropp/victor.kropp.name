@@ -1,6 +1,6 @@
 ---
 title: Мюнхенский триатлон
-created: "2014-05-11T11:44:00+02:00"
+date: "2014-05-11T11:44:00+02:00"
 image: /sport/img/2014/mrrc-top.jpg
 tags:
     - triathlon

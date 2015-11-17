@@ -1,6 +1,6 @@
 ---
 title: Мюнхенский марафон 2013
-created: "2014-10-17T11:44:00+02:00"
+date: "2014-10-17T11:44:00+02:00"
 image: /sport/img/2013/marathon.jpg
 tags:
     - marathon

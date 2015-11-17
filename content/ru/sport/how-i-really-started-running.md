@@ -1,7 +1,7 @@
 
 ---
 title: Как я на самом деле начал бегать
-created: "2014-07-19T12:45:00+02:00"
+date: "2014-07-19T12:45:00+02:00"
 image: /sport/img/2014/woerthsee-1.jpg
 tags:
     - triathlon

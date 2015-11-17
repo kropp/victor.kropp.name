@@ -1,6 +1,6 @@
 ---
 title: Полумарафон
-created: "2013-05-20T11:44:00+02:00"
+date: "2013-05-20T11:44:00+02:00"
 image: https://farm1.staticflickr.com/484/19689638962_9185e75b94_o.jpg
 tags:
     - half-marathon

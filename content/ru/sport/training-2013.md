@@ -1,6 +1,6 @@
 ---
 title: Про тренировки перед первым марафоном
-created: "2013-05-20T11:44:00+02:00"
+date: "2013-05-20T11:44:00+02:00"
 image: /sport/img/2014/woerthsee-top.jpg
 tags:
     - training

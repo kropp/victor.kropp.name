@@ -1,7 +1,7 @@
 
 ---
 title: Как я начал бегать
-created: "2013-03-23T12:45:00+02:00"
+date: "2013-03-23T12:45:00+02:00"
 image: /sport/img/2013/how-i-started-running.png
 tags:
     - running

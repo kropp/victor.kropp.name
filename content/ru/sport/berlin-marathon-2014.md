@@ -1,6 +1,6 @@
 ---
 title: Берлинский марафон 2014
-created: "2014-09-30T11:44:00+02:00"
+date: "2014-09-30T11:44:00+02:00"
 image: /sport/img/2014/berlin-marathon-1.jpg
 tags:
     - marathon

@@ -1,6 +1,6 @@
 ---
 title: Итоги и планы
-created: "2015-01-02T00:05:00+02:00"
+date: "2015-01-02T00:05:00+02:00"
 image: /sport/img/2013/how-i-started-running.png
 tags:
     - summary

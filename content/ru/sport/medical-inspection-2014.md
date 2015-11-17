@@ -1,6 +1,6 @@
 ---
 title: Нагрузочное обследование
-created: "2014-11-08T14:05:00+02:00"
+date: "2014-11-08T14:05:00+02:00"
 image: /sport/img/2014/leistungsdiagnostik-top.jpg
 tags:
     - medicine
