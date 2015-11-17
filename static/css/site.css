@@ -248,6 +248,15 @@ dt {
   margin-top: 1em;
 }
 
+dd dt {
+  display: inline;
+  margin-right: .4em;
+}
+
+dd dd {
+  display: inline;
+}
+
 blockquote {
   margin-top: 1em;
   quotes: "\201C""\201D";
