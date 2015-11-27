@@ -1,7 +1,8 @@
 ---
 title: Мюнхенский триатлон
 date: "2014-05-11T11:44:00+02:00"
-image: /sport/img/2014/mrrc-top.jpg
+description: "Есть такая шутка про триатлонистов: все лажают в одном виде спорта, а они сразу в трёх."
+image: https://farm1.staticflickr.com/263/19697611915_97fcc1a9cf_c.jpg
 tags:
     - triathlon
     - mrrc-triathlon

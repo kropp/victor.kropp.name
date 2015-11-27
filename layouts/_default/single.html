@@ -1,4 +1,10 @@
 {{ partial "head" $ }}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@kropp" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
+{{ if .Params.image }}  <meta name="twitter:image" content="{{ .Params.image }}" />{{ end }}
+</head>
 {{ if .Params.id }}
 <body id="{{ .Params.id }}">
 {{ else }}

@@ -1,4 +1,10 @@
 {{ partial "head" $ }}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@kropp" />
+  <meta name="twitter:title" content="Victor Kropp" />
+  <meta name="twitter:description" content="Victor Kropp Homepage" />
+  <meta name="twitter:image" content="http://victor.kropp.name/portrait.jpg" />
+</head>
 <body id="homepage">
 {{ partial "navbar" $ }}
 {{ range $key, $value := .Site.Sections.about.Pages }}
