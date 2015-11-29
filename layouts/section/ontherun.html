@@ -1,0 +1,16 @@
+{{ partial "head" $ }}
+</head>
+<body>
+  <div class="col-lg-3"></div>
+  <div class="col-lg-9">
+    <h2>На бегу</h2>
+{{ range .Data.Pages.GroupByDate "2006" }}
+    <h3>{{ .Key }}</h3>
+    <ul class="list-unstyled">
+{{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>{{ end }}</li>
+{{ end }}
+    </ul>
+{{ end }}
+  </div>
+{{ partial "footer" $ }}

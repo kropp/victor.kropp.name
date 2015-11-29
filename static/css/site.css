@@ -201,22 +201,14 @@ font-weight: bold;
   font-size: 1.2em;
 }
 
-#homepage ul {
-  list-style: none;
+.list-unstyled time {
+  font-size: 0.75em;
+  color: #999;
 }
 
-article.post p{
-    margin: 6px 0;
-}
-
-article.post img{
-    margin-bottom: 24px;
-}
-
-time {
+article time {
     font-size: 0.9em;
     color: #999;
-    float: right;
     margin-top: 30px;
 }
 
