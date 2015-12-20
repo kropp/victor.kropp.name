@@ -13,6 +13,10 @@ body {
   margin: 2em auto;
 }
 
+.container .fotorama__wrap {
+  margin: 0 auto;
+}
+
 .container iframe {
   margin: 2em auto !important;
 }
@@ -67,9 +71,14 @@ footer {
   opacity: 0;
 }
 
+.sidebar-brand {
+  font-size: 30px;
+  margin-bottom: .5em;
+}
+
 .sidebar-fixed {
   position: fixed !important;
-  top: 40px;
+  top: 27px;
   left: 40px;
 }
 
@@ -209,7 +218,11 @@ font-weight: bold;
 article time {
     font-size: 0.9em;
     color: #999;
-    margin-top: 30px;
+    float: right;
+}
+
+article h2 {
+    margin-top: 0;
 }
 
 ul.tags{

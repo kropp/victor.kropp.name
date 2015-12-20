@@ -1,15 +1,15 @@
     <div class="sidebar sidebar-fixed">
-      <div class="sidebar-brand"><a href="/">Victor Kropp</a></div>
+{{ if or (eq .Section "ru") (eq .Section "ontherun") }}
+      <div class="sidebar-brand"><a href="/">Виктор Кропп</a></div>
       <ul class="nav nav-stacked nav-outer">
-{{ if eq .Section "ru" }}
       {{ $currentNode := . }}
-      {{ range index .Site.Menus .Section }}
+      {{ range index .Site.Menus "ru" }}
       <li id="menu-{{.KeyName}}"><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
       {{ end }}
-{{ end }}
-{{ if eq .Section "ru" }}
         <li class="lang"><a title="in english" href="/">en</a></li>
 {{ else }}
+      <div class="sidebar-brand"><a href="/">Victor Kropp</a></div>
+      <ul class="nav nav-stacked nav-outer">
         <li class="lang"><a title="по русски" href="/ru/">ru</a></li>
 {{ end }}
       </ul>

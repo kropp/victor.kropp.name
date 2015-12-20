@@ -3,8 +3,11 @@ baseurl: http://victor.kropp.name/
 title: Victor Kropp
 menu:
   ru:
-#    - name: думаю
-#      url: /ru/blog/
+    - name: на бегу
+      title: на бегу
+      identifier: ontherun
+      weight: 10
+      url: /ontherun/
     - name: книги
       identifier: books
       weight: 20
