@@ -1,6 +1,8 @@
 ---
 title: Парижский марафон 2015
 date: "2015-04-30T11:44:00+02:00"
+description: Один из лучших марафонов в одном из лучших городов мира. И немного о весенних марафонах.
+image: https://farm1.staticflickr.com/327/18769563623_e65ca69f1b_c.jpg
 tags:
     - marathon
     - paris
@@ -15,12 +17,28 @@ tags:
 
 Это был мой первый весенний марафон и мне просто хотелось попробовать, как это. Ну, как-то так:
 
+<img src="/sport/img/2015/drunk.jpg" width="80%">
+
 В Париже мы уже были несколько раз и в этот раз приехали только ради марафона. Погода не подкачала, было даже жарковато.
 
 Парижский марафон в этом году вошёл в тройку крупнейших в мире наряду с Нью-Йоркским и Чикагским. По официальным данным, зарегистрировалось больше 52000 человек, а стартовало 41342. Отдельный интерес у меня вызывают те 20%, кто уже оплатил участие, но в итоге не вышел на старт. Если это вызвано травмами, то мне страшно за среднестатистического бегуна. Если это переоценка своих сил, то тоже плохо, но уже лучше. Буду верить, что просто не сложилось, например, не удалось приехать.
 
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true" data-width="100%">
+  <img src="https://farm1.staticflickr.com/511/19394315601_0dfcde174b_c.jpg" data-full="https://farm1.staticflickr.com/511/19394315601_66f22006ac_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/327/18769563623_e65ca69f1b_c.jpg" data-full="https://farm1.staticflickr.com/327/18769563623_7e1b9a3d88_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/552/19364112496_bcf73370fa_c.jpg" data-full="https://farm1.staticflickr.com/552/19364112496_063adca718_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/358/18767665654_eb6f73a386_c.jpg" data-full="https://farm1.staticflickr.com/358/18767665654_39fc11eb3e_k.jpg" data-caption="" />
+  <img src="https://farm4.staticflickr.com/3871/19202581970_038a0642e0_c.jpg" data-full="https://farm4.staticflickr.com/3871/19202581970_6e20a0f805_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/481/19390188345_6978bed234_c.jpg" data-full="https://farm1.staticflickr.com/481/19390188345_d717a9d231_k.jpg" data-caption="" />
+  <img src="https://farm4.staticflickr.com/3726/19384038322_1cc3914844_c.jpg" data-full="https://farm4.staticflickr.com/3726/19384038322_8f62d7b756_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/490/18769577353_29f2678847_c.jpg" data-full="https://farm1.staticflickr.com/490/18769577353_9b18e0f7ac_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/406/19390208525_71ace12acc_c.jpg" data-full="https://farm1.staticflickr.com/406/19390208525_b54a9e931f_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/530/19203997719_d712df4cb6_c.jpg" data-full="https://farm1.staticflickr.com/530/19203997719_1bbcf9b52f_k.jpg" data-caption="" />
+</div>
+
 Маршрут парижского марафона делится на четыре примерно равные части: через центр, по Венсенскому лесу, обратно по набережной и через Булонский лес к финишу.
 
+<a href="/sport/img/2015/paris-course.pdf"><img src="/sport/img/2015/paris-course.jpg" width="960" height="540" /></a>
 
 Вдоль всей трассы забега было очень много болельщиков и, конечно, я был очень рад видеть среди них свою любимую.
 
@@ -28,11 +46,28 @@ tags:
 
 Началось всё очень хорошо: прекрасная погода, великолепная атмосфера, красивый город, потрясающая поддержка. Участок через Венсенский лес — просто прекрасен, запах соснового леса приятно дурманил. Да и пока я бежал точно по голубой линии официально промеренного маршрута, показания часов отличались от километровой разметки максимум на 10-15 метров.
 
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true" data-width="60%">
+  <img src="https://farm1.staticflickr.com/379/19384049832_5680fc1352_c.jpg" data-full="https://farm1.staticflickr.com/379/19384049832_60f5d5c1cd_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/558/19204023099_702b8446f0_c.jpg" data-full="https://farm1.staticflickr.com/558/19204023099_2af596652f_k.jpg" data-caption="" />
+</div>
+
 Навернув кружок по лесу мы вернулись в город, где с новой силой всю толпу бегунов приветствовали толпы болельщиков. Впереди было больше десяти километров по набережной Сены, я хорошо знал это из схемы трассы. Чего на ней не отмечено, так это, что примерно два километра маршрута в районе Лувра проложено через туннель Тюильри. Это точно одна из изюминок трассы, хотя и воздух там был не очень, загазованный и несвежий.
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true" data-width="60%">
+  <img src="https://farm4.staticflickr.com/3927/19390218885_971c69f8f4_c.jpg" data-full="https://farm4.staticflickr.com/3927/19390218885_89ca3e06f5_k.jpg" data-caption="" />
+  <img src="https://farm4.staticflickr.com/3869/19364139366_54d2b72173_c.jpg" data-full="https://farm4.staticflickr.com/3869/19364139366_9b93a70a84_k.jpg" data-caption="" />
+</div>
 
 Но это было только первое испытание: дальше трасса ещё три или четыре раза (помню плохо) ныряла под мосты, так что приходилось несколько раз бежать вниз-вверх на котором промежутке. Всё бы ничего, но дело было уже в районе 28 километра и это выбило меня из колеи.
 
 По инерции мне удавалось держать более-менее неплохой темп ещё пару километров, а где-то до 31-32 я ещё держался в рамках поставленной цели, но какой-то выключатель в голове уже щелкнул… Я разуверился в своих силах и решил, что заветные в этот раз 3:30 покорить не получится и практически бросил бежать. Последние 8 километров мой темп был ближе к 6 минутам на километр, чем к требуемым пяти.
+
+<div class="fotorama" data-allow-full-screen="native" data-keyboard="true" data-loop="true" data-width="60%">
+  <img src="https://farm1.staticflickr.com/545/19394354651_b5ce28534e_c.jpg" data-full="https://farm1.staticflickr.com/545/19394354651_47afaf4c03_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/553/18767708804_d978ec2268_c.jpg" data-full="https://farm1.staticflickr.com/553/18767708804_05c4856f10_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/272/19390233715_c8156b6576_c.jpg" data-full="https://farm1.staticflickr.com/272/19390233715_3fb0fb9fdb_k.jpg" data-caption="" />
+  <img src="https://farm1.staticflickr.com/513/19390244345_f766dbe1fb_c.jpg" data-full="https://farm1.staticflickr.com/513/19390244345_841b441fab_k.jpg" data-caption="" />
+</div>
 
 При этом на финишной прямой я разогнался до 4 мин/км, обогнав пару десятков человек, сил явно было ещё немало. Значит дело в голове. Стена на 30 километре имеет чисто психологическую причину, более того, мне кажется, тот ажиотаж, который нагнетается вокруг этой отметки (а в Париже там была специальная инсталляция, посвящённая «стене»), только ухудшает ситуацию.
 
