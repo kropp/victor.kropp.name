@@ -1,7 +1,7 @@
 ---
 title: Олимпийский триатлон
 date: "2014-07-22T11:44:00+02:00"
-image: /sport/img/2014/woerthsee-top.jpg
+image: /ontherun/img/2014/woerthsee-top.jpg
 tags:
     - olympic-triathlon
     - triathlon
@@ -9,7 +9,7 @@ tags:
     - germany
 ---
 
-На сезон 2014 года у меня было запланировано два главных старта: триатлон на олимпийскую дистанцию летом и [Берлинский марафон](http://www.bmw-berlin-marathon.de/) 28 сентября. На марафон я зарегистрировался год назад, а с триатлоном тянул до последнего и долго выбирал когда стартовать. Окончательно решился всего за 10 дней до старта, когда в качестве тренировки преодолел эту дистанцию в течение дня (утром — бег, вечером — бассейн и велосипед) и окончательно поверил в свои силы. Триатлон на Вёртзее стоял в календаре [очень удачно](/ru/sport/how-i-really-started-running/).
+На сезон 2014 года у меня было запланировано два главных старта: триатлон на олимпийскую дистанцию летом и [Берлинский марафон](http://www.bmw-berlin-marathon.de/) 28 сентября. На марафон я зарегистрировался год назад, а с триатлоном тянул до последнего и долго выбирал когда стартовать. Окончательно решился всего за 10 дней до старта, когда в качестве тренировки преодолел эту дистанцию в течение дня (утром — бег, вечером — бассейн и велосипед) и окончательно поверил в свои силы. Триатлон на Вёртзее стоял в календаре [очень удачно](/ru/ontherun/how-i-really-started-running/).
 
 <blockquote class="instagram-media" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/qtDY2RAYOu/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_top">A photo posted by Victor Kropp (@victorkropp)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-07-21T07:01:00+00:00">Jul 21, 2014 at 12:01am PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
@@ -58,7 +58,7 @@ tags:
 
 На финише ждала жена, а сразу после финиша — вода. Пить хотелось жутко, хоть на беговом этапе и было две станции с водой. Суммарным результатом 2:43:45 я доволен. Но ещё важнее полученный опыт, который безусловно пригодится на следующих стартах.
 
-[![](/sport/img/2014/certificate218.jpg)](/sport/img/certificate218.pdf)
+[![](/ontherun/img/2014/certificate218.jpg)](/ontherun/img/certificate218.pdf)
 
 Триатлонных стартов в этом сезоне я больше не планирую. Надо отдохнуть и в ноябре-декабре начать полноценно комплексно готовиться к новым рубежам в следующем году. Как показала практика, триатлон — это не три отдельных вида: плавание, велосипед и бег, а это один длинный забег на выносливость, в котором надо правильно распределять силы, пить и питаться, а также знать, когда прибавить и на что обращать внимание в каждый момент времени.
 
