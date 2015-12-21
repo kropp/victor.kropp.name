@@ -1,6 +1,7 @@
 ---
 baseurl: http://victor.kropp.name/
 title: Victor Kropp
+MetaDataFormat: yaml
 menu:
   ru:
     - name: на бегу
