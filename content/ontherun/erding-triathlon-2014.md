@@ -3,7 +3,7 @@ title: Спринт-триатлон в Эрдинге
 date: "2014-07-02T11:44:00+02:00"
 image: https://farm1.staticflickr.com/524/19203875319_0a957c6548_k.jpg
 tags:
-    - olympic-triathlon
+    - sprint-triathlon
     - triathlon
     - erding-triathlon
     - germany

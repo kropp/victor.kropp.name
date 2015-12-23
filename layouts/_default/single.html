@@ -1,5 +1,5 @@
 {{ partial "head" $ }}
-  <meta name="twitter:card" content="summary" />
+  {{ if .Params.twitter_card }}<meta name="twitter:card" content="{{ .Params.twitter_card }}" />{{ else }}<meta name="twitter:card" content="summary" />{{ end }}
   <meta name="twitter:site" content="@kropp" />
   <meta name="og:title" content="{{ .Title }}" />
   <meta name="og:description" content="{{ .Description }}" />

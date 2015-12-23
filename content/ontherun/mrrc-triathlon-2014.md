@@ -4,6 +4,7 @@ date: "2014-05-11T11:44:00+02:00"
 description: "Есть такая шутка про триатлонистов: все лажают в одном виде спорта, а они сразу в трёх."
 image: https://farm1.staticflickr.com/263/19697611915_97fcc1a9cf_c.jpg
 tags:
+    - sprint-triathlon
     - triathlon
     - mrrc-triathlon
     - munich
