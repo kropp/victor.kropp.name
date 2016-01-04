@@ -18,7 +18,8 @@ body {
 }
 
 .container iframe {
-  margin: 2em auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -303,10 +304,6 @@ article time {
 
 article h5 {
   margin-bottom: .5em;
-}
-
-.share-buttons {
-  margin-top: 2em;
 }
 
 .fotorama__caption {
