@@ -76,3 +76,4 @@ tags:
 
 Итоговое время: 3:39:46, но я точно знаю, что могу быстрее. Следующая попытка осенью.
 
+<a href="/ontherun/img/2015/marp15-victor-kropp.pdf"><img src="/ontherun/img/2015/marp15-victor-kropp.jpg" width="596" height="420" /></a>
