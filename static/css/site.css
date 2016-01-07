@@ -18,12 +18,13 @@ body {
 }
 
 .container iframe {
+  display: block;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: "LatoWeb", Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
 p {
