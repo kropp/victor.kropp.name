@@ -1,7 +1,7 @@
 ---
 title: Полужелезный!
 date: 2015-08-26T14:13:32+01:00
-description: Challenge Walchsee-Kaiserwinkl. Мой первый полужелезный триатлон в пекрасном альпийском регионе.
+description: Challenge Walchsee-Kaiserwinkl. Мой первый полужелезный триатлон в прекрасном альпийском регионе.
 twitter_card: summary_large_image
 image: https://farm6.staticflickr.com/5795/21172174384_45c8b72721_c.jpg
 tags:
