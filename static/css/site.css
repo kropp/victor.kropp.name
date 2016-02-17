@@ -36,7 +36,7 @@ em {
 }
 
 strong {
-  font-style: bold;
+  font-weight: bold;
 }
 
 footer {
@@ -52,16 +52,9 @@ footer {
   left: 10px
 }
 
-.navbar-fixed-top {
-  background-color: rgba(248,248,248,0.6);
-}
-
-.navbar-nav > .active > a {
-  background-color: rgba(213,213,213,0.6) !important;
-}
-
-.navbar-nav > li > a:hover {
-  background-color: rgba(255,255,255,0.2) !important;
+.navbar {
+    background: none;
+    border: 0;
 }
 
 .navbar-nav > li.lang {
@@ -73,46 +66,32 @@ footer {
   opacity: 0;
 }
 
-.sidebar-brand {
-  font-size: 30px;
-  margin-bottom: .5em;
+.navbar-brand {
+  font-size: 1.5em;
+  padding-left: 0;
 }
 
-.sidebar-fixed {
-  position: fixed !important;
-  top: 27px;
-  left: 40px;
+.navbar .active a {
+  background: none !important;
 }
 
-.sidebar .nav a {
-  padding: 3px;
-}
-
-.sidebar .nav a:hover {
-  background: none;
-}
-
-.sidebar .nav li a {
-  display: inline;
-}
-
-.sidebar .nav li span.count {
+.navbar .nav li span.count {
   color: gray;
   font-size: 0.65em;
   vertical-align: super;
 }
 
-.sidebar .nav li.active>a {
+.navbar .nav li.active>a {
   font-weight: bold;
 }
 
-.sidebar .nav-outer li ul.nav-inner {
+.navbar .nav-outer li ul.nav-inner {
   display: none;
   margin-left: 1em;
 }
 
-.sidebar .nav-outer li.active>ul.nav-inner,
-.sidebar .nav-outer li ul.nav-inner.open {
+.navbar .nav-outer li.active>ul.nav-inner,
+.navbar .nav-outer li ul.nav-inner.open {
   display: block;
 }
 
@@ -146,47 +125,6 @@ section.content{
 /* listing */
 
 .listing{
-}
-
-.blog_excerpt img,
-.listing img{
-    width: 120px;
-    height: 120px;
-}
-
-.listing li{
-    list-style-type: none;
-    float: left;
-    width: 272px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    padding: 12px;
-    -moz-box-shadow: 0px 4px 12px #ccc; /* FF3.5+ */
-    -webkit-box-shadow: 0px 4px 12px #ccc; /* Saf3.0+, Chrome */
-          box-shadow: 0px 4px 12px #ccc; /* Opera 10.5, IE 9.0 */
-              filter:  progid:DXImageTransform.Microsoft.dropshadow(OffX=12px, OffY=12px, Color='#ccc'); /* IE6,IE7 */
-          -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=12px, OffY=12px, Color='#ccc')"; /* IE8 */
-
-}
-
-.listing li:nth-child(2){
-    margin-right: 0;
-}
-
-.listing li:nth-child(3){
-    clear: left;
-}
-
-.listing li p{
-    margin-bottom: 12px;
-}
-
-
-.listing h3{
-font-weight: bold;
-    font-size: 1em;
-    line-height: 18px;
-    margin-bottom: 6px;
 }
 
 .list time{
@@ -308,7 +246,7 @@ article h5 {
 }
 
 .fotorama__caption {
-  font-family: "LatoWeb", Arial, Helvetica, sans-serif !important;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif !important;
   background-color: rgba(255, 255, 255, 0.5) !important;
   padding: 4px !important;
 }

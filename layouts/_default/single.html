@@ -11,10 +11,8 @@
 <body>
 {{ end }}
 <div class="container">
-<div class="col-lg-3">
+<div class="col-lg-12">
 {{ partial "navbar" $ }}
-</div>
-<div class="col-lg-9">
 <article>
 {{ if not .Date.IsZero }}
 <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>

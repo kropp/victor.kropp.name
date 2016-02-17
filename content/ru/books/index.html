@@ -127,7 +127,7 @@ title: Книги
   }
 
   d3.json("books.json", function(data) {
-    $("#menu-books").append("<ul class='nav nav-stacked nav-inner open' id='nav-years'></ul>");
+    //$("#menu-books").append("<ul class='nav nav-stacked nav-inner open' id='nav-years'></ul>");
 
     allBooks = data.books;
     allBooks.forEach(function(d) { d.date = new Date(d.date); d.hidden = false; });
