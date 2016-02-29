@@ -1,6 +1,6 @@
     <nav class="navbar navbar-default">
         <div class="navbar-header">
-{{ if or (eq .Section "ru") (eq .Title "Ontheruns") }}
+{{ if or (or (eq .Section "ru") (eq .Section "ontherun")) (eq .Title "Ontheruns") }}
       <div class="navbar-brand"><a href="/">Виктор Кропп</a></div>
       <ul class="nav navbar-nav nav-outer">
       {{ $currentNode := . }}
