@@ -5,6 +5,9 @@ description: Тренировочная неделя в Тоскане с три
 tags:
     - training
     - ironman-2016
+    - mrrc
+    - cecina
+    - italy
 ---
 
 Краткий дневник моего первого тренировочного сбора с триатлонным клубом MRRC München.
