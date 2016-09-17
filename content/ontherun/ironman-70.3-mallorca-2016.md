@@ -2,6 +2,7 @@
 date: 2016-05-09T19:44:55+02:00
 description: Половинка Айронмена под проливным дождём
 image: https://farm8.staticflickr.com/7632/27105940850_8f1a3ff675_h.jpg
+twitter_card: summary_large_image
 tags:
     - training
     - ironman-2016

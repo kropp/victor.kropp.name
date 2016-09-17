@@ -2,6 +2,7 @@
 date: 2016-05-06T23:07:32+02:00
 description: Тренировочная неделя в велосипедном раю
 image: https://farm9.staticflickr.com/8604/28719722325_2661809fd2_h.jpg
+twitter_card: summary_large_image
 tags:
     - training
     - ironman-2016
