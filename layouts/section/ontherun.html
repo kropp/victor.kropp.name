@@ -1,7 +1,5 @@
 {{ partial "head" $ }}
 <body>
-  <div class="container">
-  <div class="col-lg-12">
 {{ partial "navbar" $ }}
     <h2>На бегу</h2>
 {{ range .Data.Pages.GroupByDate "2006" }}
@@ -12,6 +10,4 @@
 {{ end }}
     </ul>
 {{ end }}
-  </div>
-  </div>
 {{ partial "footer" $ }}

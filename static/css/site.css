@@ -4,9 +4,17 @@ ul { list-style: none; }
 body {
   font-size: 16px;
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
   margin: 0 auto;
-  padding: 0 20px !important;
   max-width: 1000px;
+}
+
+p, ul,
+h1, h2, h3, h4, h5, h6,
+article time,
+#disqus_thread,
+.navbar, .navbar-brand {
+  padding: 0 20px !important;
 }
 
 a {
@@ -23,30 +31,22 @@ a:hover {
   transition: 0s ease;
 }
 
-.navbar {
-  margin-top: 1em;
+.navbar-brand {
+  display: block;
+  margin: 1em 0;
+}
+
+.navbar a {
+  margin-right: 1.5em;
+  color: #777;
+}
+
+.navbar a:hover {
+  color: #333;
 }
 
 .navbar-brand {
   font-size: 20px;
-}
-
-.navbar-brand,
-ul.nav,
-ul.nav li {
-  display: inline-block;
-}
-
-ul.nav li {
-  margin-left: 1.5em;
-}
-
-ul.nav li a {
-  color: #777;
-}
-
-ul.nav li a:hover {
-  color: #333;
 }
 
 h2 {
@@ -97,12 +97,6 @@ iframe {
   margin-right: auto !important;
 }
 
-@media (max-width: 960px) {
-  iframe {
-    background: #fff url('/portrait.jpg') no-repeat 90% 50px;
-  }
-}
-
 li time {
   color: #999;
   font-size: 13px;
@@ -116,12 +110,26 @@ article time {
   font-style: italic;
 }
 
+.likely {
+  padding: 20px !important;
+}
+
 .likely__widget {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif !important;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1500px) {
   #homepage {
     background: #fff url('/portrait.jpg') no-repeat 90% 50px;
+  }
+  .navbar-brand, .navbar {
+    display: inline-block;
+    margin-right: 1.5em;
   }
 }
