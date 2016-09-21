@@ -19,13 +19,21 @@
 <div class="content">
 {{ .Content }}
 
-
+{{ if eq .Section "ontherun" }}
 <div class="likely">
   <div class="twitter" data-via="kropp">Твитнуть</div>
   <div class="facebook">Поделиться</div>
   <div class="gplus">Плюсануть</div>
   <div class="vkontakte">Поделиться</div>
 </div>
+{{ else }}
+<div class="likely">
+  <div class="twitter" data-via="kropp">Tweet</div>
+  <div class="facebook">Share</div>
+  <div class="gplus">Plus</div>
+</div>
+{{ end }}
+{{ if ne .Section "ru" }}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'kropp';
@@ -36,5 +44,6 @@
     })();
 </script>
 </div>
+{{ end }}
 </article>
 {{ partial "footer" $ }}

@@ -1,15 +1,27 @@
 {{ if or (or (eq .Section "ru") (eq .Section "ontherun")) (eq .Title "Ontheruns") }}
+    <div class="lang">
+      <a title="in english" href="/">en</a>
+      <strong title="по русски" href="/ru/">ru</strong>
+    </div>
     <a class="navbar-brand" href="/">Виктор Кропп</a>
     <div class="navbar">
       {{ $currentNode := . }}
       {{ range index .Site.Menus "ru" }}
       <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
       {{ end }}
-      <a class="lang" title="in english" href="/">en</a>
     </div>
 {{ else }}
+    <div class="lang">
+      <strong title="in english" href="/">en</strong>
+      <a title="по русски" href="/ru/">ru</a>
+    </div>
     <a class="navbar-brand" href="/">Victor Kropp</a>
     <div class="navbar">
-      <a class="lang" title="по русски" href="/ru/">ru</a>
+      {{ $currentNode := . }}
+      {{ if .Site.Menus }}
+      {{ range index .Site.Menus "en" }}
+      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+      {{ end }}
+      {{ end }}
     </div>
 {{ end }}

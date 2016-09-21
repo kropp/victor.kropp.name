@@ -5,6 +5,7 @@ body {
   font-size: 16px;
   font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  padding-top: 20px;
   margin: 0 auto;
   max-width: 1000px;
 }
@@ -13,6 +14,7 @@ p, ul,
 h1, h2, h3, h4, h5, h6,
 article time,
 #disqus_thread,
+footer,
 .navbar, .navbar-brand {
   padding: 0 20px !important;
 }
@@ -33,10 +35,13 @@ a:hover {
 
 .navbar-brand {
   display: block;
-  margin: 1em 0;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0.5em;
 }
 
 .navbar a {
+  line-height: 30px;
   margin-right: 1.5em;
   color: #777;
 }
@@ -45,8 +50,11 @@ a:hover {
   color: #333;
 }
 
-.navbar-brand {
-  font-size: 20px;
+.lang {
+  float: right;
+  line-height: 30px;
+  padding-right: 20px;
+  color: #777;
 }
 
 h2 {
@@ -64,17 +72,17 @@ h3 {
 h4 {
   font-size: 20px;
   font-weight: 400;
-  margin: .5em 0;
+  margin: 1.2em 0 0;
 }
 
 h5 {
   font-size: 16px;
   font-weight: 700;
-  margin: 1em 0 .5em;
+  margin: 1em 0 0;
 }
 
-p {
-  margin-top: 0.5em;
+p, pre {
+  margin-top: 1em;
 }
 
 p img {
@@ -110,6 +118,14 @@ article time {
   font-style: italic;
 }
 
+code.shell {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  background-color: #000;
+}
+
 .likely {
   padding: 20px !important;
 }
@@ -118,18 +134,32 @@ article time {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif !important;
 }
 
+footer {
+  color: #777;
+  font-size: 13px;
+  margin: .5em auto 0;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .navbar {
     width: 100%;
   }
+  pre code {
+    display: block;
+    padding: 5px 20px !important;
+  }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   #homepage {
     background: #fff url('/portrait.jpg') no-repeat 90% 50px;
   }
   .navbar-brand, .navbar {
     display: inline-block;
-    margin-right: 1.5em;
+  }
+  
+  pre, iframe, .fotorama {
+    padding: 0 20px !important;
   }
 }
