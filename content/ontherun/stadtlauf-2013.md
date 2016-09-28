@@ -15,8 +15,8 @@ tags:
 
 Не смотря на ранний час и хмурую погоду вдоль трассы собралось много зрителей, которые поддерживали всех без исключения участников. Было очень приятно, особенно увидеть за пару километров до финиша любимую жену. Это придало сил на завершающем отрезке!
 
-<a href="https://farm1.staticflickr.com/390/19701331971_0f05d2f3a5_k.jpg"><img src="https://farm1.staticflickr.com/390/19701331971_e4dbf809ee_c.jpg" /></a>
+<figure><a href="https://farm1.staticflickr.com/390/19701331971_0f05d2f3a5_k.jpg"><img src="https://farm1.staticflickr.com/390/19701331971_e4dbf809ee_c.jpg" /></a></figure>
 
 И так, первый рубеж покорен. Впереди — Мюнхенский марафон 13 октября. Подготовка уже началась!
 
-<a href="https://farm1.staticflickr.com/454/19508755288_0e4f7f8def_o.jpg"><img src="https://farm1.staticflickr.com/454/19508755288_8a23259910_c.jpg" /></a>
+<figure><a href="https://farm1.staticflickr.com/454/19508755288_0e4f7f8def_o.jpg"><img src="https://farm1.staticflickr.com/454/19508755288_8a23259910_c.jpg" /></a></figure>

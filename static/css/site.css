@@ -1,5 +1,5 @@
 *{box-sizing:border-box;padding:0;margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;text-size-adjust:none}
-ul { list-style: none; }
+ul.list-unstyled { list-style: none; }
 
 body {
   font-size: 16px;
@@ -10,9 +10,9 @@ body {
   max-width: 1000px;
 }
 
-p, ul,
+p, ul, ol,
 h1, h2, h3, h4, h5, h6,
-article time,
+.metadata,
 #disqus_thread,
 footer,
 .navbar, .navbar-brand {
@@ -85,7 +85,7 @@ p, pre {
   margin-top: 1em;
 }
 
-p img {
+figure img {
   display: block;
   margin: 2em auto;
 }
@@ -110,12 +110,26 @@ li time {
   font-size: 13px;
 }
 
-article time {
-  float: right;
+ol li, ul li {
+  margin: 1em;
+}
+ul.list-unstyled li {
+  margin: 0;
+}
+
+.metadata {
+  margin-top: 1em;
   font-size: 14px;
   color: #999;
-  text-align: right;
-  font-style: italic;
+}
+
+.metadata a {
+  color: #777;
+  margin-left: .5em;
+}
+
+.metadata a:hover {
+  color: #333;
 }
 
 code.shell {
@@ -124,6 +138,20 @@ code.shell {
   padding: 5px;
   color: #fff;
   background-color: #000;
+}
+
+.author h5 {
+  font-size: 18px;
+  margin: 1.5em 0 0.2em;
+}
+
+.book h6 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.book p {
+  margin: 0 0 0.5em;
 }
 
 .likely {
@@ -141,6 +169,11 @@ footer {
   text-align: center;
 }
 
+iframe {
+  border: 0;
+  margin: 1em;
+}
+
 @media (max-width: 800px) {
   .navbar {
     width: 100%;
@@ -148,6 +181,11 @@ footer {
   pre code {
     display: block;
     padding: 5px 20px !important;
+  }
+  figure img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -161,5 +199,8 @@ footer {
   
   pre, iframe, .fotorama {
     padding: 0 20px !important;
+  }
+  iframe.instagram-media {
+    padding: 0 !important;
   }
 }

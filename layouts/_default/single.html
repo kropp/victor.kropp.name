@@ -12,18 +12,29 @@
 {{ end }}
 {{ partial "navbar" $ }}
 <article>
-{{ if not .Date.IsZero }}
-<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>
-{{ end }}
+{{ if not .Params.id }}
 <h2>{{ .Title }}</h2>
+{{ end }}
 <div class="content">
 {{ .Content }}
+
+<div class="metadata">
+{{ if not .Date.IsZero }}
+{{ if eq .Section "ontherun" }}
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>
+{{ else }}
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+{{ end }}
+{{ end }}
+{{ range .Params.tags }}
+  <a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a>
+{{ end }}
+</div>
 
 {{ if eq .Section "ontherun" }}
 <div class="likely">
   <div class="twitter" data-via="kropp">Твитнуть</div>
   <div class="facebook">Поделиться</div>
-  <div class="gplus">Плюсануть</div>
   <div class="vkontakte">Поделиться</div>
 </div>
 {{ else }}

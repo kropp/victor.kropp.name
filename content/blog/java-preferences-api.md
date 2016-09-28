@@ -56,7 +56,7 @@ Ouch.
 
 Registry keys are nested too, but Windows JRE developers have removed unnecessary slashes. Right before they would apply some fancy encoding to both keys and values.
 
-<img src="/blog/img/2016/java-preferences-registry.png" width="695" height="160" alt="" />
+<figure><img src="/blog/img/2016/java-preferences-registry.png" width="695" height="160" alt="" /></figure>
 
 [Comment in Javadoc](http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/windows/classes/java/util/prefs/WindowsPreferences.java#l1030) explains why do they did this.
 

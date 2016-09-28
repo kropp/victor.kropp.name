@@ -35,7 +35,7 @@ tags:
 
 Велоэтап в этом году проложили совсем по новому. Изюминкой стал круг по олимпийскому стадиону.
 
-<a href="https://farm1.staticflickr.com/642/23618607240_75e6a34756_k.jpg"><img src="https://farm1.staticflickr.com/642/23618607240_3eff065cdf_c.jpg" /></a>
+<figure><a href="https://farm1.staticflickr.com/642/23618607240_75e6a34756_k.jpg"><img src="https://farm1.staticflickr.com/642/23618607240_3eff065cdf_c.jpg" /></a></figure>
 
 В остальном же велоэтап получился лучше, чем в прошлый раз, но пара неприятных мест (с проездом по брусчатке в повороте, например) была.
 
@@ -48,10 +48,10 @@ tags:
 
 Беговой этап оказался с сюрпризом: с одной стороны короче на полкилометра, с другой — с неожиданным набором высоты при пробежке по верхнему ярусу всё того же олимпийского стадиона.
 
-<a href="https://farm6.staticflickr.com/5729/23831797441_8245e4b3d4_k.jpg"><img src="https://farm6.staticflickr.com/5729/23831797441_976ccc3785_c.jpg" /></a>
+<figure><a href="https://farm6.staticflickr.com/5729/23831797441_8245e4b3d4_k.jpg"><img src="https://farm6.staticflickr.com/5729/23831797441_976ccc3785_c.jpg" /></a></figure>
 
 Результат оставил неоднозначное впечатление, хоть я и улучшил время/скорость прохождения всех этапов вместе и по отдельности, в реальных цифрах и процентах от времени победителя, всё же ожидал большего. Но ещё я понял, что спринт-дистанции не для меня, мне больше нравится раскладывать силы на долгие часы гонки.
 
-<a href="/ontherun/img/2015/stadt-triathlon-2015-urkunde.pdf"><img src="/ontherun/img/2015/stadt-triathlon-2015-urkunde.jpg" width="413"></a>
+<figure><a href="/ontherun/img/2015/stadt-triathlon-2015-urkunde.pdf"><img src="/ontherun/img/2015/stadt-triathlon-2015-urkunde.jpg" width="413"></a></figure>
 
 В следующем году пойду волонтёром.

@@ -1,0 +1,8 @@
+{{ partial "header" $ }}
+<h2>{{ .Title }}</h2>
+<ul class="list-unstyled">
+{{ range $index, $page := .Paginator.Pages }}
+  <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+{{ end }}
+</li>
+{{ partial "footer" $ }}
