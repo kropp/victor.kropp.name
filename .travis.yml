@@ -1,0 +1,7 @@
+language: go
+install: go get -v github.com/spf13/hugo
+script:
+  - hugo
+notifications:
+    email:
+        on_failure: always
