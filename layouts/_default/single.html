@@ -3,7 +3,7 @@
   <meta name="twitter:site" content="@kropp" />
   <meta name="og:title" content="{{ .Title }}" />
   <meta name="og:description" content="{{ .Description }}" />
-{{ if .Params.image }}  <meta name="og:image" content="{{ .Params.image }}" />{{ else }}{{ if eq .Section "ontherun" }}  <meta name="og:image" content="/ontherun/twitter.jpg" />{{ end }}{{ end }}
+{{ if .Params.image }}  <meta name="og:image" content="https://victor.kropp.name{{ .Params.image }}" />{{ else }}{{ if eq .Section "ontherun" }}  <meta name="og:image" content="https://victor.kropp.name/ontherun/twitter.jpg" />{{  else }}  <meta name="og:image" content="https://victor.kropp.name/twitter.jpg" />{{ end }}{{ end }}
 </head>
 {{ if .Params.id }}
 <body id="{{ .Params.id }}">
@@ -31,30 +31,6 @@
 {{ end }}
 </div>
 
-{{ if eq .Section "ontherun" }}
-<div class="likely">
-  <div class="twitter" data-via="kropp">Твитнуть</div>
-  <div class="facebook">Поделиться</div>
-  <div class="vkontakte">Поделиться</div>
-</div>
-{{ else }}
-<div class="likely">
-  <div class="twitter" data-via="kropp">Tweet</div>
-  <div class="facebook">Share</div>
-  <div class="gplus">Plus</div>
-</div>
-{{ end }}
-{{ if ne .Section "ru" }}
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'kropp';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-</div>
-{{ end }}
+{{ partial "social" $ }}
 </article>
 {{ partial "footer" $ }}

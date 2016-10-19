@@ -1,8 +1,7 @@
 ---
 title: Java Preferences API
-date: "2016-09-19T11:44:00+02:00"
+date: "2016-09-28T22:05:00+02:00"
 description: Some enexpected findings in Java Preferences API
-draft: true
 tags:
     - java
     - cross-platform
