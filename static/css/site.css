@@ -117,6 +117,15 @@ ul.list-unstyled li {
   margin: 0;
 }
 
+blockquote {
+  margin-left: 20px;
+  border-left: 0.5em solid #ccc;
+}
+
+hr {
+  visibility: hidden;
+}
+
 .metadata {
   margin-top: 1em;
   font-size: 14px;

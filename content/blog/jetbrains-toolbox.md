@@ -1,6 +1,6 @@
 ---
 title: JetBrains Toolbox App 1.0
-date: "2016-10-10T21:53:00+02:00"
+date: "2016-10-19T21:43:00+02:00"
 twitter_card: summary_large_image
 description: From Hackathon project to public release in one and a half years.
 image: /blog/img/2016/toolbox-app.png

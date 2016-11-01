@@ -101,11 +101,16 @@ title: Книги
 
     var entry = books.enter().append("div");
     entry.attr("class", "book");
-    entry.append("h6").text(function(d) { return d.title + " "; }).append("i").attr("class", function(d) { 
+    var title = entry.append("h6");
+    title.filter(function(d) { return d.href !== undefined; }).append("a").attr("href", function(d) { return d.href; }).text(function(d) { return d.title; });
+    title.filter(function(d) { return d.href === undefined; }).text(function(d) { return d.title; });
+
+    title.append("span").text("\u00a0").append("i").attr("class", function(d) { 
       if (!d.lang || d.lang == "ru") return "";
       if (d.lang == "en") return "flag flag-gb";
       return "flag flag-de";
     });
+
     entry.append("p").text(function(d) { return d.notes; });
   }
 
