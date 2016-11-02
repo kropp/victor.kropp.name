@@ -117,6 +117,15 @@ ul.list-unstyled li {
   margin: 0;
 }
 
+ul.inline {
+  list-style: none;
+  margin-top: 1em;
+}
+ul.inline li {
+  display: inline;
+  margin: 0 0.5em 0 0;
+}
+
 blockquote {
   margin-left: 20px;
   border-left: 0.5em solid #ccc;

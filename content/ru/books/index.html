@@ -1,22 +1,20 @@
 ---
 title: Книги
 ---
-<p>Здесь я записываю те книги, которые прочитал. Записи я веду скорее для себя, но если они ещё кому-нибудь пригодятся — буду рад.</p>
+<p>Здесь я записываю те книги, которые прочитал. Записи я веду скорее для себя, но если они ещё кому-нибудь пригодятся — буду рад. Из многих я выписываю интересные отрывки и цитаты, которые можно почитать по ссылкам на отдельных страницах книг.</p>
 
 <div id="bookslist">
-  <ul class="pagination list-unstyled">
+  <ul class="inline">
     <li id="all" class="active"><a href="#" onclick="filter(null);" title="все">все</a></li>
     <li id="en"><a href="#" onclick="filter('en');" title="по-английски"><i class="flag flag-gb"></i></a></li>
     <li id="ru"><a href="#" onclick="filter('ru');" title="по-русски"><i class="flag flag-ru"></i></a></li>
     <li id="de"><a href="#" onclick="filter('de');" title="по-немецки"><i class="flag flag-de"></i></a></li>
   </ul>
+
 </div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
 <style>
-#bookslist ul.pagination {
-  margin-bottom: 0px;
-}
 .book,
 .author h5,
 .book h6 {
