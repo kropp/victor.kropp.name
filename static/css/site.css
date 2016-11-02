@@ -122,10 +122,6 @@ blockquote {
   border-left: 0.5em solid #ccc;
 }
 
-hr {
-  visibility: hidden;
-}
-
 .metadata {
   margin-top: 1em;
   font-size: 14px;
