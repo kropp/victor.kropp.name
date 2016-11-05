@@ -1,31 +1,46 @@
 ---
-baseurl: http://victor.kropp.name/
+baseurl: https://victor.kropp.name/
 title: Victor Kropp
 MetaDataFormat: yaml
-menu:
+DefaultContentLanguage: en
+languages:
   en:
-    - name: blog
-      title: blog
-      identifier: blog
-      weight: 10
-      url: /blog/
-    - name: talks
-      title: talks
-      identifier: talks
-      weight: 20
-      url: /talks/
+    title: en
+    weight: 1
+    LanguageName: in english
+    title: Victor Kropp
+    copyright: Unless otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> license.
+    menu:
+      main:
+        - name: blog
+          title: blog
+          identifier: blog
+          weight: 10
+          url: /blog/
+        - name: talks
+          title: talks
+          identifier: talks
+          weight: 20
+          url: /talks/
   ru:
-    - name: на бегу
-      title: на бегу
-      identifier: ontherun
-      weight: 10
-      url: /ontherun/
-    - name: книги
-      identifier: books
-      weight: 20
-      url: /ru/books/
-    - name: путешествия
-      identifier: travel
-      weight: 30
-      url: /ru/travel/
----
+    title: ru
+    weight: 2
+    LanguageName: по-русски
+    title: Виктор Кропп
+    copyright: Если не указано иного, всё содержимое сайта доступно под лицензией <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>.
+    menu:
+      main:
+        - name: на бегу
+          title: на бегу
+          identifier: ontherun
+          weight: 10
+          url: /ontherun/
+        - name: книги
+          identifier: books
+          weight: 20
+          url: /ru/books/
+        - name: путешествия
+          identifier: travel
+          weight: 30
+          url: /ru/travel/
+---     
