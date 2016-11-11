@@ -2,8 +2,11 @@
 title: Dell XPS 15
 date: "2016-11-06T17:59:00+02:00"
 description: The best currently available laptop for a developer.
+twitter_card: summary_large_image
 image: /blog/img/2016/dell-xps-15-ubuntu.jpg
 tags:
+    - laptop
+    - dell
     - linux
 ---
 
