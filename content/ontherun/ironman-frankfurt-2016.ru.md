@@ -1,6 +1,6 @@
 ---
 date: 2016-07-03T19:11:00+02:00
-description: Отчёт о покорении первой «железной» дистанция
+description: Отчёт о покорении первой «железной» дистанции
 image: https://farm8.staticflickr.com/7139/27854192730_b54e5d5240_o.jpg
 twitter_card: summary_large_image
 tags:
