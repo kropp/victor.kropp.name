@@ -1,5 +1,5 @@
 ---
-date: 2016-11-21T17:49:05+01:00
+date: 2016-11-23T15:08:49+01:00
 description: Great conference for developers in Vilnius, Lithuania
 image: /blog/img/2016/buildstuff.jpg
 tags:
