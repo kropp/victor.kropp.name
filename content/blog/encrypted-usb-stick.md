@@ -1,5 +1,5 @@
 ---
-date: 2016-12-12T09:49:05+01:00
+date: 2016-12-12T14:54:10+01:00
 description: Creating encrypted & bootable USB stick
 tags:
   - linux
