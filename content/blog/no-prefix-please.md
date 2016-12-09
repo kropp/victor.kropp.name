@@ -18,12 +18,10 @@ Modern software development practices almost eliminate situations, where the con
     const int x, y;
   public:
     Point(int x, int y) : x(x), y(y) {}
-    int x() { return x; }
-    int y() { return y; }
 };
 </code></pre>
 
-Note also, that you can declare methods with the same as fields. And again there is no confusion!
+~~Note also, that you can declare methods with the same as fields. And again there is no confusion!~~ No, actually, you can't.
 
 [Kotlin](https://kotlinlang.org/) went further and completely eliminated getters and setters and merged them with fields and constructor parameters into a single entity.
 
