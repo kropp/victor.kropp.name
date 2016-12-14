@@ -10,6 +10,13 @@ body {
   max-width: 1000px;
 }
 
+.homepage-photo {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  float: right;
+}
+
 p, ul, ol,
 h1, h2, h3, h4, h5, h6,
 .metadata,
@@ -154,6 +161,15 @@ code.shell {
   background-color: #000;
 }
 
+.inline-logo {
+  height: 1.3em;
+  vertical-align: middle;
+}
+
+.inline-logo-big {
+  height: 2em;
+}
+
 .author h5 {
   font-size: 18px;
   margin: 1.5em 0 0.2em;
@@ -207,9 +223,6 @@ iframe {
 }
 
 @media (min-width: 1200px) {
-  #homepage {
-    background: #fff url('/portrait.jpg') no-repeat 90% 50px;
-  }
   .navbar-brand, .navbar {
     display: inline-block;
   }
