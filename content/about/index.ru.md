@@ -7,7 +7,7 @@ id: homepage
 
 Привет!
 
-Я — Виктор Кропп, программист из Санкт-Петербурга <i class="flag flag-ru"></i>, ныне живу в <img src="/images/muenchen.svg" class="inline-logo" /> Мюнхене <i class="flag flag-de"></i>
+Я — Виктор Кропп, программист из <img src="/images/spb.svg" class="inline-logo" /> Санкт-Петербурга, ныне живу в Мюнхене <i class="flag flag-de"></i>
 
 Работаю в компании <img src="/images/jetbrains.svg" class="inline-logo inline-logo-big" /> <a href="https://jetbrains.com/">JetBrains</a>, где создаю лучшие инструменты для программистов.
 

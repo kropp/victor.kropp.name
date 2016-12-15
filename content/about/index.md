@@ -2,7 +2,7 @@
 
 Hey!
 
-I am Victor Kropp, Software Engineer from <img src="images/muenchen.svg" class="inline-logo" /> Munich, <i class="flag flag-de"></i> Germany.
+I am Victor Kropp, a software engineer in <img src="images/muenchen.svg" class="inline-logo" /> Munich, <i class="flag flag-de"></i> Germany.
 
 I work at <img src="images/jetbrains.svg" class="inline-logo inline-logo-big" /> <a href="https://jetbrains.com/">JetBrains</a> crafting best tools for developers.
 

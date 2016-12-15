@@ -3,6 +3,7 @@ baseurl: https://victor.kropp.name/
 title: Victor Kropp
 MetaDataFormat: yaml
 DefaultContentLanguage: en
+cacheDir: /home/kropp/tmp/hugo_cache/
 languages:
   en:
     title: en
@@ -43,4 +44,10 @@ languages:
           identifier: travel
           weight: 30
           url: /ru/travel/
+  de:
+    title: de
+    weight: 3
+    LanguageName: auf Deutsch
+    title: Victor Kropp
+    copyright: <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">CC BY-NC-SA 4.0</a>.
 ---     
