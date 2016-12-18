@@ -1,0 +1,14 @@
+{
+  "name": "victor.kropp.name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --optimize-minimize && cp dist/index.js static/res/"
+  },
+  "dependencies": {
+    "style-loader": "0.13.0",
+    "css-loader": "0.22.0",
+    "webpack": "1.12.10",
+    "webpack-config-merger": "0.0.3"
+  }
+}

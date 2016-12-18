@@ -1,3 +1,5 @@
 .idea
 *.iml
 public
+dist
+node_modules
