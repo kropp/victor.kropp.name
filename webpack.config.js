@@ -8,7 +8,8 @@ var webpackConfig = {
   },
   module: {
     loaders: [
-      { test: /\.css$/, loader: "style-loader!css-loader" }
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      { test: /\.png$/, loader: "url-loader" }
     ]
   }
 };

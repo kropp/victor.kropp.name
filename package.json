@@ -6,8 +6,13 @@
     "build": "webpack --optimize-minimize && cp dist/index.js static/res/"
   },
   "dependencies": {
+    "jquery": "2.1.4",
+    "fotorama": "4.6.4",
+    "ilyabirman-likely": "2.2",
+
     "style-loader": "0.13.0",
     "css-loader": "0.22.0",
+    "url-loader": "0.5.7",
     "webpack": "1.12.10",
     "webpack-config-merger": "0.0.3"
   }
