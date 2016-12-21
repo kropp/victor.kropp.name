@@ -106,7 +106,7 @@ figure img {
   margin: 0 auto;
 }
 
-iframe {
+iframe, twitterwidget {
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;

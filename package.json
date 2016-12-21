@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack --optimize-minimize && cp dist/index.js static/res/"
+    "build": "webpack --optimize-minimize"
   },
   "dependencies": {
     "jquery": "2.1.4",
     "fotorama": "4.6.4",
     "ilyabirman-likely": "2.2",
+    "highlightjs": "9.8.0",
 
     "style-loader": "0.13.0",
     "css-loader": "0.22.0",

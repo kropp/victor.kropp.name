@@ -7,3 +7,6 @@ require("fotorama/fotorama.css");
 
 require("ilyabirman-likely").initiate();
 require("ilyabirman-likely/release/likely.css");
+
+require("highlightjs").initHighlightingOnLoad();
+require("highlightjs/styles/default.css");

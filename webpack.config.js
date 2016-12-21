@@ -3,7 +3,7 @@ var webpackConfig = {
     index: './assets/index.js'
   },
   output: {
-    path: './dist',
+    path: './static/res',
     filename: '[name].js'
   },
   module: {
