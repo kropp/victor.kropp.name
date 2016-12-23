@@ -18,9 +18,12 @@
 {{ if not .Params.id }}
 <h2>{{ .Title }}</h2>
 {{ end }}
+
 <div class="content">
 {{ .Content }}
+</div>
 
+{{ if ne .Params.id "homepage" }}
 <div class="metadata">
 {{ if not .Date.IsZero }}
 {{ if eq .Section "ontherun" }}
@@ -35,5 +38,6 @@
 </div>
 
 {{ partial "social" $ }}
+{{ end }}
 </article>
 {{ partial "footer" $ }}

@@ -3,6 +3,7 @@ baseurl: https://victor.kropp.name/
 title: Victor Kropp
 MetaDataFormat: yaml
 DefaultContentLanguage: en
+pluralizelisttitles: false
 cacheDir: /home/kropp/tmp/hugo_cache/
 languages:
   en:

@@ -1,3 +1,8 @@
+---
+title: Victor Kropp
+description: Victor Kropp homepage
+id: homepage
+---
 <img src="/photo.jpg" class="homepage-photo" />
 
 Hey!
@@ -23,8 +28,6 @@ PGP key: <a href="FCE4ADBD.asc">4AEF D688 FCE4 ADBD</a> (also on <a href="https:
 Explore more in russian version: my <a href="/ru/ontherun/">sport blog</a>, <a href="/ru/books/">books</a> I read, my <a href="/ru/travel/">trips</a>.
 
 Source code of this site is available on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/victor.kropp.name">GitHub</a>.
-
-Thanks <a href="https://500px.com/olga_dyka">Olga Dyka</a> for the photo.</p>
 
 <div class="likely">
   <div class="twitter" data-via="kropp">Tweet</div>
