@@ -92,7 +92,7 @@ h5 {
   margin: 1em 0 0;
 }
 
-p, pre {
+ul, ol, p, pre {
   margin-top: 1em;
 }
 
@@ -126,7 +126,7 @@ li time {
 }
 
 ol li, ul li {
-  margin: 1em;
+  margin: 0 1.2em;
 }
 ul.list-unstyled li {
   margin: 0;
