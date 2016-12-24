@@ -1,7 +1,7 @@
 ---
 title: Victor Kropp
 description: Personliche Webseite von Victor Kropp
-id: homepage
+type: index
 ---
 <img src="/photo.jpg" class="homepage-photo" />
 
@@ -22,8 +22,6 @@ Folge mir in der Sozialnetzwerke:
   <li><i class="fa fa-fw fa-vk" style="color: rgb(69,104,142);"></i> <a href="https://vk.com/kropp">Виктор Кропп</a></li>
   <li><i class="fa fa-fw fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/">kropp</a></li>
 </ul>
-
-Danke [Olga Dyka](https://500px.com/olga_dyka) fürs Photo.
 
 <div class="likely">
   <div class="twitter" data-via="kropp">Twittern</div>

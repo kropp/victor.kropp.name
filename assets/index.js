@@ -5,7 +5,8 @@ window.jQuery = require("jquery");
 require("fotorama/fotorama.js");
 require("fotorama/fotorama.css");
 
-require("ilyabirman-likely").initiate();
+var likely = require("ilyabirman-likely");
+window.onload = function() { likely.initiate(); }
 require("ilyabirman-likely/release/likely.css");
 
 require("highlightjs").initHighlightingOnLoad();

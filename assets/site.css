@@ -82,6 +82,10 @@ h4 {
   margin: 1.2em 0 0;
 }
 
+h4>a {
+  color: #000;
+}
+
 h5 {
   font-size: 16px;
   font-weight: 700;
@@ -110,6 +114,10 @@ iframe, twitterwidget {
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+span.minor {
+  color: #999;
 }
 
 li time {

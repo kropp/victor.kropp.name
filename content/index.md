@@ -1,7 +1,7 @@
 ---
 title: Victor Kropp
 description: Victor Kropp homepage
-id: homepage
+type: index
 ---
 <img src="/photo.jpg" class="homepage-photo" />
 
@@ -25,13 +25,6 @@ Follow me on social networks:
 
 PGP key: <a href="FCE4ADBD.asc">4AEF D688 FCE4 ADBD</a> (also on <a href="https://keybase.io/kropp">Keybase</a>)
 
-Explore more in russian version: my <a href="/ru/ontherun/">sport blog</a>, <a href="/ru/books/">books</a> I read, my <a href="/ru/travel/">trips</a>.
+I write in russian about <a href="/ru/ontherun/">triathlon</a>, <a href="/ru/books/">books</a> I read and my <a href="/ru/travel/">trips</a>.
 
 Source code of this site is available on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/victor.kropp.name">GitHub</a>.
-
-<div class="likely">
-  <div class="twitter" data-via="kropp">Tweet</div>
-  <div class="facebook">Share</div>
-  <div class="vkontakte">Share</div>
-  <div class="telegram">Send</div>
-</div>
