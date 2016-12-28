@@ -2,6 +2,14 @@
 <body>
 {{ partial "navbar" $ }}
     <h2>На бегу</h2>
+    <p>Мои ближайшие планы:</p>
+    <table>
+      <tbody>
+{{ range $.Site.Data.events.triathlon.upcoming }}
+        <tr><td>{{ (time .date).Format "2.01.2006" }}</td><td><i class="flag flag-{{ .country }}"></i></td><td><a href="{{ index . "href:ru" }}">{{ .name }}</a></td>{{/* <td>{{ .sport }}</td><td>{{ .distance }}</td><td>{{ .result }}</td> */}}</tr>
+{{ end }}
+      </tbody>
+    </table>
 {{ range .Data.Pages.GroupByDate "2006" }}
     <h3>{{ .Key }}</h3>
     <ul class="list-unstyled">

@@ -1,0 +1,9 @@
+{ "upcoming": [
+  { "date": "2017-09-23T00:00:00+00:00", "sport": "triathlon", "distance": "full", "name": "IRONMAN Italy Emilia Romagna", "country": "it", "href:ru": "http://eu.ironman.com/italy" },
+  { "date": "2017-06-25T00:00:00+00:00", "sport": "triathlon", "distance": "half", "name": "Chiemsee Triathlon", "country": "de", "href:ru": "http://www.wechselszene.com/wettkampfe/chiemsee-triathlon-3" },
+  { "date": "2017-05-07T00:00:00+00:00", "sport": "run", "distance": "30", "name": "Wings for Life World Run", "country": "de", "href:ru": "http://www.wingsforlifeworldrun.com/de/de/" }
+],
+ "events": [
+  { "date": "2015-11-15T00:00:00+00:00", "sport": "run", "distance": "marathon", "name": "İstanbul Maraton", "country": "tr", "result": "3:50:30", "notes": "", "href:ru": "/ru/ontherun/istanbul-marathon-2015" },
+  { "date": "2014-05-11T00:00:00+00:00", "sport": "triathlon", "distance": "sprint", "name": "MRRC Stadt Triathlon München", "country": "de", "result": "1:17:20", "notes": "", "href:ru": "/ru/ontherun/mrrc-triathlon-2014" }
+]}
