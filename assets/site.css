@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6,
 .metadata,
 #disqus_thread,
 footer,
+table,
 .navbar, .navbar-brand {
   padding: 0 20px !important;
 }
@@ -73,7 +74,7 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 400;
-  margin: .5em 0;
+  margin: 1em 0 -0.2em;
 }
 
 h4 {
@@ -96,9 +97,16 @@ ul, ol, p, pre {
   margin-top: 1em;
 }
 
+figure {
+  margin: 2em auto 1em;
+}
+
 figure img {
   display: block;
-  margin: 2em auto;
+}
+
+figure figcaption p {
+  color: #999;
 }
 
 .fotorama {
@@ -144,6 +152,15 @@ ul.inline li {
 blockquote {
   margin-left: 20px;
   border-left: 0.5em solid #ccc;
+}
+
+blockquote .photo {
+  border-radius: 50%;
+  float: right;
+}
+
+td {
+  padding-right: .5em;
 }
 
 .metadata {
@@ -234,8 +251,7 @@ iframe {
   .navbar-brand, .navbar {
     display: inline-block;
   }
-  
-  pre, iframe, .fotorama {
+  figure img, pre, iframe, .fotorama {
     padding: 0 20px !important;
   }
   iframe.instagram-media {
