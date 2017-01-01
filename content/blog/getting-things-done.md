@@ -3,11 +3,11 @@ title: Getting Things Done
 date: "2017-01-26T17:59:00+02:00"
 description: GTD
 twitter_card: summary_large_image
-image: /blog/img/2016/dell-xps-15-ubuntu.jpg
+image: /blog/img/2017/inboxzero.jpg
 draft: yes
 tags:
     - gtd
-    - inbox-zero
+    - inbox zero
 ---
 
 > <img src="/blog/img/2017/MarkTwain.jpg" class="photo" width="120" />
@@ -32,7 +32,7 @@ Here is how empty Google Inbox looks like. It is awesome! It makes you want to c
  * Save
  * Delete/Archive
 
-GETTING THINGS DONE
+### Getting Things Done
 
  * Collect (Capture)
  * Process (Clarify)
@@ -40,7 +40,7 @@ GETTING THINGS DONE
  * Review (Reflect)
  * Do (Engage)
 
-FINDING FLOW
+### Finding flow
 
  * There are clear goals every step of the way
  * There is immediate feedback to one’s actions
@@ -52,11 +52,11 @@ FINDING FLOW
  * The sense of time becomes distorted
  * The activity becomes an end in itself
 
-SUGGESTED READING
+Suggested reading
 
- * David Allen “Getting Things Done”
- * Stephen Covey “7 Habits of Highly Effective People”
- * Mihaly Csikszentmihalyi “Flow”
+ * “Getting Things Done” by *David Allen*
+ * “7 Habits of Highly Effective People” by *Stephen Covey*
+ * “Flow” by *Mihaly Csikszentmihalyi*
 
 > I'm an old man and have known a great many troubles, but most of them never happen.
 >

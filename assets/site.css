@@ -103,6 +103,7 @@ figure {
 
 figure img {
   display: block;
+  margin: 0 auto;
 }
 
 figure figcaption p {
@@ -156,6 +157,7 @@ blockquote {
 
 blockquote .photo {
   border-radius: 50%;
+  margin: 0 0 1em 2em;
   float: right;
 }
 
