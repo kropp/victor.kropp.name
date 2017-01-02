@@ -219,6 +219,20 @@ code.shell {
   font-family: "Noto Sans", Arial, Helvetica, sans-serif !important;
 }
 
+a.button {
+  color: #000;
+  border-radius: 3px;
+  padding: 1px 5px;
+  background: hsla(0,0%,91%,.8);
+}
+a.button:hover {
+  background: rgba(255,102,0,.2);
+  text-decoration: none;
+}
+a.button .fa-rss {
+  color: #ff6600;
+}
+
 footer {
   color: #777;
   font-size: 13px;
