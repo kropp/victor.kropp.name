@@ -7,9 +7,9 @@ type: index
 
 Hey!
 
-I am Victor Kropp, a software engineer in <img src="images/muenchen.svg" class="inline-logo" /> Munich, <i class="flag flag-de"></i> Germany.
+I&nbsp;am Victor Kropp, a&nbsp;software engineer in&nbsp;<img src="images/muenchen.svg" class="inline-logo" />&nbsp;Munich, <i class="flag flag-de"></i>&nbsp;Germany.
 
-I work at <img src="images/jetbrains.svg" class="inline-logo inline-logo-big" /> <a href="https://jetbrains.com/">JetBrains</a> crafting best tools for developers.
+I work at&nbsp;<img src="images/jetbrains.svg" class="inline-logo inline-logo-big" />&nbsp;<a href="https://jetbrains.com/">JetBrains</a> crafting best tools for&nbsp;developers.
 
 I swim, bike and run and travel around the world.
 

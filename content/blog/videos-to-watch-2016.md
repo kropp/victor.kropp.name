@@ -23,12 +23,12 @@ Many big software development conferences publish videos, including [Devoxx](htt
 
 Also try searching YouTube on a topic you're interested in, and you'll find lots of interesting content there. It is also a great opportunity to learn something new: watch some introductory video and decide whether you need to learn that technology or framework deeper.
 
-Speaking of education, you can replace weekly TV series with online courses. Free courses are available on many platforms, including [Coursera](https://www.coursera.org/), [Udacity](https://www.udacity.com/), and [edX](https://www.edx.org/). I recently attended courses about [Machine Learning](https://www.coursera.org/learn/machine-learning) and [Cryptography](https://www.coursera.org/learn/crypto/) there and can definitely recommend these. edX offers many courses in collaboration with leading vendors. For example, there is [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course co-created by Google. And on edX I've seen good language courses.
+Speaking of education, you can replace weekly TV series with online courses. Free courses are available on many platforms, including [Coursera](https://www.coursera.org/), [Udacity](https://www.udacity.com/), and [edX](https://www.edx.org/). I recently attended courses about [Machine Learning](https://www.coursera.org/learn/machine-learning) and [Cryptography](https://www.coursera.org/learn/crypto/) there and can definitely recommend these. Udacity offers many courses in collaboration with leading vendors. For example, there is [Android Basics](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) course co-created by Google. And on edX I've seen good language courses.
 
 There is one more thing I'd like to share:
 
 > #### If you want something you've never had, then you've got to do something you've never done.
 
-I can't agree less. If you do New Year Resolutions take this one.
+I cannot agree more. If you do New Year Resolutions take this one.
 
 Merry Christmas and Happy New Year! See you in 2017.

@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6,
 #disqus_thread,
 footer,
 table,
+.gist,
 .navbar, .navbar-brand {
   padding: 0 20px !important;
 }
@@ -77,6 +78,7 @@ h3 {
   margin: 1em 0 -0.2em;
 }
 
+.gist,
 h4 {
   font-size: 20px;
   font-weight: 400;
@@ -95,6 +97,15 @@ h5 {
 
 ul, ol, p, pre {
   margin-top: 1em;
+}
+
+ul code,
+ol code,
+p code {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  padding: 1px 2px;
+  background: #f0f0f0;
 }
 
 figure {
@@ -182,6 +193,7 @@ td {
 
 code.shell {
   display: block;
+  overflow-x: auto;
   width: 100%;
   padding: 5px;
   color: #fff;
