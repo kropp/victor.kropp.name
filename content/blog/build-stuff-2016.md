@@ -32,9 +32,11 @@ If you are working on performance critical parts of application, you should be a
 
 #### Work on wrong things first *by* Amye Scavarda
 
-This talk was a flop. Reading text on slides is not how one does a good talk.
+This talk was a flop. Reading text on slides is not how one does a good talk. ([Video](https://www.youtube.com/watch?v=-9VflSaXUIo))
 
 #### Lean requirements *by* [Bill Cronin](https://twitter.com/AgileBandit)
+
+{{< youtube dl3jAJgPbgk >}}
 
 Bill showed interesting numbers on failed projects and wasted budgets and provided some examples, like Myspace (which was once a most popular social network in the world) or Kodak, who invented digital photography, but didn't embrace new technology because of fear it destroy their current business.
 There are 3 major reasons projects fail:
@@ -83,6 +85,8 @@ Here are [the materials for Motiejus' talk](https://github.com/Motiejus/buildstu
 
 #### Modern Linux Tracing Landscape *by* [Sasha Goldshtein](https://twitter.com/goldstn)
 
+{{< youtube -09mptUISV0 >}}
+
 During his talk Sasha listed so many usefull commands, tools and extension points, that I need some more time to review them all. Firstly, there are tracepoints (`/sys/kernel/debug/tracing/available_events`) There are also tracepoints in VMs for higher level languages. This is employed by `ftrace` reads events from `debugfs` file, not really suitable for a huge number of events.
 Secondly, there are `kprobes` and `uprobes` for kernel and user code. They are used by `BPF` — emering kernel tracing technology. BCC (BPF Compiler Collection) simplifies using it.
 
@@ -93,6 +97,8 @@ Very useful talk, here are the [slides](https://s.sashag.net/buildstuff1). You f
 Actually, the talk was renamed to "Test Exit Criteria", but I haven't heard exact criteria suggested. And there were also some points I strongly disagree, like "Developers and QA should be in (productive) conflict". However, Yegor has speaking talent and it was interesting to listen to him.
 
 #### Functional C++ *by* [Kevlin Henney](https://twitter.com/KevlinHenney)
+
+{{< youtube CIg6eyJv4dk >}}
 
 I did only few notes during this talk, because it was so interesting and packed, that I almost had no time. Kevlin is an excellent speaker and I definetely recommend to watch this talk when recording is available. Some key takeaways are:
 
