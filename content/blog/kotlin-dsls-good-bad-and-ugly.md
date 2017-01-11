@@ -1,5 +1,5 @@
 ---
-title: "DSLs in Kotlin: The Good, the Bad und the Ugly"
+title: "DSLs in Kotlin: The Good, the Bad and the Ugly"
 date: "2017-01-11T15:10:18+01:00"
 description: 3 examples of DSLs in Kotlin
 twitter_card: summary_large_image
@@ -12,7 +12,7 @@ tags:
 
 [<abbr title="Domain-specific Language">DSLs</abbr>](https://en.wikipedia.org/wiki/Domain-specific_language) are a very hot topic among Kotlin developers. No surprise, language designers take it seriously and are adding [specific features directly into the language](https://github.com/Kotlin/KEEP/blob/master/proposals/scope-control-for-implicit-receivers.md) to improve DSL behavior. In this post, I'd like to share and discuss 3 examples of DSLs written in Kotlin.
 
-{{< figure src="/blog/img/2017/the-good-the-bad-and-the-ugly.jpg" width="1000" caption="The Good, the Bad und the Ugly (1966)" >}}
+{{< figure src="/blog/img/2017/the-good-the-bad-and-the-ugly.jpg" width="1000" caption="The Good, the Bad and the Ugly (1966)" >}}
 
 ### The Good
 
