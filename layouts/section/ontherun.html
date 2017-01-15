@@ -1,6 +1,17 @@
 {{ partial "head" $ }}
 <body>
 {{ partial "navbar" $ }}
+{{ if eq $.Site.Language.Lang "en" }}
+    <h2>On the run</h2>
+    <p>{{ "I :swimmer:&nbsp;:bicyclist:&nbsp;:runner:" | emojify }}</p>
+    <table>
+      <tbody>
+{{ range $.Site.Data.events.triathlon.events }}
+        <tr><td class="run-result">{{ (time .date).Format "2.01.2006" }}</td><td><i class="flag flag-{{ .country }}"></i></td><td>{{ .name }}</td>{{/* <td>{{ .sport }}</td><td>{{ .distance }}</td> */}}<td class="run-result">{{ .result }}</td></tr>
+{{ end }}
+      </tbody>
+    </table>
+{{ else }}
     <h2>На бегу</h2>
     <p>Мои ближайшие планы:</p>
     <table>
@@ -17,5 +28,6 @@
       <li><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>{{ end }}</li>
 {{ end }}
     </ul>
+{{ end }}
 {{ end }}
 {{ partial "footer" $ }}

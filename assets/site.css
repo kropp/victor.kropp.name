@@ -145,6 +145,11 @@ li time {
   font-size: 13px;
 }
 
+td.run-result {
+  color: #999;
+  text-align: right;
+}
+
 ol li, ul li {
   margin: 0 1.2em;
 }

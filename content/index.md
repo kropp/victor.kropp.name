@@ -11,7 +11,7 @@ I&nbsp;am Victor Kropp, a&nbsp;software engineer in&nbsp;<img src="images/muench
 
 I work at&nbsp;<img src="images/jetbrains.svg" class="inline-logo inline-logo-big" />&nbsp;<a href="https://jetbrains.com/">JetBrains</a> crafting best tools for&nbsp;developers.
 
-I swim, bike and run and travel around the world.
+I [swim, bike and run](/ontherun) and travel around the world.
 
 Follow me on social networks:
 
