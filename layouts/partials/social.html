@@ -1,3 +1,4 @@
+{{ if or (not (isset $.Params "social")) $.Params.social }}
 {{ if eq "ru" $.Site.Language.Lang }}
 <div class="likely">
   <div class="twitter" data-via="kropp">Твитнуть</div>
@@ -22,3 +23,4 @@
     })();
 </script>
 </div>
+{{ end }}
