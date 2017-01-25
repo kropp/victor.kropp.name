@@ -2,7 +2,7 @@
 <body>
 {{ partial "navbar" $ }}
     <h2>Blog</h2>
-    <p>My thoughts on programming, computers and technology.</p>
+    <p>My thoughts on programming, computers and technology. Crazy mix of Kotlin, C++, Linux, encryption and other geeky things.</p>
     <p>Subscribe via <a href="https://feeds.feedburner.com/kropp" class="button"><i class="fa fa-rss"></i> RSS</a></p>
 {{ range .Data.Pages.GroupByDate "2006" }}
     <h3>{{ .Key }}</h3>

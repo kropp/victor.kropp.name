@@ -46,7 +46,7 @@ A good solution would be to add an option to enforce the old or the new standard
 
 Here comes the first rule in designing APIs for people: API should reflect the real world, not a specification.
 
-### Explicit is better than implicit.
+### Explicit is better than implicit
 
 Let's continue our journey with `QUrlQuery`. The case of `+` is solved, now it is time to find out what happens if query parameter contains `%` sign. As with many programming questions, the correct answer is: "It depends."
 

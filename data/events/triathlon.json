@@ -15,7 +15,7 @@
   { "date": "2015-06-25T00:00:00+00:00", "sport": "triathlon", "distance": "olympic", "name": "Erdinger Stadt Triathlon", "country": "de", "bib": 443, "result": "2:51:33", "notes": "", "href:ru": "/ru/ontherun/erding-triathlon-2015" },
   { "date": "2015-05-10T00:00:00+00:00", "sport": "triathlon", "distance": "sprint", "name": "MRRC Stadt Triathlon München", "country": "de", "bib": 43, "result": "1:15:03", "notes": "", "href:ru": "/ru/ontherun/mrrc-triathlon-2015" },
   { "date": "2015-05-04T00:00:00+00:00", "sport": "run", "distance": "28", "name": "Wings for Life World Run", "country": "de", "bib": 20191, "result": "2:19:18", "notes": "", "href:ru": "/ru/ontherun/wings-for-life-2015" },
-  { "date": "2015-04-12T00:00:00+00:00", "sport": "run", "distance": "marathon", "name": "Paris Maraton", "country": "fr", "bib": 8292, "result": "3:39:46", "notes": "", "href:ru": "/ru/ontherun/paris-marathon-2015" },
+  { "date": "2015-04-12T00:00:00+00:00", "sport": "run", "distance": "marathon", "name": "Marathon de Paris", "country": "fr", "bib": 8292, "result": "3:39:46", "notes": "", "href:ru": "/ru/ontherun/paris-marathon-2015" },
 
   { "date": "2014-09-28T00:00:00+00:00", "sport": "run", "distance": "marathon", "name": "Berlin Marathon", "country": "de", "bib": 17028, "result": "3:33:04", "notes": "", "href:ru": "/ru/ontherun/berlin-marathon-2014" },
   { "date": "2014-08-23T00:00:00+00:00", "sport": "run", "distance": "half", "name": "Hvar Half Marathon", "country": "hr", "bib": 27, "result": "1:40:25", "notes": "", "href:ru": "/ru/ontherun/hvar-half-marathon-2014" },
