@@ -15,4 +15,4 @@ Developing cross-platform application with rich GUI using QtWebEngine ([slides](
 
 ### Earlier
 
-Miscellaneous talks at UG and at internal company meetings.
+Miscellaneous talks at UG and internal company meetings.
