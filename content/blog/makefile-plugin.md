@@ -1,22 +1,21 @@
 ---
 title: "Makefile support plugin for IntelliJ IDEA"
-date: "2017-01-24T17:12:10+01:00"
+date: "2017-02-06T11:40:50+01:00"
 description: Announcing my first plugin for my favorite IDE
 twitter_card: summary_large_image
-draft: yes
 image: /projects/makefile/makefile-example.png
 tags:
     - intellij
     - plugin
 ---
 
-I'm happy to announce my first ever plugin for IntelliJ IDEA and other IntelliJ platform based IDEs: [Makefile support](/projects/makefile/).
+I'm excited to announce my first ever plugin for IntelliJ IDEA and other IntelliJ platform based IDEs: [Makefile support](/projects/makefile/).
 
 I've been developing it since few months, and now it has reached Beta status and is ready for preview. It can be installed from [official plugin repository](https://plugins.jetbrains.com/idea/plugin/9333-makefile-support); the source code is on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> [GitHub](https://github.com/kropp/intellij-makefile) (where else?)
 
-*Disclaimer: I've been working at JetBrains since many years, but have never contributed to IntelliJ before. This is my pet project, I have developed it following official documentation, investigating source code, googling forums, but I haven't received any direct support from IntelliJ team.*
+*Disclaimer: I've been working at JetBrains since many years, but have never contributed to IntelliJ before. This is my pet project, I have developed it following official documentation, investigating source code, searching forums, but I haven't received any direct support from IntelliJ team.*
 
-My overall impression of the platform and APIs is great. Sometimes it is verbose or unclear, but given the huge experience of IntelliJ developers in supporting hundreds of very different programming languages, I tend to trust that some verbosity is inevitable.
+My overall impression of the platform and APIs is great. Sometimes it is verbose or unclear, but given the huge experience of IntelliJ developers in supporting hundreds of very different programming languages, I trust them that some verbosity is inevitable.
 
 #### The plugin
 
