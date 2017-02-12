@@ -11,7 +11,7 @@ type: index
 
 Работаю в компании <img src="/images/jetbrains.svg" class="inline-logo inline-logo-big" /> <a href="https://jetbrains.com/">JetBrains</a>, где создаю лучшие инструменты для программистов.
 
-<a href="ontherun">Плаваю, езжу на велосипеде, бегаю</a> и <a href="travel">путешествую по миру</a>.
+<a href="ontherun">Плаваю, езжу на велосипеде, бегаю</a>, иногда <a href="books">читаю книги</a> и <a href="travel">путешествую по миру</a>.
 
 Подписывайтесь на меня в социальных сетях:</p>
 

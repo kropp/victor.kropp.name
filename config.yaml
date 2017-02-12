@@ -37,10 +37,10 @@ languages:
           identifier: ontherun
           weight: 10
           url: /ontherun/
-        - name: книги
-          identifier: books
-          weight: 20
-          url: /ru/books/
+#        - name: книги
+#          identifier: books
+#          weight: 20
+#          url: /ru/books/
         - name: путешествия
           identifier: travel
           weight: 30
