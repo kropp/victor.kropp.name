@@ -117,7 +117,8 @@ figure img {
   margin: 0 auto;
 }
 
-figure figcaption p {
+figcaption p,
+figcaption p a {
   color: #999;
 }
 
