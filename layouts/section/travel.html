@@ -1,0 +1,17 @@
+{{ partial "head" $ }}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@kropp" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="Victor Kropp Homepage" />
+  <meta name="twitter:image" content="https://victor.kropp.name/portrait.jpg" />
+</head>
+<body id="homepage">
+{{ partial "navbar" $ }}
+<article>
+
+<div class="content">
+{{ .Content }}
+</div>
+
+</article>
+{{ partial "footer" $ }}
