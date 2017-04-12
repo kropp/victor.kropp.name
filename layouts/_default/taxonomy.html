@@ -1,8 +1,9 @@
 {{ partial "header" $ }}
-<h2>{{ .Title }}</h2>
+<h3 class="tag-{{ .Title | lower }}">{{ .Title }}</h3>
+{{ .Content }}
 <ul class="list-unstyled">
 {{ range $index, $page := .Paginator.Pages }}
-  <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+  <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a> {{ if not $page.Date.IsZero }}<time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $page.Date.Format "Jan, 2" }}</time>{{ end }}</li>
 {{ end }}
-</li>
+</ul>
 {{ partial "footer" $ }}
