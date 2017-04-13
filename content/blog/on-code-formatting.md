@@ -2,6 +2,7 @@
 title: On code formatting
 date: "2017-03-20T19:05:46+01:00"
 description: Avoid terribly formatted code
+draft: false
 image: /blog/img/2017/code-is-art.jpg
 tags:
   - programming

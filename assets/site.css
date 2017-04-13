@@ -102,10 +102,11 @@ ul, ol, p, pre {
 ul code,
 ol code,
 p code {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #e6e6e6;
   border-radius: 2px;
-  padding: 1px 2px;
-  background: #f0f0f0;
+  padding: 0 2px;
+  background: #f6f6f6;
+  font-size: 0.9em;
 }
 
 figure {
