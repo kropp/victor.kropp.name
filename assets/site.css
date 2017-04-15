@@ -256,11 +256,19 @@ a.button {
   background: hsla(0,0%,91%,.8);
 }
 a.button:hover {
-  background: rgba(255,102,0,.2);
   text-decoration: none;
+}
+a.button-rss:hover {
+  background: rgba(255,102,0,.2);
+}
+a.button-telegram:hover {
+  background: rgba(204,234,246,.8);
 }
 a.button .fa-rss {
   color: #ff6600;
+}
+a.button .fa-paper-plane {
+  color: #34abde;
 }
 
 footer {

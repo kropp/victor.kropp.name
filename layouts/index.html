@@ -15,7 +15,7 @@
 {{ if eq $.Site.Language.Lang "en" }}
 <h4>Latest from my <a href="blog/">blog</a></h4>
 <ul class="list-unstyled">
-{{ range first 3 $.Site.Pages }}
+{{ range first 3 (where $.Site.Pages "Section" "blog") }}
 <li><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="minor">{{ .Params.description }}</span></li>
 {{ end }}
 </ul>
