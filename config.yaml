@@ -5,6 +5,7 @@ MetaDataFormat: yaml
 DefaultContentLanguage: en
 pluralizelisttitles: false
 cacheDir: /home/kropp/tmp/hugo_cache/
+rssSummary: false
 languages:
   en:
     title: en
@@ -12,7 +13,6 @@ languages:
     LanguageName: in english
     title: Victor Kropp
     copyright: Unless otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> license. <a href="/disclaimer">Disclaimer</a>
-    rssFull: true
     menu:
       main:
         - name: blog
