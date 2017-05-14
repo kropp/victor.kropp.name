@@ -13,6 +13,9 @@
   <div class="telegram">Send</div>
 </div>
 {{ end }}
+{{ if eq .Section "blog" }}
+<p>Subscribe to all blog posts via <a href="https://feeds.feedburner.com/kropp" class="button button-rss"><i class="fa fa-rss"></i> RSS</a> and join my <a href="https://t.me/devsnap" class="button button-telegram"><i class="fa fa-paper-plane"></i> Telegram</a> channel.</p>
+{{ end }}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'kropp';
