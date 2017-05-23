@@ -20,7 +20,6 @@ body {
 p, ul, ol,
 h1, h2, h3, h4, h5, h6,
 .metadata,
-#disqus_thread,
 footer,
 table,
 .gist,
@@ -266,11 +265,17 @@ a.button:hover {
 a.button-rss:hover {
   background: rgba(255,102,0,.2);
 }
+a.button-twitter:hover {
+  background: rgba(191,237,250,.8);
+}
 a.button-telegram:hover {
   background: rgba(204,234,246,.8);
 }
 a.button .fa-rss {
   color: #ff6600;
+}
+a.button .fa-twitter {
+  color: #00b7ec;
 }
 a.button .fa-paper-plane {
   color: #34abde;
@@ -296,6 +301,7 @@ iframe {
     display: block;
     padding: 5px 20px !important;
   }
+  #disqus_thread,
   .twitter-tweet {
     padding: 0 20px !important;
   }
