@@ -19,6 +19,8 @@ Vitaly is chief editor of well known [Smashing Magazine](https://smashingmagazin
 
 #### Metrics Driven Development *by* [Sam Elamin](https://twitter.com/Samelamin)
 
+{{< youtube re9AE4r27Ng >}}
+
 To understand what your application is doing you need to measure it: on business level (number of requests served, purchases done, etc.) and application level (these are mainly performance timers). Choose core metric — the most important one and don't measure everything. Follow the money to choose what to measure.
 
 There was also an interesting idea to DDOS your own application in order to prove it can handle future load. For example, put the application under constant load of 50% additional fake requests and when your real load increases, you can turn off these fake requests and serve real ones safely.
@@ -26,6 +28,8 @@ There was also an interesting idea to DDOS your own application in order to prov
 ### Day 2
 
 #### How shit works: the CPU *by* [Tomer Gabel](https://twitter.com/tomerg)
+
+{{< youtube rPBjjI60c7w >}}
 
 Tomer talked about basic things every developer should know, even if he/she work with higher level programing languages. 30 year old processor is already very complex, but CPUs didn't change fundamentally since then. He showed that RAM access is slow (like 30× time to access registers).
 If you are working on performance critical parts of application, you should be aware of branch (mis)prediction and develop cache-friendly algorithms. There is one popular technique, **tiling**: split workload into blocks to limit number of hot cache lines.
@@ -67,6 +71,8 @@ He also recommended a book to read on this topic: [Creativity Inc.](https://www.
 
 #### Understanding and building your own Docker *by* [Motiejus Jakštys](https://twitter.com/mo_kelione)
 
+{{< youtube vYZKxVkUMvQ >}}
+
 Motiejus did an awesome talk on building your own Docker in 20 lines of Bash. However, the devil is in the details, so he warned not to use it in production, because there are tons of issues, you should be aware of.
 
 So, basic building blocks are:
@@ -94,7 +100,7 @@ Very useful talk, here are the [slides](https://s.sashag.net/buildstuff1). You f
 
 #### How Do You Know When Your Product is Ready to be Shipped? *by* [Yegor Bugayenko](https://twitter.com/yegor256)
 
-Actually, the talk was renamed to "Test Exit Criteria", but I haven't heard exact criteria suggested. And there were also some points I strongly disagree, like "Developers and QA should be in (productive) conflict". However, Yegor has speaking talent and it was interesting to listen to him.
+Actually, the talk was renamed to "Test Exit Criteria", but I haven't heard exact criteria suggested. And there were also some points I strongly disagree, like "Developers and QA should be in (productive) conflict". However, Yegor has speaking talent and it was interesting to listen to him. ([Video](https://www.youtube.com/watch?v=zhNGxemnCIU))
 
 #### Functional C++ *by* [Kevlin Henney](https://twitter.com/KevlinHenney)
 
