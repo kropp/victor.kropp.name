@@ -94,7 +94,7 @@ h5 {
   margin: 1em 0 0;
 }
 
-ul, ol, p, pre {
+ul, ol, p {
   margin-top: 1em;
 }
 
@@ -182,6 +182,10 @@ blockquote .photo {
 
 td {
   padding-right: .5em;
+}
+
+div.highlight {
+  overflow-x: auto;
 }
 
 .metadata {
@@ -297,9 +301,10 @@ iframe {
   .navbar {
     width: 100%;
   }
-  pre code {
+  div.highlight {
     display: block;
-    padding: 5px 20px !important;
+    margin: 1em 0 !important;
+    padding: 5px 20px;
   }
   #disqus_thread,
   .twitter-tweet {
@@ -316,8 +321,9 @@ iframe {
   .navbar-brand, .navbar {
     display: inline-block;
   }
-  figure img, pre, iframe, .fotorama {
-    padding: 0 20px !important;
+  figure img, div.highlight, iframe, .fotorama {
+    margin: 1em 20px !important;
+    padding: 5px;
   }
   iframe.instagram-media {
     padding: 0 !important;
