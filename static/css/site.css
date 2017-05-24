@@ -321,7 +321,10 @@ iframe {
   .navbar-brand, .navbar {
     display: inline-block;
   }
-  figure img, div.highlight, iframe, .fotorama {
+  figure img, iframe, .fotorama {
+    padding: 0 20px !important;
+  } 
+  div.highlight {
     margin: 1em 20px !important;
     padding: 5px;
   }
