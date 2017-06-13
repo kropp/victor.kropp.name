@@ -26,7 +26,7 @@ USB stick can be partitioned in any utility of choice, like `parted` or [`fdisk`
 
 Creating data partitions is pretty straight-forward. But default Ubuntu Startup Disk Creator (`usb-creator-gtk`) utility can't put live install in a partition and erases the whole disk instead. The solution is to do it manually, it is really easy:
 
-<pre><code class="shell nohighlight"><b>$</b> sudo dd bs=4M if=~/Downloads/ubuntu-16.10-desktop-amd64.iso of=/dev/sdb2 && sync</code></pre>
+<pre class="shell"><code><b>$</b> sudo dd bs=4M if=~/Downloads/ubuntu-16.10-desktop-amd64.iso of=/dev/sdb2 && sync</code></pre>
 
 So far so good, I tested newly prepared USB stick on several computers and OS and it works great. Apart from a small problem with file ownership on encrypted partition: all files will be created there with your UID (to find it out type `id` in terminal). But on a different computer, your UID may be different. This is, for example, the case with Ubuntu Live distribution where default user has UID 999, while on a real Ubuntu installation first user usually has UID 1000. To access files you then need first to change their ownership with `chown username * -R`
 
