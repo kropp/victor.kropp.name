@@ -21,7 +21,7 @@ My overall impression of the platform and APIs is great. Sometimes it is verbose
 
 There are several reasons, why have I developed this plugin. Firstly, I use Makefiles for automation and want to see syntax highlighting in the IDE and be able to run tasks right from there. Secondly, I've never written a plugin for my favorite IDE before and the last time I wrote a parser was somewhat ten years ago at the University. So, I took a chance to make something useful and usable, refresh some skills and to have fun at the same time.
 
-{{< figure src="/projects/makefile/makefile-example.png" width="800" height="360" caption="Syntax highlighting and run actions provided by plugin. Makefile from Hugo static site generator." >}}
+{{< figure src="/projects/makefile/makefile-example.png" width="900" height="540" caption="Syntax highlighting and run actions provided by plugin. Makefile from Hugo static site generator." >}}
 
 So well, what does the plugin do? It supports:
 
