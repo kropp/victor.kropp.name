@@ -3,7 +3,17 @@ title: My public talks
 social: off
 ---
 
-#### Qt Meetup Munich, January 2017
+#### QtCon Brazil 2017, São Paulo
+
+From Hackathon to Production in a Year ([slides](From Hackathon to Production in a Year.pdf))
+
+#### Qt Meetup Munich
+
+##### July 2017
+
+CLion, the C++ IDE from JetBrains
+
+##### January 2017
 
 Developing cross-platform application with rich GUI using QtWebEngine
 
