@@ -3,6 +3,10 @@ title: My public talks
 social: off
 ---
 
+#### Kotlin Meetup São Paulo
+
+Introduction to DSLs in Kotlin ([slides](Introduction to DSLs in Kotlin.pdf))
+
 #### QtCon Brazil 2017, São Paulo
 
 From Hackathon to Production in a Year ([slides](From Hackathon to Production in a Year.pdf))
