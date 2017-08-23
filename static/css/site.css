@@ -251,6 +251,15 @@ pre.shell code {
   margin: 0 0 0.5em;
 }
 
+dl {
+  padding: 20px; 
+}
+
+dt {
+  margin-top: .5em;
+  font-weight: bold;
+}
+
 .likely {
   padding: 20px !important;
 }
