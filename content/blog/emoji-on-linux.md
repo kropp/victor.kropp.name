@@ -5,7 +5,7 @@ image: /blog/img/2017/emoji.png
 tags:
 - emoji
 - linux
-title: Emoji on Linux
+title: 🎉 Emoji on 🐧 Linux
 twitter_card: summary_large_image
 ---
 

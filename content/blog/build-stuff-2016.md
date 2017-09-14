@@ -5,7 +5,7 @@ image: /blog/img/2016/buildstuff.jpg
 tags:
   - programming
   - conference
-  - builfstuff
+  - buildstuff
 title: BuildStuff 2016 Report
 ---
 
