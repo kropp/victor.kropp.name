@@ -3,13 +3,13 @@ title: My public talks
 social: off
 ---
 
-<a href="https://confoo.ca/en/yul2018/call-for-papers/speaker/victor-kropp" lang="en"><img alt="ConFoo | March 7-9, 2018 | Montreal, Canada" style="border:0" width="180" height="130" src="https://confoo.ca/images/propaganda/yul2018/en/vote.png" /></a>
-
-11 CFPs are pending as of September 1st, 2017.
-
 ### Upcoming
 
-**November, 2** I have a preliminary confirmation to speak about Kotlin at [TechFest Cluj](http://cluj.techfest.ro/).
+**November, 2** [**TechFest Cluj**](http://cluj.techfest.ro/)
+
+**November, 6** Zen Habits of using IntelliJ IDEA [**Devoxx**](https://devoxx.be/)
+
+**November, 25** Create your own DSL in Kotlin [**NoSlidesConf**](http://noslidesconf.net/)
 
 ### Past
 
