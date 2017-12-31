@@ -23,12 +23,14 @@ For the second time in my life this summer I became a mentor for an intern in my
 Also, I hope that my advice to those who didn't get to the interview was helpful as well.
 
 <div class="covers-line">
-  <img src="/talks/2017/Zen Habits of using IntelliJ IDEA.png" /><img src="/talks/2017/From Hackathon to Production in a Year.jpg" /><img src="/talks/2017/Create your own DSL in Kotlin.png" /><img src="/talks/2017/Asynchronous programming in Kotlin with coroutines.png" />
+  <img src="/talks/2017/Zen Habits of using IntelliJ IDEA.png" width="250" /><img src="/talks/2017/From Hackathon to Production in a Year.jpg" width="250" /><img src="/talks/2017/Create your own DSL in Kotlin.png" width="250" /><img src="/talks/2017/Asynchronous programming in Kotlin with coroutines.png" width="250" />
 </div>
 
 This year I've visited four conferences and gave there five [talks](/talks) in total. Together with meetups and internal company events, it's more than I've ever done before. I've enjoyed the experience and want to continue presenting at the conferences. It's great to share the knowledge, and I always learn something new when preparing for the talks.
 
 I also continued to write in this blog. This year I focused on <a href="/tags/kotlin" class="tag-kotlin">Kotlin</a>, but I have other topics on my mind to cover next year.
+
+{{< figure src="/blog/img/2017/github.png" width="758" caption="My Github contributions chart says for itself" >}}
 
 Earlier this year I've [announced]({{< ref "makefile-plugin.md" >}}) [Makefile plugin for IntelliJ](/projects/makefile). It has matured and has a good userbase. Other pet projects I started this year are not yet ready to be published. Stay tuned!
 

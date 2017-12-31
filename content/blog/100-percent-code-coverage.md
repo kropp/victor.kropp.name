@@ -19,7 +19,7 @@ Each untested line of code may contain a bug. Only full coverage can provide con
 
 Integration tests may help to increase this important metric because they cover more lines of code at once.
 
-{{< tweet 829850420948455424 >}}
+{{*< tweet 829850420948455424 >*}}
 
 However, they are harder to write, so don't waste your time.
 

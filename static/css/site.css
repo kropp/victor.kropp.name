@@ -17,15 +17,6 @@ body {
   float: right;
 }
 
-p, ul, ol,
-h1, h2, h3, h4, h5, h6,
-.metadata,
-footer,
-table,
-.gist,
-.navbar, .navbar-brand {
-  padding: 0 20px !important;
-}
 
 a {
   color: #337ab7;
@@ -50,7 +41,7 @@ a:hover {
 
 .navbar a {
   line-height: 30px;
-  margin-right: 1.5em;
+  margin-left: 1.5em;
   color: #777;
 }
 
@@ -61,7 +52,6 @@ a:hover {
 .lang {
   float: right;
   line-height: 30px;
-  padding-right: 20px;
   color: #777;
 }
 
@@ -277,7 +267,7 @@ dt {
 }
 
 .likely {
-  padding: 20px !important;
+  padding: 20px 0 !important;
 }
 
 .likely__widget {
@@ -331,9 +321,22 @@ iframe.instagram-media {
   margin-top: 1em !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  p, ul, ol,
+  h1, h2, h3, h4, h5, h6,
+  .metadata,
+  footer,
+  table,
+  .gist,
+  .navbar, .navbar-brand, .lang {
+    padding: 0 20px;
+  }
   .navbar {
     width: 100%;
+  }
+  .navbar a {
+    margin-right: 1.5em;
+    margin-left: 0;
   }
   .highlight {
     display: block;
@@ -355,9 +358,6 @@ iframe.instagram-media {
   .navbar-brand, .navbar {
     display: inline-block;
   }
-  figure img, iframe, .fotorama {
-    padding: 0 20px !important;
-  } 
   .highlight {
     margin: 1em 20px !important;
     padding: 5px;
