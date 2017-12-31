@@ -146,6 +146,15 @@ iframe, twitterwidget {
   margin-right: auto !important;
 }
 
+.covers-line {
+  margin-top: 1em;
+}
+
+.covers-line img {
+  margin: 0;
+  width: 25%
+}
+
 span.minor {
   color: #999;
 }
@@ -316,6 +325,10 @@ footer {
 iframe {
   border: 0;
   margin: 1em;
+}
+
+iframe.instagram-media {
+  margin-top: 1em !important;
 }
 
 @media (max-width: 800px) {
