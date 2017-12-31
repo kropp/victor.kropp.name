@@ -5,13 +5,19 @@ social: off
 
 ### Upcoming
 
-**November, 2** [**TechFest Cluj**](http://cluj.techfest.ro/)
+**January, 10** Kotlin Coroutines at [GDG Nuremberg Android](https://www.meetup.com/GDG-Nuremberg-Android/events/245705738/)
 
-**November, 6** Zen Habits of using IntelliJ IDEA [**Devoxx**](https://devoxx.be/)
+### Past
 
 **November, 25** Create your own DSL in Kotlin [**NoSlidesConf**](http://noslidesconf.net/)
 
-### Past
+{{< youtube tZIRovCbYM8 >}}
+
+**November, 8** Zen Habits of using IntelliJ IDEA [**Devoxx**](https://devoxx.be/)
+
+{{< youtube MZge92bbU7E >}}
+
+**November, 2** [**TechFest Cluj**](http://cluj.techfest.ro/)
 
 #### Kotlin Meetup São Paulo
 
