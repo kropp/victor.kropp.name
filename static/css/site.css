@@ -210,7 +210,6 @@ td {
 }
 
 pre.shell {
-  padding: 0 20px;
   margin: 1em 0 -1em 0;
 }
 
@@ -331,6 +330,9 @@ iframe.instagram-media {
   .navbar, .navbar-brand, .lang {
     padding: 0 20px;
   }
+  .likely {
+    padding: 0 20px !important;
+  }
   .navbar {
     width: 100%;
   }
@@ -338,6 +340,7 @@ iframe.instagram-media {
     margin-right: 1.5em;
     margin-left: 0;
   }
+  pre.shell code,
   .highlight {
     display: block;
     margin: 1em 0 !important;
@@ -359,7 +362,7 @@ iframe.instagram-media {
     display: inline-block;
   }
   .highlight {
-    margin: 1em 20px !important;
+    margin: 1em 0 !important;
     padding: 5px;
   }
   iframe.instagram-media {
