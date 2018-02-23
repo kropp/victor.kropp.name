@@ -5,7 +5,6 @@ MetaDataFormat: yaml
 DefaultContentLanguage: en
 pluralizelisttitles: false
 cacheDir: /home/kropp/tmp/hugo_cache/
-rssSummary: false
 PygmentsCodeFences: true
 PygmentsUseClasses: true
 languages:
