@@ -5,9 +5,11 @@ social: off
 
 ### Upcoming
 
-**January, 10** Kotlin Coroutines at [GDG Nuremberg Android](https://www.meetup.com/GDG-Nuremberg-Android/events/245705738/)
+{{< talks >}}
 
 ### Past
+
+**January, 10** Kotlin Coroutines at [GDG Nuremberg Android](https://www.meetup.com/GDG-Nuremberg-Android/events/245705738/) ([slides](2018/Kotlin Coroutines.pdf))
 
 **November, 25** Create your own DSL in Kotlin [**NoSlidesConf**](http://noslidesconf.net/)
 

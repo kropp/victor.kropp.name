@@ -257,12 +257,21 @@ pre.shell code {
 }
 
 dl {
-  padding: 20px; 
+  margin-top: 1em;
 }
 
 dt {
   margin-top: .5em;
   font-weight: bold;
+}
+
+dd {
+  padding: 0 20px;
+}
+
+dd>ul {
+  margin-top: .5em;
+  list-style: none;
 }
 
 .likely {
