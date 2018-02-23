@@ -3,7 +3,7 @@
 all: build publish
 
 preview: ## start live-reload server and open browser
-	xdg-open http://localhost:1313/
+	google-chrome http://localhost:1313/
 	~/go/bin/hugo serve -D
 
 build: ## rebuild site

@@ -1,5 +1,5 @@
 ---
-title: 2017 Year in Review
+title: '2017: Year in Review'
 description: Became a father, finished second Ironman and did a lot of talks
 date: 2017-12-31T11:51:47+01:00
 tags:
