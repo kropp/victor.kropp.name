@@ -1,12 +1,15 @@
 { "upcoming": [
-  { "date": "2018-05-31T00:00:00+00:00", "name": "Riga Dev Days", "country": "lv", "href": "https://rigadevdays.lv/", "talks": [
-    { "title": "Async programming in Kotlin with coroutines" }
+  { "date": "2018-04-13T00:00:00+00:00", "name": "Codemotion Rome", "country": "it", "href": "https://rome2018.codemotionworld.com/", "talks": [
+    { "title": "Kotlin for Android Developers" },
+    { "title": "From Hackathon to Production in a Year" }
   ]},
   { "date": "2018-05-05T00:00:00+00:00", "name": "Java Day Istanbul", "country": "tr", "href": "https://javaday.istanbul/", "talks": [
     { "title": "Going beyond JVM with Kotlin" }
   ]},
-  { "date": "2018-04-13T00:00:00+00:00", "name": "Codemotion Rome", "country": "it", "href": "https://rome2018.codemotionworld.com/", "talks": [
-    { "title": "Kotlin for Android Developers" },
-    { "title": "From Hackathon to Production in a Year" }
+  { "date": "2018-05-31T00:00:00+00:00", "name": "Riga Dev Days", "country": "lv", "href": "https://rigadevdays.lv/", "talks": [
+    { "title": "Async programming in Kotlin with coroutines" }
+  ]},
+  { "date": "2018-06-14T00:00:00+00:00", "name": "Kotlin Community Conf", "country": "it", "href": "https://kotlincommunityconf.com/", "talks": [
+    { "title": "Keynote: Multi-platform Kotlin projects" }
   ]}
 ]}

@@ -17,8 +17,6 @@ Follow me on twitter <i class="fa fa-lg fa-twitter" style="color: rgb(70,192,251
 
 PGP key: <a href="FCE4ADBD.asc">4AEF D688 FCE4 ADBD</a> (also on <a href="https://keybase.io/kropp">Keybase</a>)
 
-I write in russian about <a href="/ru/ontherun/">triathlon</a>, <a href="/ru/books/">books</a> I read and my <a href="/ru/travel/">trips</a>.
-
 Source code of this site is available on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> <a href="https://github.com/kropp/victor.kropp.name">GitHub</a>.
 
 {{< talks-short >}}
