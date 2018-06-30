@@ -1,16 +1,16 @@
 { "upcoming": [
-  { "date": "2018-05-31T00:00:00+00:00", "name": "Riga Dev Days", "country": "lv", "href": "https://rigadevdays.lv/", "talks": [
-    { "title": "Async programming in Kotlin with coroutines" },
-    { "title": "From Hackathon to Production in a Year" }
+],
+  "past": [
+  { "date": "2018-06-14T00:00:00+00:00", "name": "Milan Kotlin Community Conf", "country": "it", "href": "https://milan.kotlincommunityconf.com/", "talks": [
+    { "title": "Keynote: Multi-platform Kotlin projects" }
   ]},
   { "date": "2018-06-11T00:00:00+00:00", "name": "JBCNConf", "country": "es", "href": "https://jbcnconf.com/", "talks": [
     { "title": "Going beyond JVM with Kotlin" }
   ]},
-  { "date": "2018-06-14T00:00:00+00:00", "name": "Milan Kotlin Community Conf", "country": "it", "href": "https://milan.kotlincommunityconf.com/", "talks": [
-    { "title": "Keynote: Multi-platform Kotlin projects" }
-  ]}
-],
-  "past": [
+  { "date": "2018-05-31T00:00:00+00:00", "name": "Riga Dev Days", "country": "lv", "href": "https://rigadevdays.lv/", "talks": [
+    { "title": "Async programming in Kotlin with coroutines" },
+    { "title": "From Hackathon to Production in a Year" }
+  ]},
   { "date": "2018-05-05T00:00:00+00:00", "name": "Java Day Istanbul", "country": "tr", "href": "https://javaday.istanbul/", "talks": [
     { "title": "Going beyond JVM with Kotlin" }
   ]},
