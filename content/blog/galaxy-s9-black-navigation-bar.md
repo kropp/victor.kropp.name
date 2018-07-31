@@ -49,7 +49,7 @@ Congratulations, you now have a black navigation bar which doesn't hurt your eye
 {{< figure src="/blog/img/2018/galaxy-s9-bnb.jpg" width="270" height="555" >}}
 
 
-❗ You may want to try other colors; here's a color picker. Be careful and do not try to guess colors, if you put an incorrect value, the phone may refuse to boot and need a factory reset. It happened to me, unfortunately. Don't repeat my mistakes.
+❗ You may want to try other colors; here's a [color picker](https://codepen.io/anon/pen/mwQjEZ). Be careful and do not try to guess colors, if you put an incorrect value, the phone may refuse to boot and need a factory reset. It happened to me, unfortunately. Don't repeat my mistakes.
 
 #### Bonus
 
