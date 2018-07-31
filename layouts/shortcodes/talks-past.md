@@ -7,6 +7,10 @@
 <div style="position: relative; padding: 30px 0; height: 360px; width: 640px; overflow: hidden;">
 <iframe src="//www.youtube.com/embed/{{ .youtube }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="{{ .title }}"></iframe>
 </div>
+{{ end }}{{ if .vimeo }}
+<div style="position: relative; padding: 0; width: 640px; overflow: hidden;">
+<iframe src="https://player.vimeo.com/video/{{ .vimeo }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 {{ end }}</li>
 {{ end }}
   </ul></dd>
