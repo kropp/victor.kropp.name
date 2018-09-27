@@ -14,14 +14,23 @@ Plugin provides full support for GNU [Makefile syntax](https://www.gnu.org/softw
 
 It also supports executing Makefiles:
 
- * by clicking "run" gutter mark
+ * via "run" gutter mark
+ * from Make tool window
  * pressing Alt-Enter and selecting target
  * using Ctrl/Cmd-Shift-F10 on a target
 
 {{< figure src="makefile-run.png" width="700" height="500" >}}
 
-Alternatively, a run configuration can be created for any Makefile and target, with options to set up working directory and environments variables.
+#### Run configuration
 
-{{< figure src="makefile-run-configuration.png" width="560" height="400" >}}
+Alternatively, a run configuration can be created for any Makefile and target, with options to set up working directory, add arguments and environments variables.
+
+{{< figure src="makefile-run-configuration.png" width="500" height="447" >}}
+
+#### Tool window
+
+Version 1.5 introduced a dedicated tool window, containing all project Makefiles and their targets. Press Enter to run a target, F4 to navigate to the source.
+
+{{< figure src="makefile-toolwindow.png" width="477" height="318" >}}
 
 Feedback and pull requests are always welcome!

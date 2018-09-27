@@ -21,10 +21,15 @@ languages:
           identifier: blog
           weight: 10
           url: /blog/
+        - name: projects
+          title: projects
+          identifier: projects
+          weight: 20
+          url: /projects/
         - name: talks
           title: talks
           identifier: talks
-          weight: 20
+          weight: 30
           url: /talks/
   ru:
     title: ru
