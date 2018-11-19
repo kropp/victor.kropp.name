@@ -7,13 +7,13 @@ type: index
 
 Hey!
 
-I&nbsp;am Victor Kropp, a&nbsp;software engineer in&nbsp;<img src="images/muenchen.svg" class="inline-logo" />&nbsp;Munich, <i class="flag flag-de"></i>&nbsp;Germany.
+I&nbsp;am Victor Kropp, a&nbsp;software engineer <nobr>in <img src="images/muenchen.svg" class="inline-logo" /> Munich</nobr>, <nobr><i class="flag flag-de"></i> Germany.</nobr>
 
-I work at&nbsp;<img src="images/jetbrains.svg" class="inline-logo inline-logo-big" />&nbsp;<a href="https://jetbrains.com/">JetBrains</a> crafting best tools for&nbsp;developers.
+I work <nobr>at <img src="images/jetbrains.svg" class="inline-logo inline-logo-big" />&nbsp;<a href="https://jetbrains.com/">JetBrains</a></nobr> crafting best tools for&nbsp;developers. I maintain a number of <nobr>(open-source) <a href="/projects/">projects</a></nobr> and <a href="/talks/">speak</a> <nobr>at IT conferences.</nobr>
 
-I [swim, bike and run](/ontherun) and travel around the world.
+I'm married to a beatiful girl and we have a kid. When I have free time I [swim, bike and run](/ontherun), hike and travel around the world.
 
-Follow me on twitter <i class="fa fa-lg fa-twitter" style="color: rgb(70,192,251);"></i><a href="https://twitter.com/kropp">@kropp</a> and join my <i class="fa fa-paper-plane" style="color: #34abde;"></i> <a href="https://t.me/devsnap">/dev/snapshot</a> channel on Telegram.
+Follow me on Twitter <i class="fa fa-lg fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a>
 
 PGP key: <a href="FCE4ADBD.asc">4AEF D688 FCE4 ADBD</a> (also on <a href="https://keybase.io/kropp">Keybase</a>)
 

@@ -1,6 +1,6 @@
 ---
 title: "Makefile support plugin 1.5"
-date: "2018-09-27T09:18:55+01:00"
+date: "2018-09-27T09:18:55+02:00"
 description: Makefile tool window and performance improvements
 twitter_card: summary_large_image
 image: /projects/makefile/makefile-toolwindow.png

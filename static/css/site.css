@@ -10,11 +10,24 @@ body {
   max-width: 1000px;
 }
 
+body#homepage {
+  font-size: 24px;
+}
+
+body#homepage .navbar {
+  font-size: 18px;
+}
+
+body#homepage h4 {
+  font-size: 28px;
+}
+
 .homepage-photo {
-  width: 210px;
-  height: 210px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   float: right;
+  margin-left: 50px;
 }
 
 
