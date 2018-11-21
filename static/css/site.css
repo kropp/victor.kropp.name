@@ -10,12 +10,8 @@ body {
   max-width: 1000px;
 }
 
-body#homepage {
+body#homepage .content {
   font-size: 24px;
-}
-
-body#homepage .navbar {
-  font-size: 18px;
 }
 
 body#homepage h4 {
