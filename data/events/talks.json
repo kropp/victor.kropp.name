@@ -5,7 +5,7 @@
     { "title": "Kotlin/Anywhere" }
   ]},
   { "date": "2018-11-08T00:00:00+00:00", "name": "DevFest Tolouse", "country": "fr", "href": "https://devfesttoulouse.fr/", "talks": [
-    { "title": "Multiplatform projects with Kotlin", "slides": "/talks/2018/DevFest Toulouse 2018 Multiplatform projects with Kotlin.pdf" }
+    { "title": "Multiplatform projects with Kotlin", "slides": "/talks/2018/DevFest Toulouse 2018 Multiplatform projects with Kotlin.pdf", "youtube": "9ukHegwJivg" }
   ]},
   { "date": "2018-10-24T00:00:00+00:00", "name": "Oracle CodeOne", "country": "us", "href": "https://www.oracle.com/code-one/", "talks": [
     { "title": "Going beyond JVM with Kotlin", "slides": "/talks/2018/CodeOne 2018 Going beyond JVM with Kotlin.pdf" }
