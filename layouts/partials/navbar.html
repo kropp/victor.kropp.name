@@ -7,7 +7,7 @@
       {{ end }}
     {{- end }}
     </div>
-    <a class="navbar-brand" href="{{ "/" | absLangURL }}">{{ .Site.Title }}</a>
+    <a class="navbar-brand" href="{{ "/" | absLangURL }}"><img src="/photo.jpg">{{ .Site.Title }}</a>
     <div class="navbar">
       {{ $currentNode := . }}
       {{ range .Site.Menus.main }}

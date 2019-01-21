@@ -48,6 +48,16 @@ a:hover {
   margin-bottom: 0.5em;
 }
 
+.navbar-brand img {
+  width: 32px;
+  border-radius: 16px;
+  margin: 0 0.5em -0.3em 0;
+}
+
+a.navbar-brand {
+  border-bottom: none;
+}
+
 .navbar a {
   line-height: 30px;
   margin-left: 1.5em;
@@ -345,13 +355,14 @@ iframe.instagram-media {
   footer,
   table,
   .gist,
-  .navbar, .navbar-brand, .lang {
+  .navbar-brand, .lang {
     padding: 0 20px;
   }
   .likely {
     padding: 0 20px !important;
   }
   .navbar {
+    padding: 0 30px;
     width: 100%;
   }
   .navbar a {
