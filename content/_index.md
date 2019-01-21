@@ -9,7 +9,7 @@ Hey!
 
 I&nbsp;am Victor Kropp, a&nbsp;software engineer <nobr>in <img src="images/muenchen.svg" class="inline-logo" /> Munich</nobr>, <nobr><i class="flag flag-de"></i> Germany.</nobr>
 
-I work <nobr>at <img src="images/jetbrains.svg" class="inline-logo inline-logo-big" />&nbsp;<a href="https://jetbrains.com/">JetBrains</a></nobr> crafting best tools for&nbsp;developers. I maintain a number of <nobr>(open-source) <a href="/projects/">projects</a></nobr> and <a href="/talks/">speak</a> <nobr>at IT conferences.</nobr>
+I work <nobr>at <a href="https://jetbrains.com/">JetBrains</a></nobr> crafting best tools for&nbsp;developers. I maintain a number of <nobr>(open-source) <a href="/projects/">projects</a></nobr> and <a href="/talks/">speak</a> <nobr>at IT conferences.</nobr>
 
 I'm married to a beatiful girl and we have a kid. When I have free time I [swim, bike and run](/ontherun), hike and travel around the world.
 

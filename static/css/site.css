@@ -373,9 +373,12 @@ iframe.instagram-media {
     width: auto;
     height: auto;
   }
+  .homepage-photo {
+    display: none;
+  }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .navbar-brand, .navbar {
     display: inline-block;
   }
