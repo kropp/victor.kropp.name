@@ -8,7 +8,7 @@
   </ul></dd>
 {{ else }}
 
-<dt>No events planned at the moment.</dt>
+<p>No events planned at the moment.</p>
 
 {{ end }}
 </dl>

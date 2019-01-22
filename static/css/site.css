@@ -10,17 +10,9 @@ body {
   max-width: 1000px;
 }
 
-body#homepage .content {
-  font-size: 24px;
-}
-
-body#homepage h4 {
-  font-size: 28px;
-}
-
 .homepage-photo {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   float: right;
   margin-left: 50px;
@@ -349,7 +341,7 @@ iframe.instagram-media {
 }
 
 @media (max-width: 1000px) {
-  p, ul, ol,
+  p, ul, ol, dl,
   h1, h2, h3, h4, h5, h6,
   .metadata,
   footer,
@@ -362,7 +354,7 @@ iframe.instagram-media {
     padding: 0 20px !important;
   }
   .navbar {
-    padding: 0 30px;
+    padding: 0 20px;
     width: 100%;
   }
   .navbar a {
