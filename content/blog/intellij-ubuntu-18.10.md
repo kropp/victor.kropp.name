@@ -3,7 +3,7 @@ title: "Setting up IntelliJ IDEA on Ubuntu 18.10"
 date: "2019-01-28T10:39:42+01:00"
 description: Essential setup for Linux users
 twitter_card: summary_large_image
-image: /projects/makefile/makefile-toolwindow.png
+image: /blog/img/2019/ubuntu-intellij.png
 tags:
     - intellij
     - ubuntu
@@ -66,7 +66,7 @@ Here is [the related issue](https://youtrack.jetbrains.com/issue/JRE-1040) in th
 
 #### IDE Cloud Settings
 
-Now we can finally start the IDE. If you’ve already used it you can skip all initial setup and have your code editor settings, plugins, etc. imported from the cloud. This is my preferred option now. And if you’re using Toolbox App as I already suggested, you can sign in into your JetBrains Account there and have all your settings from the cloud with no additional effort.
+Now we can finally start the IDE. If you’ve already used it you can skip all initial setup and have your code editor settings, plugins, etc. [synced from the cloud](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html). This is my preferred option now. And if you’re using Toolbox App as I already suggested, you can sign in into your JetBrains Account there and have all your settings from the cloud with no additional effort.
 
 #### Plugins
 
