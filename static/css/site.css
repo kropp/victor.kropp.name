@@ -99,6 +99,10 @@ ul, ol, p {
   margin-top: 1em;
 }
 
+code {
+  font-family: Hack, monospace;
+}
+
 ul code,
 ol code,
 p code {
