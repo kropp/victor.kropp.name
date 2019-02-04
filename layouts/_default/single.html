@@ -15,9 +15,6 @@
 {{ end }}
 {{ partial "navbar" $ }}
 <article>
-{{ if not .Params.id }}
-<h2>{{ .Title }}</h2>
-{{ end }}
 
 <div class="content">
 {{ .Content }}
