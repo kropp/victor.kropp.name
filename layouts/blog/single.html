@@ -1,0 +1,42 @@
+{{ partial "head" $ }}
+  {{ if .Params.twitter_card }}<meta name="twitter:card" content="{{ .Params.twitter_card }}" />{{ else }}<meta name="twitter:card" content="summary" />{{ end }}
+  <meta name="twitter:site" content="@kropp" />
+  <meta name="og:title" content="{{ .Title }}" />
+  <meta name="og:description" content="{{ .Description }}" />
+{{ if .Params.image }}  <meta name="og:image" content="{{ .Params.image | absURL }}" />{{ else }}{{ if eq .Section "ontherun" }}  <meta name="og:image" content="https://victor.kropp.name/ontherun/twitter.jpg" />{{  else }}  <meta name="og:image" content="https://victor.kropp.name/twitter.jpg" />{{ end }}{{ end }}
+{{ range .Params.tags }}
+  <meta name="article:tag" content="{{ . }}" />
+{{ end }}
+</head>
+{{ if .Params.id }}
+<body id="{{ .Params.id }}">
+{{ else }}
+<body>
+{{ end }}
+{{ partial "navbar" $ }}
+<article>
+
+<h2>{{ .Title }}</h2>
+
+<div class="content">
+{{ .Content }}
+</div>
+
+{{ if ne .Params.id "homepage" }}
+<div class="metadata">
+{{ if not .Date.IsZero }}
+{{ if eq .Section "ontherun" }}
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.01.2006" }}</time>
+{{ else }}
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+{{ end }}
+{{ end }}
+{{ range .Params.tags -}}
+  <a href="/tags/{{ . | urlize }}" class="tag tag-{{ . }}">{{ . }}</a>
+{{- end }}
+</div>
+
+{{ partial "social" $ }}
+{{ end }}
+</article>
+{{ partial "footer" $ }}

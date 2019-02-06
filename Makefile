@@ -4,10 +4,10 @@ all: build publish
 
 preview: ## start live-reload server and open browser
 	xdg-open http://localhost:1313/
-	~/go/bin/hugo serve -D
+	hugo serve -D
 
 build: ## rebuild site
-	~/go/bin/hugo
+	hugo
 
 publish: ## upload files to server
 	rsync -rav public/ --delete --size-only --chmod=Fug+r,Dug+rx,Dg+s --no-group kropp.name:/var/www/victor.kropp.name/
