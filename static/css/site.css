@@ -3,7 +3,7 @@ ul.list-unstyled { list-style: none; }
 
 body {
   font-size: 18px;
-  font-family: "Inter UI", Arial, Helvetica, sans-serif;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   line-height: 1.4;
   padding: 20px 0;
   margin: 0 auto;
@@ -191,7 +191,7 @@ ul.inline li {
 }
 
 blockquote {
-  margin-left: 20px;
+  padding-left: 20px;
   border-left: 0.5em solid #ccc;
 }
 
@@ -353,6 +353,10 @@ iframe.instagram-media {
   .gist,
   .navbar-brand, .lang {
     padding: 0 20px;
+  }
+  blockquote {
+    margin-left: 20px;
+    padding-left: 0;
   }
   .likely {
     padding: 0 20px !important;
