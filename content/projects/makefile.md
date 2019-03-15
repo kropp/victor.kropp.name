@@ -3,6 +3,8 @@ title: Makefile support plugin for IntelliJ IDEA
 social: off
 ---
 
+## Makefile support plugin for IntelliJ IDEA
+
 Plugin is available for install via [official repository](https://plugins.jetbrains.com/idea/plugin/9333-makefile-support). Source code is available on <i class="fa fa-github" style="color: rgb(23,21,21)"></i> [GitHub](https://github.com/kropp/intellij-makefile)
 
 Plugin provides full support for GNU [Makefile syntax](https://www.gnu.org/software/make/manual/make.html) including syntax highlighting, prerequisites completion and resolution. There is also a quick-fix to create new rule from unresolved prerequisite. Individual rules can be folded for better overview.
