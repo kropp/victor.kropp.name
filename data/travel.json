@@ -1,0 +1,556 @@
+{
+  "continents": [
+    {
+      "name": "Europe",
+      "flag": "eu",
+      "countries": [
+        {
+          "code": "de",
+          "name": "Germany",
+          "cities": [
+            { "name": "Munich", "name_de":  "München", "name_ru": "Мюнхен"},
+            { "name": "Berlin", "name_ru": "Берлин"},
+            { "name": "Bremen", "name_ru": "Бремен"},
+            { "name": "Hamburg", "name_ru": "Гамбург"},
+            { "name": "Cologne", "name_de": "Köln", "name_ru": "Кёльн"},
+            { "name": "Potsdam", "name_ru": "Потсдам"},
+            { "name": "Nuremberg", "name_de": "Nürnberg", "name_ru": "Нюрнберг"},
+            { "name": "Augsburg", "name_ru": "Аугсбург"},
+            { "name": "Garmisch-Partenkirchen", "name_ru": "Гармиш-Партенкирхен"},
+            { "name": "Saarbrucken", "name_de": "Saarbrücken", "name_ru": "Заарбрюкен"},
+            { "name": "Trier", "name_ru": "Триер"},
+            { "name": "Cochem", "name_ru": "Кохем"},
+            { "name": "Stuttgart", "name_ru": "Штутгарт"},
+            { "name": "Erding", "name_ru": "Эрдинг"},
+            { "name": "Fussen", "name_de": "Füssen", "name_ru": "Фюссен"},
+            { "name": "Starnberg", "name_ru": "Штарнберг"},
+            { "name": "Wolfratshausen", "name_ru": "Вольфратсхаузен"},
+            { "name": "Bad Tolz", "name_de":  "Bad Tölz", "name_ru": "Бад Тольц"},
+            { "name": "Bamberg", "name_ru": "Бамберг"},
+            { "name": "Ingolstadt", "name_ru": "Ингольштадт"},
+            { "name": "Frankfurt-am-Main", "name_ru": "Франкфурт-на-Майне"},
+            { "name": "Landsberg-am-Lech", "name_ru": "Ландсберг-на-Лехе"},
+            { "name": "Burghausen", "name_ru": "Бургхаузен"},
+            { "name": "Abensberg", "name_ru": "Абенсберг"},
+            { "name": "Regensburg", "name_ru": "Регенсбург"},
+            { "name": "Dresden", "name_ru": "Дрезден"},
+            { "name": "Leipzig", "name_ru": "Лейпциг"},
+            { "name": "Rothenburg ob der Tauber", "name_ru": "Ротенбург об дер Таубер", "link": "/travel/germany/rothenburg-ob-der-tauber"},
+            { "name": "Landshut", "name_ru": "Ландсхут"}
+          ]
+        },
+        {
+          "code": "ru",
+          "name": "Russia",
+          "cities": [
+            {"name": "Saint-Petersburg", "name_ ru": "Санкт-Петербург"},
+            {"name": "Moscow", "name_ru": "Москва"},
+            {"name": "Vyborg", "name_ru": "Выборг"},
+            {"name": "Novgorod", "name_ru": "Новгород"},
+            {"name": "Cherepovets", "name_ru": "Череповец"},
+            {"name": "Vologda", "name_ru": "Вологда"},
+            {"name": "Yaroslavl", "name_ru": "Ярославль"},
+            {"name": "Kostroma", "name_ru": "Кострома"},
+            {"name": "Myshkin", "name_ru": "Мышкин"},
+            {"name": "Tula", "name_ru": "Тула"},
+            {"name": "Barnaul", "name_ru": "Барнаул"},
+            {"name": "Bijsk", "name_ru": "Бийск"},
+            {"name": "Sochi", "name_ru": "Сочи"}
+          ]
+        },
+        {
+          "code": "fi",
+          "name": "Finland",
+          "cities": [
+            {"name": "Helsinki", "name_ru": "Хельсинки"},
+            {"name": "Imatra", "name_ru": "Иматра"},
+            {"name": "Lappeenranta", "name_ru": "Лаппеенранта"},
+            {"name": "Lahti", "name_ru": "Лахти"},
+            {"name": "Oulu", "name_ru": "Оулу"},
+            {"name": "Loviisa", "name_ru": "Ловииса"},
+            {"name": "Jämsä", "name_ru": "Ямся"}
+          ]
+        },
+        {
+          "code": "se",
+          "name": "Sweden",
+          "cities": [
+            {"name": "Stockholm", "name_ru": "Стокгольм"},
+            {"name": "Åre", "name_ru": "Оре"},
+            {"name": "Trollhättan", "name_ru": "Тролльхэттен"}
+          ]
+        },
+        {
+          "code": "no",
+          "name": "Norway",
+          "cities": [
+            {"name": "Oslo", "name_ru": "Осло"},
+            {"name": "Bergen", "name_ru": "Берген"},
+            {"name": "Hemsedal", "name_ru": "Хемседаль"}
+          ]
+        },
+        {
+          "code": "dk",
+          "name": "Denmark",
+          "cities": [
+            {"name": "Copenhagen", "name_ru": "Копенгаген"}
+          ]
+        },
+        {
+          "code": "gb",
+          "name": "Great Britain",
+          "cities": [
+            {"name": "London", "name_ru": "Лондон"},
+            {"name": "Manchester", "name_ru": "Манчестер"}
+          ]
+        },
+        {
+          "code": "nl",
+          "name": "Netherlands",
+          "cities": [
+            {"name": "Amsterdam", "name_ru": "Амстердам"},
+            {"name": "The Hague", "name_ru": "Гаага"}
+          ]
+        },
+        {
+          "code": "be",
+          "name": "Belgium",
+          "cities": [
+            {"name": "Brussels", "name_ru": "Брюссель"},
+            {"name": "Antwerp", "name_ru": "Антверпен"}
+          ]
+        },
+        {
+          "code": "es",
+          "name": "Spain",
+          "cities": [
+            {"name": "Barcelona", "name_ru": "Барселона"},
+            {"name": "Lloret del Mar", "name_ru": "Ллорет-дель-Мар"},
+            {"name": "Tarragona", "name_ru": "Таррагона"},
+            {"name": "Salou", "name_ru": "Салоу"},
+            {"name": "Valencia", "name_ru": "Валенсия"},
+            {"name": "Granada", "name_ru": "Гранада"},
+            {"name": "Malaga", "name_ru": "Малага"},
+            {"name": "Marbella", "name_ru": "Марбелья"},
+            {"name": "Algeciras", "name_ru": "Алхесидас"},
+            {"name": "Ronda", "name_ru": "Ронда"},
+            {"name": "Sevilla", "name_ru": "Севилья"},
+            {"name": "Madrid", "name_ru": "Мадрид"},
+            {"name": "Mallorca", "name_ru": "Майорка"},
+            {"name": "Palma", "name_ru": "Пальма"},
+            {"name": "Alcúdia", "name_ru": "Алькудия"},
+            {"name": "Sa Pobla", "name_ru": "Са Побла"},
+            {"name": "Pollença", "name_ru": "Поленса"},
+            {"name": "Soller", "name_ru": "Соллер"},
+            {"name": "Sa Colobra", "name_ru": "Са Калобра"},
+            {"name": "Formentor", "name_ru": "Форментор"}
+          ]
+        },
+        {
+          "code": "gi",
+          "name": "Gibraltar"
+        },
+        {
+          "code": "ad",
+          "name": "Andorra",
+          "name_ru": "Андорра",
+          "cities": [
+            {"name": "Andorra la Vella", "name_ru": "Андорра-ла-Велья"}
+          ]
+        },
+        {
+          "code": "fr",
+          "name": "France",
+          "cities": [
+            {"name": "Paris", "name_ru": "Париж"},
+            {"name": "Versailles", "name_ru": "Версаль"},
+            {"name": "Carcasson", "name_ru": "Каркассон"},
+            {"name": "Nice", "name_ru": "Ницца"},
+            {"name": "Eze", "name_ru": "Эз"},
+            {"name": "Aix-en-Provence", "name_ru": "Экс-ан-Прованс"},
+            {"name": "Avignon", "name_ru": "Авиньон"},
+            {"name": "Lyon", "name_ru": "Лион"},
+            {"name": "Grenoble", "name_ru": "Гренобль"},
+            {"name": "Chambéry", "name_ru": "Шамбери"},
+            {"name": "Annecy", "name_ru": "Аннеси"},
+            {"name": "Chamonix", "name_ru": "Шамони"},
+            {"name": "Besançon", "name_ru": "Безансон"},
+            {"name": "Orleans", "name_ru": "Орлеан"},
+            {"name": "Amboise", "name_ru": "Амбуаз"},
+            {"name": "Chambor", "name_ru": "Шамбор"},
+            {"name": "Toulouse", "name_ru": "Тулуза"},
+            {"name": "Marseille", "name_ru": "Марсель"}
+          ]
+        },
+        {
+          "code": "it",
+          "name": "Italy",
+          "cities": [
+            {"name": "Rome", "name_ru": "Рим"},
+            {"name": "Venice", "name_ru": "Венеция"},
+            {"name": "Rimini", "name_ru": "Римини"},
+            {"name": "Florence", "name_ru": "Флоренция"},
+            {"name": "Siena", "name_ru": "Сиена"},
+            {"name": "La Spezia", "name_ru": "Ля Специя"},
+            {"name": "Cinque Terre", "name_ru": "Чинкветерра"},
+            {"name": "Riomaggiore", "name_ru": "Риомаджжиоре"},
+            {"name": "Manarola", "name_ru": "Манарола"},
+            {"name": "Corniglia", "name_ru": "Корнилья"},
+            {"name": "Vernazza", "name_ru": "Вернацца"},
+            {"name": "Monterosso al Mare", "name_ru": "Монтероссо"},
+            {"name": "Pisa", "name_ru": "Пиза"},
+            {"name": "Genoa", "name_ru": "Генуя"},
+            {"name": "Cecina", "name_ru": "Чечина"},
+            {"name": "Volterra", "name_ru": "Вольтерра"},
+            {"name": "Castagneto Carducci", "name_ru": "Кастаньетто Кардуччи"},
+            {"name": "Massa Maritima", "name_ru": "Масса Маритима"},
+            {"name": "Toscolano Maderno", "name_ru": "Тосколано-Мадерно"},
+            {"name": "Milan", "name_ru": "Милан"},
+            {"name": "Monza", "name_ru": "Монца"},
+            {"name": "Sirmione", "name_ru": "Сирмионе"},
+            {"name": "Cervia", "name_ru": "Червия"},
+            {"name": "Milano Maritima", "name_ru": "Милано Маритима"}
+          ]
+        },
+        {
+          "code": "mc",
+          "name": "Monaco",
+          "cities": [
+            {"name": "Monte Carlo", "name_ru": "Монте-Карло"}
+          ]
+        },
+        {
+          "code": "sm",
+          "name": "San Marino",
+          "cities": [
+            {"name": "San Marino", "name_ru": "Сан-Марино"}
+          ]
+        },
+        {
+          "code": "at",
+          "name": "Austria",
+          "cities": [
+            {"name": "Vienna", "name_ru": "Вена"},
+            {"name": "Linz", "name_ru": "Линц"},
+            {"name": "Innsbruck", "name_ru": "Иннсбрук"},
+            {"name": "Zell am See", "name_ru": "Цель ам зее"},
+            {"name": "Mayrhofen", "name_ru": "Майрхофен"},
+            {"name": "Salzburg", "name_ru": "Зальцбург"},
+            {"name": "Hallstatt", "name_ru": "Хальштатт"},
+            {"name": "Mondsee", "name_ru": "Мондзее"}
+          ]
+        },
+        {
+          "code": "sk",
+          "name": "Slovakia",
+          "cities": [
+            {"name": "Bratislava", "name_ru": "Братислава"}
+          ]
+        },
+        {
+          "code": "cz",
+          "name": "Czechia",
+          "cities": [
+            {"name": "Prague", "name_ru": "Прага"},
+            {"name": "Karlovy Vary", "name_ru": "Карловы Вары"}
+          ]
+        },
+        {
+          "code": "ee",
+          "name": "Estonia",
+          "cities": [
+            {"name": "Tallinn", "name_ru": "Таллинн"}
+          ]
+        },
+        {
+          "code": "lv",
+          "name": "Latvia",
+          "cities": [
+            {"name": "Riga", "name_ru": "Рига"},
+            {"name": "Jūrmala", "name_ru": "Юрмала"}
+          ]
+        },
+        {
+          "code": "lt",
+          "name": "Lithuania",
+          "cities": [
+            {"name": "Vilnius", "name_ru": "Вильнюс"},
+            {"name": "Kaunas", "name_ru": "Каунас"}
+          ]
+        },
+        {
+          "code": "by",
+          "name": "Belarus",
+          "cities": [
+            {"name": "Gomel", "name_ru": "Гомель"},
+            {"name": "Babruysk", "name_ru": "Бобруйск"}
+          ]
+        },
+        {
+          "code": "ua",
+          "name": "Ukraine",
+          "cities": [
+            {"name": "Kyiv", "name_ru": "Киев"},
+            {"name": "Kherson", "name_ru": "Херсон"}
+          ]
+        },
+        {
+          "code": "gr",
+          "name": "Greece",
+          "cities": [
+            {"name": "Athens", "name_ru": "Афины"},
+            {"name": "Thessaloniki", "name_ru": "Салоники"},
+            {"name": "Nikiti", "name_ru": "Никити"}
+          ]
+        },
+        {
+          "code": "cy",
+          "name": "Cyprus",
+          "cities": [
+            {"name": "Larnaca", "name_ru": "Ларнака"},
+            {"name": "Limassol", "name_ru": "Лимассол"},
+            {"name": "Paphos", "name_ru": "Пафос"},
+            {"name": "Nicosia", "name_ru": "Никосия"}
+          ]
+        },
+        {
+          "name": "Turkish Republic of Northern Cyprus",
+          "cities": [
+            {"name": "Northern Nicosia", "name_ru": "Северная Никосия"}
+          ]
+        },
+        {
+          "code": "va",
+          "name": "Vatican"
+        },
+        {
+          "code": "lu",
+          "name": "Luxemburg",
+          "cities": [
+            {"name": "Schengen", "name_ru": "Шенген"}
+          ]
+        },
+        {
+          "code": "ch",
+          "name": "Switzerland",
+          "cities": [
+            {"name": "Davos", "name_ru": "Давос"},
+            {"name": "Zurich", "name_ru": "Цюрих"}
+          ]
+        },
+        {
+          "code": "li",
+          "name": "Lichtenstein",
+          "cities": [
+            {"name": "Vaduz", "name_ru": "Вадуц"}
+          ]
+        },
+        {
+          "code": "si",
+          "name": "Slovenia",
+          "cities": [
+            {"name": "Ljubljana", "name_ru": "Любляна"},
+            {"name": "Maribor", "name_ru": "Марибор"},
+            {"name": "Radovljica", "name_ru": "Радовлица"},
+            {"name": "Bled", "name_ru": "Блед"},
+            {"name": "Bohinj", "name_ru": "Бохинь"}
+          ]
+        },
+        {
+          "code": "hr",
+          "name": "Croatia",
+          "cities": [
+            {"name": "Zagreb", "name_ru": "Загреб"},
+            {"name": "Pula", "name_ru": "Пула"},
+            {"name": "Rovinj", "name_ru": "Ровинь"},
+            {"name": "Poreč", "name_ru": "Поречь"},
+            {"name": "Opatija", "name_ru": "Опатия"},
+            {"name": "Split", "name_ru": "Сплит"},
+            {"name": "Hvar", "name_ru": "Хвар"},
+            {"name": "Stari Grad", "name_ru": "Старый Град"},
+            {"name": "Skradin", "name_ru": "Скрадин"},
+            {"name": "Plitvička Jezera", "name_ru": "Плитвицкие озёра"},
+            {"name": "Zadar", "name_ru": "Задар"}
+          ]
+        },
+        {
+          "code": "tr",
+          "name": "Turkey",
+          "cities": [
+            {"name": "Istanbul", "name_ru": "Стамбул"}
+          ]
+        },
+        {
+          "code": "ro",
+          "name": "Romania",
+          "cities": [
+            {"name": "Cluj-Napoca", "name_ru": "Клуж-Напока"}
+          ]
+        },
+        {
+          "code": "hu",
+          "name": "Hungary",
+          "cities": [
+            {"name": "Budapest", "name_ru": "Будапешт"}
+          ]
+        },
+        {
+          "code": "rs",
+          "name": "Serbia",
+          "cities": [
+            {"name": "Belgrade", "name_ru": "Белград"},
+            {"name": "Niš", "name_ru": "Ниш"}
+          ]
+        },
+        {
+          "code": "mk",
+          "name": "Macedonia (FYROM)"
+        }
+      ]
+    },
+    {
+      "name": "North America",
+      "name_ru": "Северная Америка",
+      "countries": [
+        {
+          "code": "us",
+          "name": "United States of America",
+          "name_ru": "Соединённые Штаты Америки",
+          "states": [
+            {"code": "NY", "cities": [
+              { "name": "New York", "name_ru": "Нью-Йорк"},
+              { "name": "Niagara Falls", "name_ru": "Ниагара Фоллс"},
+              { "name": "Buffalo", "name_ru": "Баффало"},
+              { "name": "Geneva", "name_ru": "Женева"},
+              { "name": "Watkins Glen", "name_ru": "Уоткин Глен"},
+              { "name": "Ithaca", "name_ru": "Итака"},
+              { "name": "Sodus Point", "name_ru": "Содус Пойнт"}
+            ]},
+            {"code": "NJ", "cities": [
+              {"name": "Newark", "name_ru": "Ньюарк"}
+            ]},
+            {"code": "CT", "cities": [
+              {"name": "Hartford", "name_ru": "Хартфорд"}
+            ]},
+            {"code": "MA", "cities": [
+              { "name": "Boston", "name_ru": "Бостон"},
+              { "name": "Cape Cod", "name_ru": "Кейп Код"},
+              { "name": "Provincetown", "name_ru": "Провинстаун"},
+              { "name": "Sandwich", "name_ru": "Сэндвич"}
+            ]},
+            {"code": "NH"},
+            {"code": "ME", "cities": [
+              {"name": "Bar Harbor", "name_ru": "Бар Харбор"},
+              {"name": "Acadia", "name_ru": "Акадия"}
+            ]},
+            {"code": "VT", "cities": [
+              {"name": "Fairlee", "name_ru": "Фэирли"}
+            ]},
+            {"code": "PA", "cities": [
+              {"name": "Philadelphia", "name_ru": "Филадельфия"},
+              {"name": "Williamsport", "name_ru": "Вилямспорт"}
+            ]},
+            {"code": "DС", "cities": [
+              {"name": "Washington", "name_ru": "Вашингтон"}
+            ]},
+            {"code": "MD"},
+            {"code": "VI", "cities": [
+              {"name": "Arlington", "name_ru": "Арлингтон"}
+            ]},
+            {"code": "DE"},
+            {"code": "CA", "cities": [
+              {"name": "San Francisco", "name_ru": "Сан-Франциско"},
+              {"name": "Mountain View", "name_ru": "Маунтин Вью"},
+              {"name": "Freemont", "name_ru": "Фримонт"},
+              {"name": "Pacifica", "name_ru": "Пасифика"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South America",
+      "name_ru": "Южная Америка",
+      "countries": [
+        {
+          "code": "br",
+          "name": "Brazil",
+          "name_ru": "Бразилия",
+          "cities": [
+            {"name": "São Paolo", "name_ru": "Сан-Паулу"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Middle East",
+      "countries": [
+        {
+          "code": "ae",
+          "name": "United Arab Emirates",
+          "name_ru": "Объединённые Арабские Эмираты",
+          "cities": [
+            {"name": "Dubai", "name_ru": "Дубай"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "countries": [
+        {
+          "code": "th",
+          "name": "Thailand",
+          "name_ru": "Таиланд",
+          "cities": [
+            {"name": "Bangkok", "name_ru": "Бангкок"},
+            {"name": "Phuket", "name_ru": "Пхукет"},
+            {"name": "Koh Phi Phi", "name_ru": "Ко Пи Пи"},
+            {"name": "Krabi", "name_ru": "Краби"},
+            {"name": "Samui", "name_ru": "Ко Самуи"}
+          ]
+        },
+        {
+          "code": "lk",
+          "name": "Sri Lanka",
+          "name_ru": "Шри-Ланка",
+          "cities": [
+            { "name": "Colombo", "name_ru": "Коломбо"},
+            { "name": "Negombo", "name_ru": "Негомбо"},
+            { "name": "Kandy", "name_ru": "Кэнди"},
+            { "name": "Peradenia", "name_ru": "Перадения"},
+            { "name": "Dambulla", "name_ru": "Дамбулла"},
+            { "name": "Sigiria", "name_ru": "Сигирия"},
+            { "name": "Nuwara Eliya", "name_ru": "Нувара Элия"},
+            { "name": "Horton Plains", "name_ru": "плато Хортона"},
+            { "name": "Hatton", "name_ru": "Хэттон"},
+            { "name": "Nallathanniya", "name_ru": "Налаттания"},
+            { "name": "Adam's Peak", "name_ru": "пик Адама"},
+            { "name": "Galle", "name_ru": "Галле"}
+          ]
+        },
+        {
+          "code": "hk",
+          "name": "Hong Kong",
+          "name_ru": "Гонконг"
+        },
+        {
+          "code": "mo",
+          "name": "Macao",
+          "name_ru": "Макао"
+        },
+        {
+          "code": "ph",
+          "name": "Philippines",
+          "name_ru": "Шри-Ланка",
+          "cities": [
+            {"name": "Manila", "name_ru": "Манила"},
+            {"name": "Tagbilaran", "name_ru": "Тагбиларан"},
+            {"name": "Loboc", "name_ru": "Лобок"},
+            {"name": "Panglao", "name_ru": "Панглао"}
+          ]
+        }
+      ]
+    }
+  ]
+}

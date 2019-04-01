@@ -10,6 +10,11 @@ body {
   max-width: 1000px;
 }
 
+body#travel {
+  background: #111115;
+  color: #e2e2e2;
+}
+
 .homepage-photo {
   width: 200px;
   height: 200px;
@@ -281,7 +286,7 @@ dt {
 }
 
 dd {
-  padding: 0 20px;
+  padding: 0 23px;
 }
 
 dd>ul {

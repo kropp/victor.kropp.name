@@ -5,12 +5,30 @@
   <meta name="twitter:description" content="Victor Kropp Homepage" />
   <meta name="twitter:image" content="https://victor.kropp.name/portrait.jpg" />
 </head>
-<body>
+<body id="travel">
 {{ partial "navbar" $ }}
 <article>
 
 <div class="content">
-{{ .Content }}
+{{ range $.Site.Data.travel.continents }}
+  <h4>{{ if .flag }}<i class="flag flag-{{ .flag }}"></i> {{ end }}{{ .name }}</h4>
+  <dl>
+{{ range .countries }}
+    <dt>{{ if .code }}<i class="flag flag-{{ .code }}"></i> {{ end }}{{ .name }}</dt>
+    {{ if .cities }}<dd>
+      {{ delimit (apply .cities "index" "." "name") ", " }}
+  </dd>{{ end }}
+    {{ if .states }}<dd><dl>
+      {{ range .states }}
+    <dt>{{ .code }}</dt>
+    {{ if .cities }}<dd>
+    {{ delimit (apply .cities "index" "." "name") ", " }}
+  </dd>{{ end }}
+      {{ end }}
+  </dl></dd>{{ end }}
+{{ end }}
+  </dl>
+{{ end }}
 </div>
 
 </article>
