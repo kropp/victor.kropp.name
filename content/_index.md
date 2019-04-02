@@ -11,7 +11,7 @@ I&nbsp;am Victor Kropp, a&nbsp;software engineer <nobr>in <img src="images/muenc
 
 I work <nobr>at <a href="https://jetbrains.com/">JetBrains</a></nobr> crafting best tools for&nbsp;developers. I maintain a number of <nobr>(open-source) <a href="/projects/">projects</a></nobr> and <a href="/talks/">speak</a> <nobr>at IT conferences.</nobr>
 
-I'm married to a beatiful girl and we have a kid. When I have free time I [swim, bike and run](/ontherun), hike and travel around the world.
+I'm married to a beatiful girl and we have a kid. When I have free time I [swim, bike and run](/ontherun), hike and [travel around the world](/travel).
 
 Follow me on Twitter <i class="fa fa-lg fa-twitter" style="color: rgb(70,192,251);"></i> <a href="https://twitter.com/kropp">@kropp</a>
 
