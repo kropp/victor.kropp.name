@@ -9,7 +9,7 @@ Hallo!
 
 Ich bin Victor Kropp, Softwareentwickler aus <img src="/images/muenchen.svg" class="inline-logo" /> München.
 
-Ich arbeite bei <img src="/images/jetbrains.svg" class="inline-logo inline-logo-big" /> <a href="https://jetbrains.com/">JetBrains</a> und helfe dort mit, die besten Tools für Programmierer zu entwickeln.
+Ich arbeite bei <a href="https://jetbrains.com/">JetBrains</a> und helfe dort mit, die besten Tools für Programmierer zu entwickeln.
 
 Ich schwimme, radele und laufe und reise rund um die Welt.
 

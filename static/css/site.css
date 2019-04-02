@@ -247,10 +247,6 @@ pre.shell code {
   vertical-align: middle;
 }
 
-.inline-logo-big {
-  height: 2em;
-}
-
 .tag-kotlin:before {
   background: url(/images/kotlin.svg) no-repeat;
   content: '';
