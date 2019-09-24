@@ -353,7 +353,8 @@
             {"name": "Maribor", "name_ru": "Марибор"},
             {"name": "Radovljica", "name_ru": "Радовлица"},
             {"name": "Bled", "name_ru": "Блед"},
-            {"name": "Bohinj", "name_ru": "Бохинь"}
+            {"name": "Bohinj", "name_ru": "Бохинь"},
+            {"name": "Metlika", "name_ru": "Метлика"}
           ]
         },
         {
@@ -370,7 +371,8 @@
             {"name": "Stari Grad", "name_ru": "Старый Град"},
             {"name": "Skradin", "name_ru": "Скрадин"},
             {"name": "Plitvička Jezera", "name_ru": "Плитвицкие озёра"},
-            {"name": "Zadar", "name_ru": "Задар"}
+            {"name": "Zadar", "name_ru": "Задар"},
+            {"name": "Dubrovnik", "name_ru": "Дубровник"}
           ]
         },
         {
@@ -404,7 +406,23 @@
         },
         {
           "code": "mk",
-          "name": "Macedonia (FYROM)"
+          "name": "Northern Macedonia"
+        },
+        {
+          "code": "ba",
+          "name": "Bosnia and Herzegovina"
+        },
+        {
+          "code": "me",
+          "name": "Montenegro",
+          "cities": [
+            {"name": "Podgorica", "name_ru": "Подгорица"},
+            {"name": "Bar", "name_ru": "Бар"},
+            {"name": "Budva", "name_ru": "Будва"},
+            {"name": "Ulcinj", "name_ru": "Ульцинь"},
+            {"name": "Virpazar", "name_ru": "Вирпазар"},
+            {"name": "Zelenika", "name_ru": "Зеленика"}
+	  ]
         }
       ]
     },
