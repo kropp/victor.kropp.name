@@ -8,6 +8,30 @@ body {
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1000px;
+
+  background: #ffffff;
+  transition: background-color ease-out .2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111115;
+    color: #e2e2e2;
+    transition: background-color ease-out .2s;
+  }
+  .highlight {
+    background: #202020 !important;
+  }
+  ul code,
+  ol code,
+  p code {
+    border-color: #505050 !important;
+    background: #202020 !important;
+  }
+  a.button {
+    color: #e2e2e2 !important;
+    background: hsla(0,0%,91%,.2) !important;
+  }
 }
 
 body#travel {
@@ -358,6 +382,9 @@ iframe.instagram-media {
   blockquote {
     margin-left: 20px;
     padding-left: 0;
+  }
+  blockquote pre {
+    padding: 0 20px;
   }
   .likely {
     padding: 0 20px !important;
