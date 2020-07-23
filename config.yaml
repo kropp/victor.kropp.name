@@ -7,6 +7,10 @@ pluralizelisttitles: false
 cacheDir: /home/kropp/tmp/hugo_cache/
 PygmentsCodeFences: true
 PygmentsUseClasses: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 languages:
   en:
     title: en
