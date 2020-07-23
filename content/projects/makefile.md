@@ -1,6 +1,8 @@
 ---
 title: Makefile support plugin for IntelliJ IDEA
 social: off
+twitter_card: summary_large_image
+image: /projects/makefile/makefile-3.png
 ---
 
 ## Makefile support plugin for IntelliJ IDEA
@@ -24,12 +26,12 @@ It also supports executing Makefiles:
 
 Alternatively, a run configuration can be created for any Makefile and target, with options to set up working directory, add arguments and environments variables.
 
-{{< figure src="makefile-run-configuration.png" width="500" height="447" >}}
+{{< figure src="makefile-3-run-configuration.png" width="688" height="575" >}}
 
 #### Tool window
 
-Version 1.5 introduced a dedicated tool window, containing all project Makefiles and their targets. Press Enter to run a target, <kbd>F4</kbd> to navigate to the source.
+There is a tool window, which gives a quick overview of all Makefiles in the project and their targets. Press `Enter` (or double-click) to run a target, <kbd>F4</kbd> to navigate to the source.
 
-{{< figure src="makefile-toolwindow.png" width="477" height="318" >}}
+{{< figure src="makefile-3-toolwindow.png" width="307" height="490" >}}
 
 Feedback and pull requests are always welcome!

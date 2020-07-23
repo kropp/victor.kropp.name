@@ -1,7 +1,7 @@
 ---
 title: "Makefile plugin version 3"
 date: "2020-05-28T21:28:27+02:00"
-description: Makefile tool window and performance improvements
+description: Variable completion, spellchecker support, and Shell language injection
 twitter_card: summary_large_image
 image: /projects/makefile/makefile-3.png
 tags:
