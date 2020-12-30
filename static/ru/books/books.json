@@ -1,4 +1,6 @@
 { "books": [
+  { "date": "2020-12-10T00:00:00+00:00", "author": "Артём Горбунов", "title": "Типорафика и вёрстка", "lang": "ru", "notes": "Краткое введение в основы правильного оформления текста" },
+  { "date": "2020-11-20T00:00:00+00:00", "author": "Олег Карпов", "title": "Квят", "lang": "ru", "notes": "Захватывающая история молодёжной карьеры самого успешного (пока) российского пилота Формулы-1" },
   { "date": "2020-03-28T00:00:00+00:00", "author": "Aditya Y. Bhargava", "title": "Grokking algorithms", "lang": "en", "notes": "Nice overview of most widely used programming algorithms." },
   { "date": "2020-02-10T00:00:00+00:00", "author": "Ася Казанцева", "title": "В интернете кто-то неправ! Научные исследования спорных вопросов", "lang": "ru", "notes": "Достойное продолжение первой книги.", "href": "somebody-on-internet-is-wrong" },
   { "date": "2020-01-22T00:00:00+00:00", "author": "Veronica Roth", "title": "Ark", "series": "Forward", "lang": "en", "notes": "" },
